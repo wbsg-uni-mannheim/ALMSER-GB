@@ -1,0 +1,903 @@
+name,phone,address,zip,cuisine,website,id,road_name,road_dir,road_number,city
+Glenn's Diner,(773) 506-1720,"1820 W. Montrose Avenue, Chicago",60613,"American,Seafood",,zomato_2_32,1St,,95.0,new york
+Dunlays on Clark,(773) 883-6000,"2600 N. Clark Street, Chicago",60614,American,,zomato_2_57,,,,
+The Reservoir,(773) 275-4000,844 W. Montrose Avenue,60613,Bar Food,,zomato_2_85,,,,
+Prosecco,(312) 951-9500,"710 N. Wells Street, Chicago",60610,Italian,,zomato_2_97,,,,
+Irazu,(773) 252-5687,"1865 N. Milwaukee Avenue, Chicago",60647,Latin American,,zomato_2_98,,,,
+Gather,(773) 506-9300,"4539 N. Lincoln Avenue, Chicago",60625,American,,zomato_2_101,Bleecker,,270.0,new york
+Ceres' Table,(773) 922-4020,"3124 N. Broadway Street, Chicago",60657,Italian,,zomato_2_113,,,,
+Falafel & Grill,(773) 292-8888,"1317 N. Milwaukee Avenue, Chicago",60622,"Mediterranean,Middle Eastern",,zomato_2_123,,,,
+Dinosaur Bar-B-Que,(312) 462-1053,923 W. Weed Street,60642,"American,BBQ",,zomato_2_134,,,,
+Chicago's Dog House,(773) 248-3647,"816 W. Fullerton Avenue, Chicago",60614,"Fast Food,American",,zomato_2_135,,,,
+Smoke Daddy,(773) 772-6656,"1804 W. Division Street, Chicago",60622,"American,BBQ",,zomato_2_143,,,,
+Emperor's Choice,(312) 225-8800,"2238 S. Wentworth Avenue, Chicago",60616,"Asian,Chinese",,zomato_2_163,,,,
+Tre Soldi,(312) 664-0212,"212 E. Ohio Street, Chicago",60611,"Italian,Pizza",,zomato_2_165,,,,
+Dove's Luncheonette,(773) 645-4060,"1545 N. Damen Avenue, Chicago",60622,"Mexican,Southern",,zomato_2_172,,,,
+Uncommon Ground,(773) 929-3680,"3800 N. Clark Street, Chicago",60613,American,,zomato_2_187,,,,
+Viaggio Ristorante & Lounge,(312) 829-3333,"1330 W. Madison Street, Chicago",60607,Italian,,zomato_2_195,,,,
+TAC Quick Thai Kitchen,(773) 327-5253,"3930 N. Sheridan Road, Chicago",60613,"Asian,Thai",,zomato_2_204,,,,
+Sultan's Market,(773) 235-3072,"2057 W. North Avenue, Chicago",60647,Middle Eastern,,zomato_2_209,Forsyth,,28.0,new york
+Machu Picchu Restaurant,(773) 472-0471,"3856 N. Ashland Avenue, Chicago",60613,Peruvian,,zomato_2_213,,,,
+Lito's Empanadas,(773) 857-1337,"2566 N. Clark Street, Chicago",60614,Latin American,,zomato_2_263,,,,
+Mott Street,(773) 687-9977,"1401 N. Ashland Avenue, Chicago",60622,"Asian,New American",,zomato_2_277,,,,
+Rub's Backcountry Smokehouse,(773) 675-1410,"6954 N. Western Avenue, Chicago",60645,BBQ,,zomato_2_283,,,,
+The Local Chicago,(312) 280-8887,"198 E. Delaware Plaza, Chicago",60611,American,,zomato_2_325,,,,
+Uncle Mike's Place,(312) 226-5318,"1700 W. Grand Avenue, Chicago",60622,"Diner,American,Sandwich",,zomato_2_330,Grove,,61.0,new york
+Joy's Noodles and Rice,(773) 327-8330,"3257 N. Broadway Street, Chicago",60657,Thai,,zomato_2_331,,,,
+Quartino,(312) 698-5000,"626 N. State Street, Chicago",60654,"Italian,Pizza",,zomato_2_332,,,,
+Ara On,(312) 781-7300,"160 W. Adams Street, Chicago",60603,"French,Asian,Sushi",,zomato_2_337,,,,
+Devil Dawgs,(312) 583-9100,"767 S. State Street, Chicago",60605,American,,zomato_2_370,,,,
+Cafe Bella,(773) 292-5040,"3311 W. Fullerton Avenue, Chicago",60647,"Cafe,American",,zomato_2_383,Spring,,32.0,new york
+The Drinkingbird,(773) 472-9920,"2201 N. Clybourn Avenue, Chicago",60614,American,,zomato_2_402,,,,
+El Nuevo Mexicano,(773) 528-2131,"2914 N. Clark Street, Chicago",60657,"Latin American,Mexican",,zomato_2_411,Carmine,,62.0,new york
+Great Seas Chinese Restaurant,(773) 478-9129,"3254 W. Lawrence Avenue, Chicago",60625,"Asian,Chinese",,zomato_2_413,,,,
+Allende Restaurant,(773) 477-7114,"2408 N. Lincoln Avenue, Chicago",60614,Mexican,,zomato_2_449,,,,
+Bongiorno's Italian Deli & Pizzeria,(312) 755-1255,"405 N. Wabash Avenue, Chicago",60611,"Pizza,Sandwich,Deli,Italian",,zomato_2_464,,,,
+Momotaro,(312) 733-4818,"820 W. Lake Street, Chicago",60607,"Japanese,Sushi",,zomato_2_465,,,,
+Staropolska Restaurant,(773) 342-0779,"3030 N. Milwaukee Avenue, Chicago",60618,"Eastern European,Polish",,zomato_2_488,,,,
+Little Goat Bakery,(312) 888-3455,"820 W. Randolph Street, Chicago",60607,Bakery,,zomato_2_495,,,,
+Summer House Santa Monica,(773) 634-4100,"1954 N. Halsted Street, Chicago",60614,"American,California",,zomato_2_501,,,,
+Sunda,(312) 644-0500,"110 W. Illinois Street, Chicago",60654,Asian,,zomato_2_506,,,,
+Yolk,(312) 787-2277,"747 N. Wells Street, Chicago",60654,American,,zomato_2_508,,,,
+Catch 35,(312) 346-3500,"35 W. Upper Wacker Drive, Chicago",60601,"Seafood,Steakhouse",,zomato_2_510,,,,
+Havana,(312) 644-1900,"412 N. Clark Street, Chicago",60654,"Cuban,Latin American",,zomato_2_511,,,,
+Tweet,(773) 728-5576,"5020 N. Sheridan Road, Chicago",60640,American,,zomato_2_523,,,,
+Del Seoul,(773) 248-4227,"2568 N. Clark Street, Chicago",60614,"Asian,Fusion",,zomato_2_524,,,,
+Topo Gigio Ristorante,(312) 266-9355,"1516 N. Wells Street, Chicago",60610,Italian,,zomato_2_525,,,,
+Slurping Turtle,(312) 464-0466,"116 W. Hubbard Street, Chicago",60654,"Japanese,Tapas,Ramen",,zomato_2_528,,,,
+The Bristol,(773) 862-5555,"2152 N. Damen Avenue, Chicago",60647,New American,,zomato_2_535,,,,
+Davanti Enoteca,(312) 226-5550,"1359 W. Taylor Street, Chicago",60607,Italian,,zomato_2_538,18Th,E,35.0,new york
+Sepia,(312) 441-1920,"123 N. Jefferson Street, Chicago",60661,American,,zomato_2_542,,,,
+Farmhouse,(312) 280-4960,"228 W. Chicago Avenue, Chicago",60654,American,,zomato_2_547,Houston,E,145.0,new york
+Gibsons Bar & Steakhouse,(312) 266-8999,"1028 N. Rush Street, Chicago",60611,Steakhouse,,zomato_2_550,,,,
+Grand Lux Cafe,(312) 276-2500,"600 N. Michigan Avenue, Chicago",60611,"American,Pizza,Burger,Sandwich",,zomato_2_561,,,,
+Lou Malnati's Pizzeria,(312) 828-9800,"439 N. Wells Street, Chicago",60654,Pizza,,zomato_2_562,,,,
+Giordano's,(312) 951-0747,"730 N. Rush Street, Chicago",60611,"Italian,Pizza",,zomato_2_573,,,,
+Zed451,(312) 266-6691,"739 N. Clark Street, Chicago",60654,"American,Steakhouse",,zomato_2_577,,,,
+Piece,(773) 772-4422,"1927 W. North Avenue, Chicago",60622,"Pizza,Bar Food",,zomato_2_584,,,,
+Gilt Bar,(312) 464-9544,"230 W. Kinzie Street, Chicago",60654,New American,,zomato_2_587,,,,
+Yuzu Sushi and Robata Grill,(312) 666-4100,"1751 W. Chicago Avenue, Chicago",60622,Sushi,,zomato_2_588,Greenwich,,15.0,new york
+Lyfe Kitchen,(312) 836-5933,"419 N. Clark Street, Chicago",60654,"American,Healthy Food",,zomato_2_589,,,,
+Athenian Room,(773) 348-5155,"807 W. Webster Avenue, Chicago",60614,Greek,,zomato_2_591,,,,
+Tanta,(312) 222-9700,"118 W. Grand Avenue, Chicago",60654,"Peruvian,Japanese,Fusion",,zomato_2_593,,,,
+Cafe Iberico,(312) 573-1510,"739 N. La Salle Drive, Chicago",60610,"Spanish,Tapas",,zomato_2_595,,,,
+Rose Angelis,(773) 296-0081,"1314 W. Wrightwood Avenue, Chicago",60614,Italian,,zomato_2_596,26Th,W,17.0,new york
+Ay Ay Picante,(773) 427-4239,"4569 N. Elston Avenue, Chicago",60630,"Peruvian,Seafood,Steakhouse",,zomato_2_597,,,,
+Bub City,(312) 610-4200,"435 N. Clark Street, Chicago",60654,"American,BBQ,Seafood",,zomato_2_601,,,,
+The Gage,(312) 372-4243,"24 S. Michigan Avenue, Chicago",60603,American,,zomato_2_606,,,,
+Tank Noodle,(773) 878-2253,"4953 N. Broadway Street, Chicago",60640,Vietnamese,,zomato_2_610,,,,
+La Scarola,(312) 243-1740,"721 W. Grand Avenue, Chicago",60654,Italian,,zomato_2_612,,,,
+Lillie's Q,(773) 772-5500,"1856 W. North Avenue, Chicago",60622,"BBQ,Southern",,zomato_2_614,,,,
+Wildberry Pancakes & Cafe,(312) 938-9777,"130 E. Randolph Street, Chicago",60601,American,,zomato_2_617,,,,
+Table Fifty-Two,(312) 573-4000,"52 W. Elm Street, Chicago",60610,"Southern,American",,zomato_2_626,,,,
+Osteria La Madia,(312) 329-0400,"59 W. Grand Avenue, Chicago",60654,"Italian,Pizza",,zomato_2_627,,,,
+Big Star,(773) 235-4039,"1531 N. Damen Avenue, Chicago",60622,Mexican,,zomato_2_639,7Th,,113.0,new york
+Tre Kronor,(773) 267-9888,"3258 W. Foster Avenue, Chicago",60625,"Scandinavian,Swedish",,zomato_2_644,Park,,333.0,new york
+Nana,(312) 929-2486,"3267 S. Halsted Street, Chicago",60608,"American,Latin American",,zomato_2_653,,,,
+BellyQ,(312) 563-1010,"1400 W. Randolph Street, Chicago",60607,Asian,,zomato_2_654,,,,
+Trattoria No. 10,(312) 984-1718,"10 N. Dearborn Street, Chicago",60602,"Italian,Bar Food",,zomato_2_663,10Th,E,214.0,new york
+Sun Wah Bar-B-Q Restaurant,(773) 769-1254,"5039 N. Broadway Street, Chicago",60640,"BBQ,Chinese",,zomato_2_671,,,,
+The Publican,(312) 733-9555,"837 W. Fulton Market, Chicago",60607,American,,zomato_2_673,1St,,103.0,new york
+Handlebar,(773) 384-9546,"2311 W. North Avenue, Chicago",60647,"American,Bar Food",,zomato_2_676,,,,
+Over Easy Cafe,(773) 506-2605,"4943 N. Damen Avenue, Chicago",60625,American,,zomato_2_688,,,,
+Petterino's,(312) 422-0150,"150 N. Dearborn Street, Chicago",60601,"Seafood,Italian,Steakhouse",,zomato_2_691,,,,
+Longman & Eagle,(773) 276-7110,"2657 N. Kedzie Avenue, Chicago",60647,New American,,zomato_2_695,Eldridge,,231.0,new york
+Parson's Chicken & Fish,(773) 384-3333,"2952 W. Armitage Avenue, Chicago",60647,"Seafood,Sandwich,American",,zomato_2_702,,,,
+Yolk,(312) 789-9655,"1120 S. Michigan Avenue, Chicago",60605,American,,zomato_2_706,,,,
+Honey Butter Fried Chicken,(773) 478-4000,"3361 N. Elston Avenue, Chicago",60618,American,,zomato_2_707,,,,
+Bistrot Zinc,(312) 337-1131,"1131 N. State Street, Chicago",60610,"European,French",,zomato_2_708,,,,
+Hash House a Go Go,(312) 202-0994,"1212 N. State Street, Chicago",60610,American,,zomato_2_712,Mulberry,,235.0,new york
+Bridge House Tavern On The River,(312) 644-0283,"32 N. Clark Street, Chicago",60654,"New American,American",,zomato_2_714,,,,
+Nookies,(312) 337-2454,"1746 N. Wells Street, Chicago",60614,American,,zomato_2_719,,,,
+Cafe Selmarie,(773) 989-5595,"4729 N. Lincoln Avenue, Chicago",60625,American,,zomato_2_721,,,,
+BopNgrill,(773) 654-3224,"6604 N. Sheridan Road, Chicago",60626,"Burger,Korean",,zomato_2_723,,,,
+Kuma's Too,(773) 472-2666,"666 W. Diversey Parkway, Chicago",60614,"Burger,American",,zomato_2_727,,,,
+Miss Ricky's - Virgin Hotel,(312) 940-4777,"Virgin Hotel, 203 N. Wabash Avenue, Chicago",60601,"American,Diner",,zomato_2_731,,,,
+Beatrix,(312) 284-1377,"519 N. Clark Street, Chicago",60654,American,,zomato_2_732,7Th,E,93.0,new york
+Oiistar,(773) 360-8791,"1385 N. Milwaukee Avenue, Chicago",60622,"Asian,Ramen",,zomato_2_734,,,,
+Ramen-san,(312) 377-9950,"59 W. Hubbard Street, Chicago",60654,"Japanese,Ramen",,zomato_2_736,,,,
+Bandera,(312) 644-3524,"535 N. Michigan Avenue, Chicago",60611,"American,Southwestern,BBQ",,zomato_2_739,,,,
+Bavette's Bar and Boeuf,(312) 624-8154,"218 W. Kinzie Street, Chicago",60654,"Seafood,Steakhouse",,zomato_2_741,,,,
+Luxbar,(312) 642-3400,"18 E. Bellevue Street, Chicago",60611,"American,Burger",,zomato_2_745,,,,
+GT Fish & Oyster,(312) 929-3501,"531 N. Wells Street, Chicago",60654,"American,Seafood",,zomato_2_750,,,,
+Mana Food Bar,(773) 342-1742,"1742 W. Division Street, Chicago",60622,Vegetarian,,zomato_2_751,,,,
+Grange Hall Burger Bar,(312) 491-0844,"844 W. Randolph Street, Chicago",60607,"Burger,Desserts",,zomato_2_752,,,,
+Big & Little's,(773) 857-6677,"1034 W. Belmont Avenue, Chicago",60657,"Sandwich,Burger,Taco,Mexican",,zomato_2_757,,,,
+Tuscany,(312) 829-1990,"1014 W. Taylor Street, Chicago",60607,"Italian,Pizza",,zomato_2_758,,,,
+MingHin Cuisine,(312) 808-1999,"2168 S. Archer Avenue, Chicago",60616,"Chinese,Dim Sum,Seafood",,zomato_2_763,,,,
+Perennial Virant - Hotel Lincoln,(312) 981-7070,"Lincoln Hotel, 1800 N. Lincoln Avenue, Chicago",60614,New American,,zomato_2_769,,,,
+Kuma's Corner,(773) 604-8769,"2900 W. Belmont Avenue, Chicago",60618,"Burger,American",,zomato_2_772,,,,
+Roka Akor,(312) 477-7652,"456 N. Clark Street, Chicago",60654,"Japanese,Steakhouse,Sushi",,zomato_2_777,Rivington,,40.0,new york
+Avec,(312) 377-2002,"615 W. Randolph Street, Chicago",60661,Mediterranean,,zomato_2_783,,,,
+Café Con Leche,(773) 289-4274,"2714 N. Milwaukee Avenue, Chicago",60647,Latin American,,zomato_2_789,,,,
+Gyu-Kaku Japanese BBQ,(312) 266-8929,"210 E. Ohio Street, Chicago",60611,"Asian,BBQ,Japanese",,zomato_2_790,Macdougal,,119.0,new york
+"Joe's Seafood, Prime Steak & Stone Crab",(312) 379-5637,"60 E. Grand Avenue, Chicago",60611,"Steakhouse,Seafood",,zomato_2_795,Christopher,,118.0,new york
+Balena,(312) 867-3888,"1633 N. Halsted Street, Chicago",60614,Italian,,zomato_2_801,,,,
+Small Cheval,(312) 929-4580,"1732 N. Milwaukee Avenue, Chicago",60622,Burger,,zomato_2_802,,,,
+Pizza Rustica,(773) 404-8955,"3908 N. Sheridan Road, Chicago",60613,"Italian,Pizza",,zomato_2_815,,,,
+The Bongo Room,(773) 489-0690,"1470 N. Milwaukee Avenue, Chicago",60622,American,,zomato_2_817,,,,
+Kaiser Tiger,(312) 243-3100,"1415 W. Randolph Street, Chicago",60607,American,,zomato_2_821,,,,
+Hub 51,(312) 828-0051,"51 W. Hubbard Street, Chicago",60654,"International,New American",,zomato_2_839,42Nd,E,120.0,new york
+Three Dots and a Dash,(312) 610-4200,"435 N. Clark Street, Chicago",60654,"Pacific,Bar Food",,zomato_2_840,Canal,,89.0,new york
+Honky Tonk Barbeque,(312) 226-7427,"1800 S. Racine Avenue, Chicago",60608,"American,BBQ",,zomato_2_841,,,,
+North Pond,(773) 477-5845,"2610 N. Cannon Drive, Chicago",60614,American,,zomato_2_843,,,,
+Flo,(312) 243-0477,"1434 W. Chicago Avenue, Chicago",60622,"American,Mexican",,zomato_2_847,,,,
+Buona Terra,(773) 289-3800,"2535 N. California Avenue, Chicago",60647,Italian,,zomato_2_852,,,,
+Ramen Takeya,(312) 666-7710,"819 W. Fulton Market, Chicago",60607,"Ramen,Japanese",,zomato_2_857,,,,
+Dimo's Pizza,(773) 525-4580,"3463 N. Clark Street, Chicago",60657,"Italian,Pizza",,zomato_2_860,Broome,,250.0,new york
+Gale Street Inn,(773) 725-1300,4914 N. Milwaukee Avenue,60630,"American,BBQ,Steakhouse",,zomato_2_864,,,,
+La Creperie,(773) 528-9050,"2845 N. Clark Street, Chicago",60657,French,,zomato_2_876,,,,
+The Chicago Diner,(773) 252-3211,"2333 N. Milwaukee Avenue, Chicago",60647,American,,zomato_2_879,,,,
+Half Shell,(773) 549-1773,"676 W. Diversey Parkway, Inside Basement, Chicago",60614,Seafood,,zomato_2_886,,,,
+Alinea,(312) 867-0110,"1723 N. Halsted Street, Chicago",60614,New American,,zomato_2_895,,,,
+Fish Bar,(773) 687-8177,"2956 N. Sheffield Avenue, Chicago",60657,Seafood,,zomato_2_904,,,,
+Le Bouchon,(773) 862-6600,"1958 N. Damen Avenue, Chicago",60647,"French,Seafood",,zomato_2_907,,,,
+Moxee Restaurant & Mad Mouse Brewery,(312) 243-3660,"724 W. Maxwell Street, Chicago",60607,"American,BBQ",,zomato_2_913,,,,
+Topolobampo,(312) 661-1434,"445 N. Clark Street, Chicago",60610,Mexican,,zomato_2_917,,,,
+Twisted Spoke,(312) 666-1500,"501 N. Ogden Avenue, Chicago",60622,"American,Burger,Sandwich",,zomato_2_919,,,,
+Nookies Too,(773) 327-1400,"2112 N. Halsted Street, Chicago",60614,American,,zomato_2_926,,,,
+Gio's Cafe & Deli,(312) 225-6368,"2724 S. Lowe Avenue, Chicago",60616,"Italian,Sandwich,Seafood",,zomato_2_929,Sullivan,,149.0,new york
+Toast,(773) 772-5600,"2046 N. Damen Avenue, Chicago",60647,American,,zomato_2_932,,,,
+Pearl's Southern Comfort,(773) 754-7419,"5352 N. Broadway Street, Chicago",60640,"Southern,BBQ",,zomato_2_936,,,,
+Blackbird,(312) 715-0708,"619 W. Randolph Street, Chicago",60661,American,,zomato_2_939,Sullivan,,235.0,new york
+Greek Islands,(312) 782-9855,"200 S. Halsted Street, Chicago",60661,"Greek,Mediterranean",,zomato_2_950,,,,
+The Silver Palm,(312) 666-9322,"768 N. Milwaukee Avenue, Chicago",60622,"American,Sandwich,Burger",,zomato_2_951,,,,
+Sabatino's Restaurant and Lounge,(773) 283-8331,"4441 W. Irving Park Road, Chicago",60641,Italian,,zomato_2_1002,,,,
+RPM Italian,(312) 222-1888,"52 W. Illinois Street, Chicago",60654,Italian,,zomato_2_1005,Broome,,249.0,new york
+Mity Nice Grill,(312) 335-4745,"Water Tower Place, 835 N. Michigan Avenue, Level M",60611,American,,zomato_2_1018,,,,
+Kingsbury Street Cafe,(312) 280-1718,"1523 N. Kingsbury Street, Chicago",60642,"American,Cafe",,zomato_2_1020,,,,
+Stella's Diner,(773) 472-9040,"3042 N. Broadway Street, Chicago",60657,American,,zomato_2_1025,Valley,,4625.0,los angeles
+Mercat a la Planxa,(312) 765-0524,"Renaissance Blackstone Chicago Hotel, 638 S. Michigan Avenue",60605,"Spanish,Tapas",,zomato_2_1028,,,,
+Volare,(312) 410-9900,"201 E. Grand Avenue, Chicago",60611,Italian,,zomato_2_1039,Olympic,W,3132.0,los angeles
+Cheesie's Pub & Grub,(773) 388-1574,"958 W. Belmont Avenue, Chicago",60657,Sandwich,,zomato_2_1055,Hill,S,448.0,los angeles
+Flub A Dub Chubs,(773) 857-6500,"3021 N. Broadway Street, Chicago",60657,"American,Burger",,zomato_2_1056,Centinela,S,3760.0,los angeles
+Habana Libre,(312) 243-3303,"1440 W. Chicago Avenue, Chicago",60622,"Cuban,Sandwich,Seafood",,zomato_2_1059,Western,S,6512.0,los angeles
+The Southern,(773) 342-1840,"1840 W. North Avenue, Chicago",60622,"Southern,American",,zomato_2_1063,,,,
+Pasta Bowl,(773) 525-2695,"2434 N. Clark Street, Chicago",60614,Italian,,zomato_2_1067,,,,
+Tango Sur,(773) 477-5466,"3763 N. Southport Avenue, Chicago",60613,"Latin American,Steakhouse",,zomato_2_1072,Melrose,,5210.0,los angeles
+Tapas Valencia,(312) 842-4444,"1530 S. State Street, Chicago",60605,"Spanish,Tapas",,zomato_2_1076,Melrose,,6919.0,los angeles
+Wildfire,(312) 787-9000,"159 W. Erie Street, Chicago",60654,"American,Steakhouse,Seafood",,zomato_2_1083,Union,S,2314.0,los angeles
+The Dawson,(312) 243-8955,"730 W. Grand Avenue, Chicago",60654,New American,,zomato_2_1100,Highland,N,2011.0,los angeles
+Dimo's Pizza,(773) 525-4580,1615 N. Damen Avenue,60647,"Italian,Pizza",,zomato_2_1106,Franklin,,5931.0,los angeles
+Jane's,(773) 862-5263,"1655 W. Cortland Street, Chicago",60622,American,,zomato_2_1110,,,,
+Le Colonial,(312) 255-0088,"937 N. Rush Street, Chicago",60611,"Vietnamese,French",,zomato_2_1116,,,,
+La Sirena Clandestina,(312) 226-5300,"954 W. Fulton Market, Chicago",60607,"Latin American,Brazilian",,zomato_2_1125,Wilshire,,5115.0,los angeles
+Angelina Ristorante,(773) 935-5933,"3561 N. Broadway Street, Chicago",60657,Italian,,zomato_2_1129,,,,
+The Chicago Diner,(773) 935-6696,"3411 N. Halsted Street, Chicago",60657,American,,zomato_2_1139,87Th,W,6245.0,los angeles
+Rockit Burger Bar,(773) 645-4400,"3700 N. Clark Street, Chicago",60613,"American,Burger",,zomato_2_1148,2Nd,E,347.0,los angeles
+Ricobene's,(312) 225-5555,"252 W. 26th Street, Chicago",60616,"Italian,Pizza,American",,zomato_2_1162,,,,
+Spacca Napoli,(773) 878-2420,"1769 W. Sunnyside Avenue, Chicago",60640,"Pizza,Italian",,zomato_2_1183,,,,
+Fatso's Last Stand,(773) 245-3287,"2258 W. Chicago Avenue, Chicago",60622,"American,Burger",,zomato_2_1217,,,,
+RoSal's,(312) 243-2357,1154 W. Taylor Street,60607,Italian,,zomato_2_1221,4Th,W,122.0,los angeles
+Au Cheval,(312) 929-4580,"800 W. Randolph Street, Chicago",60607,"Burger,New American,Diner",,zomato_2_1228,,,,
+Old Town Social,(312) 266-2277,"455 W. North Avenue, Chicago",60610,American,,zomato_2_1235,Hollywood Roosevelt Hotel 7000 Hollywood,,-1.0,los angeles
+M. Henry,(773) 561-1600,"5707 N. Clark Street, Chicago",60660,"Cafe,Desserts",,zomato_2_1239,,,,
+Wasabi,(773) 227-8180,"2115 N. Milwaukee Avenue, Chicago",60647,"Asian,Japanese,Sushi,Ramen",,zomato_2_1244,,,,
+Nico Osteria - Thomson Hotels Chicago,(312) 994-7100,"Thomson Hotels Chicago, 1015 N. Rush Street",60611,"Italian,Seafood",,zomato_2_1246,,,,
+Las Palmas Mexican Restaurant,(773) 289-4991,"1835 W. North Avenue, Chicago",60622,"Latin American,Mexican",,zomato_2_1254,,,,
+The Bongo Room,(312) 291-0100,"1152 S. Wabash Avenue, Chicago",60605,American,,zomato_2_1261,3Rd,W,8370.0,los angeles
+3rd Coast Cafe & Wine Bar,(312) 649-0730,"1260 N. Dearborn Street, Chicago",60610,American,,zomato_2_1266,,,,
+Fork Chicago,(773) 751-1500,"4600 N. Lincoln Avenue, Chicago",60625,New American,,zomato_2_1277,Crenshaw,,2619.0,los angeles
+Rollapalooza,(773) 281-6400,"3344 N. Halsted Street, Chicago",60657,"Sushi,Japanese",,zomato_2_1282,,,,
+Eduardo's Enoteca,(312) 337-4490,"1212 N. Dearborn Street, Chicago",60610,"Italian,Pizza",,zomato_2_1288,Fountain,,4366.0,los angeles
+Manny's Cafeteria & Delicatessen,(312) 939-2855,"1141 S. Jefferson Street, Chicago",60607,"Sandwich,Deli",,zomato_2_1316,,,,
+Feed,(773) 489-4600,2803 W. Chicago Avenue,60622,Southern,,zomato_2_1328,La Brea,N,345.0,los angeles
+The Peasantry,(773) 868-4888,"2723 N. Clark Street, Chicago",60614,American,,zomato_2_1332,6Th,W,3407.0,los angeles
+Pasta Palazzo,(773) 248-1400,"1966 N. Halsted Street, Chicago",60614,Italian,,zomato_2_1333,,,,
+Little Goat Diner,(312) 888-3455,"820 W. Randolph Street, Chicago",60607,"New American,Bakery",,zomato_2_1339,,,,
+Osaka Sushi Express,(312) 566-0118,"400 S. Michigan Avenue, Chicago",60605,"Japanese,Sushi",,zomato_2_1352,,,,
+Caro Mio,(773) 275-5000,"1827 W. Wilson Avenue, Chicago",60640,Italian,,zomato_2_1376,,,,
+Takito Kitchen,(773) 687-9620,"2013 W. Division Street, Chicago",60622,Mexican,,zomato_2_1379,,,,
+Bar Pastoral,(773) 472-4781,"2947 N. Broadway Street, Chicago",60657,European,,zomato_2_1387,,,,
+Noodles in the Pot,(773) 975-6177,"2453 N. Halsted Street, Chicago",60614,Thai,,zomato_2_1389,,,,
+Nuevo Leon,(312) 421-1517,"1515 W. 18th Street, Chicago",60608,Mexican,,zomato_2_1394,,,,
+Grace,(312) 234-9494,"652 W. Randolph Street, Chicago",60661,New American,,zomato_2_1423,,,,
+Blue Frog's Local 22,(312) 527-1200,"22 E. Hubbard Street, Chicago",60611,"American,Burger",,zomato_2_1436,,,,
+Simply It Cuisine of Vietnam,(773) 248-0884,"2269 N. Lincoln Avenue, Chicago",60614,Vietnamese,,zomato_2_1439,,,,
+Uncle Julio's,(214) 520-6620,"4125 Lemmon Avenue, Dallas",75219,Tex-Mex,,zomato_2_1451,Wilshire,,3828.0,los angeles
+Palomino,(214) 999-1222,"500 Crescent Court, Suite 165, Dallas",75201,"Italian,Mediterranean",,zomato_2_1454,3Rd,W,8738.0,los angeles
+The Blue Fish,(214) 824-3474,"3519 Greenville Avenue, Dallas",75206,"Japanese,Seafood,Sushi",,zomato_2_1459,Broadway,N,727.0,los angeles
+Twisted Root Burger Company,(214) 741-7668,"2615 Commerce Street, Dallas",75226,"Burger,American",,zomato_2_1461,Flower,S,3742.0,los angeles
+Bread Winners,(214) 351-3339,"5560 W Lovers Lane, Dallas",75209,"American,Bakery",,zomato_2_1462,,,,
+Cafe Izmir,(214) 826-7788,"3711 Greenville Avenue, Dallas",75206,"Mediterranean,Tapas",,zomato_2_1463,,,,
+Ziziki's Restaurant,(214) 521-2233,"4514 Travis Street, Dallas",75205,"Greek,Mediterranean",,zomato_2_1464,,,,
+Alligator Cafe,(214) 821-6900,"9540 Garland Road, Suite 362, Dallas",75218,"Cajun,Seafood",,zomato_2_1465,1St,E,343.0,los angeles
+Original Market Diner,(214) 521-0992,"4434 Harry Hines Boulevard, Dallas",75219,"Diner,American,Desserts",,zomato_2_1466,,,,
+Sushi Zushi,(214) 522-7253,"3636 McKinney Avenue, Dallas",75204,"Japanese,Sushi",,zomato_2_1468,Robertson,S,3380.0,los angeles
+Mi Cocina,(469) 533-5663,"3699 McKinney Avenue, Dallas",75204,Tex-Mex,,zomato_2_1469,,,,
+Lockhart Smokehouse,(214) 944-5521,"400 W Davis Street, Dallas",75208,BBQ,,zomato_2_1473,Hyperion,,2457.0,los angeles
+Fadi's Mediterranean Grill,(214) 528-1800,"3001 Knox Street, Suite 110",75205,Mediterranean,,zomato_2_1474,,,,
+Sambuca,(214) 744-0820,"2120 McKinney Avenue,  Dallas",75201,"American,Fusion,Seafood",,zomato_2_1476,Franklin,,5925.0,los angeles
+Si Tapas,(214) 720-0324,"2207 Allen Street, Dallas",75204,"Spanish,Tapas",,zomato_2_1477,,,,
+Parigi,(214) 521-0295,"3311 Oak Lawn Avenue, Dallas",75219,"New American,French,Italian",,zomato_2_1479,,,,
+The Blind Butcher,(214) 887-0000,"1919 Greenville Avenue, Dallas",75206,New American,,zomato_2_1480,,,,
+Chuy's,(214) 559-2489,"4544 McKinney Avenue, Dallas",75205,Tex-Mex,,zomato_2_1483,Robertson,S,2513.0,los angeles
+Thai Thai,(214) 828-9795,"1731 Greenville Avenue, Dallas",75206,"Asian,Thai",,zomato_2_1484,Wilshire,,3832.0,los angeles
+The French Room - The Adolphus Hotel,(214) 742-8200,"The Adolphus Hotel, 1321 Commerce Street, Dallas",75202,"American,French",,zomato_2_1486,,,,
+Liberty Burger,(214) 954-7223,"5181 Keller Springs Road, Dallas",75248,"Burger,American",,zomato_2_1489,,,,
+Taco Joint,(214) 826-8226,"911 N Peak Street, Dallas",75204,Tex-Mex,,zomato_2_1491,,,,
+Bistro B,(214) 575-9885,"9780 Walnut Street, Suite 340, Dallas",75243,"Asian,Vietnamese,Chinese",,zomato_2_1493,,,,
+Hattie's,(214) 942-7400,"418 N Bishop Avenue, Dallas",75208,"Southern,American",,zomato_2_1494,,,,
+Bob's Steak & Chop House,(214) 528-9446,"4300 Lemmon Avenue, Dallas",75219,Steakhouse,,zomato_2_1495,,,,
+Jonathon's Oak Cliff,(214) 946-2221,"1111 N Beckley Avenue, Dallas",75203,American,,zomato_2_1496,1St,E,329.0,los angeles
+Hoffbrau Steaks,(214) 742-4663,"311 N Market Street, Dallas",75202,"Steakhouse,Southern",,zomato_2_1497,Main,N,3111.0,los angeles
+Perry's Steakhouse & Grille,(214) 855-5151,"2000 McKinney Avenue, Suite 100, Dallas",75201,"Steakhouse,Seafood",,zomato_2_1498,,,,
+Barbec's,(214) 321-5597,"8949 Garland Road, Dallas",75218,"American,Tex-Mex,Southern",,zomato_2_1499,,,,
+Y.O. Ranch Steakhouse,(214) 744-3287,702 Ross Avenue,75202,"American,Steakhouse",,zomato_2_1504,Hyperion,,2547.0,los angeles
+Campisi's Egyptian Louge,(214) 827-0355,"5610 E Mockingbird Lane, Dallas",75206,"Italian,Pizza",,zomato_2_1505,2Nd,E,351.0,los angeles
+Cafe Brazil,(214) 461-8762,"3847 Cedar Springs Road, Dallas",75219,"American,Tex-Mex,Coffee and Tea",,zomato_2_1507,,,,
+Nobu - The Crescent Hotel,(214) 252-7000,"The Crescent Hotel, 400 Crescent Court, Dallas",75201,"Fusion,Japanese,Sushi",,zomato_2_1508,Fairfax,N,426.0,los angeles
+Henk's European Deli and Black Forest Bakery,(214) 987-9090,"5811 Blackwell St, Dallas",75231,"German,Sandwich",,zomato_2_1510,,,,
+Taco Diner,(214) 521-3669,"3699 McKinney Avenue, Dallas",75204,Tex-Mex,,zomato_2_1511,Melrose,,7228.0,los angeles
+Sangria Tapas Y Bar,(214) 520-4863,"4524 Cole Avenue, Dallas",75205,"Spanish,Tapas",,zomato_2_1512,,,,
+Villa-O,(214) 780-1880,"4514 Travis Street, Dallas",75205,"Italian,Mediterranean",,zomato_2_1513,Beverly,,2122.0,los angeles
+Tony's Pizza & Pasta,(214) 503-0388,"10233 E Northwest Highway, Dallas",75238,"Italian,Pizza",,zomato_2_1515,Culver,,12740.0,los angeles
+Ellen's Southern Kitchen,(469) 206-3339,"1718 North Market Street, Dallas",75202,"American,Southern",,zomato_2_1516,,,,
+Gloria's Latin Cuisine,(214) 874-0088,"3715 Greenville Avenue, Dallas",75206,Tex-Mex,,zomato_2_1517,2Nd,E,314.0,los angeles
+Off-Site Kitchen,(214) 741-2226,"331 Singleton Boulevard, Suite 100, Dallas",75212,"Burger,American",,zomato_2_1519,,,,
+Norma's Cafe,(214) 946-4711,"1123 W Davis Street, Dallas",75208,"Diner,American",,zomato_2_1520,Sunset,,6601.0,los angeles
+Wild Salsa,(214) 741-9453,"1800 Main Street, Suite 100, Dallas",75201,Mexican,,zomato_2_1521,Melrose,,7111.0,los angeles
+Pappadeaux Seafood Kitchen,(214) 358-1912,"10428 Lombardy Lane, Dallas",75220,"Seafood,Southern,Cajun",,zomato_2_1524,,,,
+Bangkok City Restaurant,(214) 824-6200,"4301 Bryan Street, Suite 101, Dallas",75204,"Asian,Thai",,zomato_2_1525,3Rd,E,800.0,los angeles
+Oddfellows,(214) 944-5958,"316 W 7th Street, Dallas",75208,"American,Coffee and Tea",,zomato_2_1527,,,,
+Vickery Park,(214) 827-1432,"2810 N Henderson Avenue, Dallas",75206,American,,zomato_2_1528,,,,
+Burger Bueno,(972) 387-3400,"13021 Coit Road, Dallas",75240,Burger,,zomato_2_1530,Olympic,W,11301.0,los angeles
+S & D Oyster Company,(214) 880-0111,"2701 McKinney Avenue, Dallas",75204,Seafood,,zomato_2_1531,,,,
+Stratos Greek Taverna,(214) 352-3321,"2907 W Northwest Highway, Dallas",75220,"Greek,Mediterranean",,zomato_2_1532,La Brea,S,1356.0,los angeles
+Luck,(469) 250-0679,"3011 Gulden Lane, Suite 112, Dallas",75212,Southern,,zomato_2_1533,3Rd,W,8048.0,los angeles
+Meso Maya,(214) 484-6555,"1611 McKinney Avenue, Dallas",75202,Mexican,,zomato_2_1534,,,,
+The Blue Fish,(972) 250-3474,"18149 Dallas Parkway, Suite 100, Dallas",75287,"Japanese,Seafood,Sushi",,zomato_2_1535,,,,
+Dallas Grilled Cheese Co.,(214) 944-5515,"310 W 7th Street, Dallas",75208,"American,Sandwich",,zomato_2_1537,,,,
+Cosmic Cafe,(214) 521-6157,"2912 Oak Lawn Avenue, Dallas",75219,"Indian,Mediterranean",,zomato_2_1538,,,,
+Nonna,(214) 521-1800,"4115 Lomo Alto Drive, Dallas",75219,Italian,,zomato_2_1541,,,,
+The Oceanaire Seafood Room - Westin Galleria Dallas,(972) 759-2277,"Westin Galleria Dallas, 13340 Dallas Parkway, Level One, Dallas",75240,"American,Seafood",,zomato_2_1542,,,,
+Cowboy Chicken,(214) 234-0505,"5315 Greenville Avenue, Dallas",75206,American,,zomato_2_1543,Olympic,W,2716.0,los angeles
+The Capital Grille,(214) 303-0500,"500 Crescent Court, Dallas",75201,"Seafood,Steakhouse",,zomato_2_1544,,,,
+Gui Korean Japanese Bistro & Bar,(214) 720-9229,"2719 McKinney Avenue, Dallas",75204,"Japanese,Korean",,zomato_2_1545,,,,
+Local,(214) 752-7500,"2936 Elm Street, Dallas",75226,New American,,zomato_2_1547,Hollywood,,5112.0,los angeles
+Roccos Uptown Pizza & Pasta,(214) 871-9207,"2717 Howell Street, Suite A, Dallas",75204,"Italian,Pizza",,zomato_2_1550,Crenshaw,,4859.0,los angeles
+Tei Tei Robata Bar,(214) 828-2400,"2906 N Henderson Avenue, Dallas",75206,"Japanese,Sushi",,zomato_2_1551,Hillhurst,,2044.0,los angeles
+CBD Provisions - The Joule,(214) 261-4500,"The Joule, 1530 Main Street, Dallas",75201,"New American,Southern,Beverages",,zomato_2_1552,,,,
+Two Guys From Italy,(972) 247-6814,"11637 Webb Chapel Road, Dallas",75229,"Italian,Pizza",,zomato_2_1554,Robertson,S,1515.0,los angeles
+Saint Ann Restaurant & Bar,(214) 782-9807,"2501 N Harwood Street, Dallas",75201,"American,European,International",,zomato_2_1556,,,,
+Veracruz Cafe,(214) 948-4746,"408 N Bishop Avenue, Suite 107, Dallas",75208,Mexican,,zomato_2_1557,Olympic,W,1833.0,los angeles
+Mai's Vietnamese,(214) 826-9887,"4812 Bryan Street, Suite 100, Dallas",75204,"Asian,Vietnamese",,zomato_2_1558,,,,
+Bolsa,(214) 367-9367,"614 W Davis Street, Suite 100, Dallas",75208,New American,,zomato_2_1560,,,,
+Bread Winners,(214) 754-4940,"3301 McKinney Avenue, Dallas",75204,"American,Bakery",,zomato_2_1561,,,,
+Red Hot & Blue,(214) 368-7427,"9810 N Central Expressway, Suite 600, Dallas",75231,"BBQ,Burger,Seafood",,zomato_2_1563,Wilshire,,3914.0,los angeles
+Bubba's Cooks Country,(214) 373-6527,"6617 Hillcrest Avenue, Dallas",75205,"American,Diner,Southern",,zomato_2_1564,,,,
+Jake's,(214) 754-8001,"2702 McKinney Avenue, Dallas",75204,"American,Burger",,zomato_2_1566,Olympic,W,314.0,los angeles
+Deep Sushi,(214) 651-1177,"2624 Elm Street, Dallas",75226,"Japanese,Sushi",,zomato_2_1567,Sunset,W,2619.0,los angeles
+The Cheesecake Factory,(214) 373-4844,"7700 W Northwest Highway, Dallas",75225,"American,Desserts",,zomato_2_1568,,,,
+Little Katana,(214) 443-9600,"4527 Travis Street, Dallas",75205,"Asian,Japanese,Korean,Sushi",,zomato_2_1570,,,,
+Sonny Bryan's Smokehouse,(214) 357-7120,"2202 Inwood Road, Dallas",75235,BBQ,,zomato_2_1571,Hill,N,936.0,los angeles
+Urban Taco,(214) 922-7080,"3411 McKinney Avenue, Dallas",75204,Mexican,,zomato_2_1574,Melrose,,8284.0,los angeles
+Garden Cafe,(214) 887-8330,"5310 Junius Street, Dallas",75214,"Cafe,American,Sandwich",,zomato_2_1575,,,,
+Metropolitan Cafe,(214) 741-2233,"2032 Main Street, Dallas",75201,American,,zomato_2_1576,3Rd,W,8050.0,los angeles
+Souk,(469) 458-2233,"3011 Gulden Lane, Suite 114, Dallas",75212,Moroccan,,zomato_2_1577,,,,
+Cindi's,(214) 739-0918,"11111 N Central Expressway, Dallas",75243,"Deli,Cafe",,zomato_2_1579,Beverly,,4653.0,los angeles
+Asian Mint,(214) 363-6655,"11617 N Central Expressway, Dallas",75243,"Asian,Thai",,zomato_2_1583,Fairfax,N,412.0,los angeles
+La Calle Doce,(214) 941-4304,"415 West 12th Street, Dallas",75208,"Mexican,Seafood",,zomato_2_1584,,,,
+Texas de Brazil,(214) 720-1414,"2727 Cedar Springs Road, Dallas",75201,"Brazilian,Steakhouse",,zomato_2_1585,Pico,W,5583.0,los angeles
+The Social House,(214) 999-0046,"2708 Routh Street, Dallas",75201,American,,zomato_2_1588,Onizuka,S,123.0,los angeles
+Urban Taco,(214) 823-4723,"5331 E Mockingbird Lane, Suite 125, Dallas",75206,Mexican,,zomato_2_1589,,,,
+Elaine's Kitchen,(214) 565-1008,"2717 Martin Luther King Jr Boulevard, Dallas",75215,"American,Caribbean",,zomato_2_1590,,,,
+Mike Anderson's BBQ,(214) 630-0735,5410 Harry Hines Boulevard,75235,BBQ,,zomato_2_1592,,,,
+Blue Mesa Grill,(214) 378-8686,"7700 W Northwest Hwy, Dallas",75225,Southwestern,,zomato_2_1593,Vermont,S,239.0,los angeles
+Desperados Mexican Restaurant,(214) 363-1850,"4818 Greenville Avenue, Dallas",75206,Tex-Mex,,zomato_2_1595,Melrose,,7275.0,los angeles
+Keller's Hamburgers,(214) 319-6060,"10226 Garland Road, Dallas",75218,American,,zomato_2_1597,,,,
+Original Pancake House,(214) 528-7215,"2900 Lemmon Avenue, Dallas",75204,American,,zomato_2_1598,,,,
+Hypnotic Donuts,(214) 668-6999,9007 Garland Road,75218,Donuts,,zomato_2_1599,Western,N,429.0,los angeles
+Ziziki's Restaurant,(469) 232-9922,"11661 Preston Road, Suite 309, Dallas",75230,"Greek,Mediterranean",,zomato_2_1600,Sunset,W,2135.0,los angeles
+Mama Mia Pizza & Pasta,(214) 744-6262,"2935 Elm Street, Dallas",75226,"Italian,Pizza",,zomato_2_1603,Melrose,,5955.0,los angeles
+Hillstone,(214) 691-8991,"8300 Preston Road, Suite A, Dallas",75225,"American,Seafood,Steakhouse",,zomato_2_1605,6Th,W,3450.0,los angeles
+Uchi,(214) 855-5454,"2817 Maple Avenue, Dallas",75201,"Japanese,Sushi",,zomato_2_1606,,,,
+Avanti Ristorante,(214) 871-4955,"2720 McKinney Avenue, Dallas",75204,"Italian,Mediterranean,Seafood",,zomato_2_1609,The Line Hotel 3515 Wilshire,,-1.0,los angeles
+Maracas Cocina Mexicana,(214) 748-7140,2914 Main Street,75226,"Mexican,Tex-Mex",,zomato_2_1610,,,,
+The Boiling Crab,(972) 272-7086,"10560 Walnut Street, Suite 100, Dallas",75243,"Southern,Cajun",,zomato_2_1611,9Th,W,705.0,los angeles
+Tupinamba,(972) 991-8148,"9665 N Central Expressway, Suite 142, Dallas",75231,Tex-Mex,,zomato_2_1613,,,,
+Picasso's,(214) 553-8100,"7215 Skillman St, Dallas",75231,"American,Italian,Pizza",,zomato_2_1614,Hillhurst,,1650.0,los angeles
+Mama's Daughter's Diner,(214) 742-8646,"2014 Irving Boulevard, Dallas",75207,Diner,,zomato_2_1615,,,,
+Kona Grill,(214) 369-7600,"NorthPark Center, 8687 North Central Expressway, Level One, Dallas",75225,"Japanese,Seafood",,zomato_2_1617,Broadway,N,1901.0,los angeles
+Banana Leaf,(972) 713-0123,"17370 Preston Rd, Dallas",75252,Thai,,zomato_2_1620,Sunset,,1700.0,los angeles
+RJ Mexican Cuisine,(214) 744-1420,"1701 North Market Street, Suite 101",75202,Mexican,,zomato_2_1621,,,,
+India Palace Restaurant & Bar,(972) 392-0190,"12817 Preston Road, Suite 105, Dallas",75230,"Indian,Vegetarian",,zomato_2_1622,Sunset,W,8000.0,los angeles
+La Calle Doce,(214) 824-9900,"1925 Skillman Street, Dallas",75206,"Mexican,Seafood",,zomato_2_1624,,,,
+Aw Shucks Oyster Bar,(214) 821-9449,"3601 Greenville Avenue, Dallas",75206,Seafood,,zomato_2_1625,Beverly,,8020.0,los angeles
+Sal's Pizza,(214) 522-1828,"2525 Wycliff Avenue, Dallas",75219,"Italian,Pizza",,zomato_2_1626,Silver,,1637.0,los angeles
+Cane Rosso,(214) 741-1188,"2612 Commerce Street, Suite 101, Dallas",75226,"Pizza,Italian",,zomato_2_1627,,,,
+Peggy Sue BBQ,(214) 987-9188,"6600 Snider Plaza, Dallas",75205,"American,BBQ",,zomato_2_1628,Century,W,10.0,los angeles
+Olivella's Neo Pizza Napoletana,(214) 522-9898,"2340 Victory Park Lane, Dallas",75219,"Italian,Pizza",,zomato_2_1630,8Th,W,3136.0,los angeles
+Zenna,(214) 720-9998,"300 N Akard Street, Dallas",75201,"Japanese,Thai,Sushi",,zomato_2_1633,,,,
+Kenichi,(214) 871-8883,"2400 Victory Park Lane, Dallas",75219,"Asian,Japanese,Sushi",,zomato_2_1635,,,,
+Sweet Georgia Brown,(214) 375-2020,"2840 E Ledbetter Drive, Dallas",75216,BBQ,,zomato_2_1638,,,,
+Press Box Grill,(214) 747-8226,"1623 Main Street, Suite 101, Dallas",75201,"Bar Food,American",,zomato_2_1640,,,,
+Pakpao Thai Restaurant,(214) 749-7002,"1628 Oak Lawn Avenue, Suite 120",75207,Thai,,zomato_2_1641,,,,
+Porta di Roma,(214) 752-0855,"1623 Main Street, Dallas",75201,Italian,,zomato_2_1644,,,,
+Mario Sabino's Mexican and Salvadoran,(214) 599-9744,"5404 Lemmon Avenue, Dallas",75209,"Latin American,Mexican",,zomato_2_1645,Fountain,,4501.0,los angeles
+Komali,(214) 252-0200,"4152 Cole Avenue, Suite 106, Dallas",75204,"Mexican,American,Fusion",,zomato_2_1646,City,,-1.0,los angeles
+DaLat Restaurant and Bar,(214) 827-3200,"2537 N Fitzhugh Avenue, Dallas",75206,"Vietnamese,Ramen",,zomato_2_1647,,,,
+Twisted Root Burger Company,(214) 361-2910,"5609 SMU Boulevard, Suite 102",75206,"Burger,American",,zomato_2_1648,,,,
+Kozy Kitchen,(214) 219-5044,"4433 McKinney Avenue, Dallas",75205,New American,,zomato_2_1651,,,,
+Fernando's Mexican Cuisine,(214) 351-9010,"4347 W Northwest Highway, Suite 100, Dallas",75220,"Mexican,Tex-Mex",,zomato_2_1654,Melrose,,7963.0,los angeles
+Cremona,(214) 871-1115,"2704 Worthington Street, Dallas",75204,"Italian,Pizza",,zomato_2_1655,,,,
+The Mercury,(972) 960-7774,"11909 Preston Road, Suite 1418, Dallas",75230,"American,Seafood,Sushi",,zomato_2_1656,,,,
+Off the Bone Barbeque,(214) 565-9551,"1734 S Lamar Street, Dallas",75215,BBQ,,zomato_2_1657,,,,
+Buzzbrews,(214) 521-4334,"4334 Lemmon Avenue, Dallas",75219,American,,zomato_2_1663,Hollywood,,6801.0,los angeles
+Zuzu,(214) 828-2231,"4140 Abrams Road, Dallas",75214,Tex-Mex,,zomato_2_1664,,,,
+Tei An,(214) 220-2828,"One Arts Plaza, 1722 Routh Street, Suite 110, Dallas",75201,"Asian,Japanese",,zomato_2_1665,Beachwood,N,2695.0,los angeles
+Liberty Burger,(972) 239-2100,"Forestwood Center, 5211 Forest Lane, Dallas",75244,"Burger,American",,zomato_2_1668,,,,
+The Grape,(214) 828-1981,"2808 Greenville Avenue, Dallas",75206,New American,,zomato_2_1671,,,,
+The Porch,(214) 828-2916,"2912 N Henderson Avenue, Dallas",75206,"American,Burger",,zomato_2_1672,,,,
+Morton's The Steakhouse,(214) 741-2277,"2222 McKinney Avenue, Suite 200, Dallas",75201,Steakhouse,,zomato_2_1674,,,,
+Ravenna Urban Italian Restaurant,(214) 744-9333,"1301 Main Street, Dallas",75202,Italian,,zomato_2_1675,,,,
+Chop House Burger,(214) 741-2747,"1501 Main Street, Dallas",75201,Burger,,zomato_2_1677,6Th,W,3465.0,los angeles
+Luscher's Red Hots,(214) 434-1006,"2653 Commerce Street, Dallas",75226,"Sandwich,American",,zomato_2_1678,,,,
+Shinsei,(214) 352-0005,"7713 Inwood Road, Dallas",75209,"Japanese,Sushi",,zomato_2_1681,,,,
+Dakota's Steakhouse,(214) 740-4001,"600 North Akard Street, Dallas",75201,Steakhouse,,zomato_2_1683,,,,
+Torchy's Tacos,(972) 993-8226,"5600 SMU Boulevard, Suite 102, Dallas",75206,"Taco,Tex-Mex",,zomato_2_1687,,,,
+CrushCraft Thai Street Eats,(972) 677-7038,"2800 Routh Street, Suite 150, Dallas",75201,Thai,,zomato_2_1689,Western,N,861.0,los angeles
+LARK on the Park,(214) 855-5275,"2015 Woodall Rodgers Freeway, Dallas",75201,International,,zomato_2_1690,,,,
+The Slow Bone Barbeque,(214) 377-7727,"2234 Irving Boulevard, Dallas",75207,BBQ,,zomato_2_1692,,,,
+Cafe Pacific,(214) 526-1170,"24 Highland Park Village, Dallas",75205,"Seafood,Steakhouse,American",,zomato_2_1695,8Th,W,3455.0,los angeles
+Pizza Lounge,(214) 887-6900,"841 Exposition Avenue, Dallas",75226,"Pizza,Sandwich",,zomato_2_1696,,,,
+Cafe Express,(214) 999-9444,"3230 McKinney Avenue, Dallas",75204,"American,Healthy Food,Cafe",,zomato_2_1698,,,,
+Cigarz Bona Pizza,(214) 319-0055,7238 Gaston Avenue,75214,Pizza,,zomato_2_1700,Central,S,132.0,los angeles
+Taco Diner,(214) 696-4944,4011 Villanova Street,75225,Tex-Mex,,zomato_2_1702,,,,
+Eddie V's Prime Seafood,(214) 890-1500,"4023 Oak Lawn Avenue, Dallas",75219,"Seafood,Steakhouse",,zomato_2_1703,,,,
+Pluckers Wing Bar,(214) 363-9464,"5500 Greenville Avenue, Suite 406, Dallas",75206,"American,Bar Food",,zomato_2_1704,La Cienega,S,3560.0,los angeles
+Pepe's & Mito's Mexican Cafe,(214) 741-1901,"2911 Elm Street, Dallas",75226,Tex-Mex,,zomato_2_1705,,,,
+Japanese Cafe Tampopo,(214) 378-7676,"6130 Greenville Avenue, Suite 100, Dallas",75206,"Japanese,Sushi",,zomato_2_1706,,,,
+Kuai Dumplings and Soups,(972) 789-1199,"325 N Saint Paul Street, Dallas",75201,"Asian,Chinese,Frozen Yogurt",,zomato_2_1708,,,,
+Seafood Shack,(972) 406-0890,"11625 Webb Chapel Road, Dallas",75229,Seafood,,zomato_2_1712,Beverly,,8101.0,los angeles
+J.G.'s Old Fashioned Hamburgers,(972) 644-8628,"12101 Greenville Avenue, Suite 109, Dallas",75243,"Burger,American",,zomato_2_1713,Chapman,,-1.0,los angeles
+LYFE Kitchen,(214) 526-5933,"3699 McKinney Avenue, Dallas",75204,Healthy Food,,zomato_2_1714,Helms,,3229.0,los angeles
+Tanoshii Ramen & Bar,(214) 651-6800,"2724 Commerce Street, Dallas",75226,"Japanese,Ramen",,zomato_2_1715,,,,
+Dunston's Steak House,(214) 352-8320,"5423 West Lovers Lane, Dallas",75209,"Steakhouse,Burger",,zomato_2_1720,Sawtelle,,2123.0,los angeles
+Hopdoddy,(214) 871-2337,"3227 McKinney Avenue, Dallas",75204,"Burger,American",,zomato_2_1724,Virgil,N,709.0,los angeles
+Howard Wang's Uptown,(214) 954-9558,"3223 Lemmon Avenue, Dallas",75204,"Asian,Chinese",,zomato_2_1725,,,,
+State and Allen,(214) 239-1990,"2400 Allen Street, Dallas",75204,"American,Pizza",,zomato_2_1726,,,,
+Allgood Cafe,(214) 742-5362,"2934 Main Street, Dallas",75226,"American,Southern",,zomato_2_1727,Sunset,W,6660.0,los angeles
+The Standard Pour,(214) 935-1370,"2900 McKinney Avenue, Dallas",75204,American,,zomato_2_1728,Hobart,N,1117.0,los angeles
+Fireside Pies,(214) 357-3800,7709 Inwood Road,75209,Pizza,,zomato_2_1729,,,,
+The Dixie House,(214) 826-2412,"6400 Gaston Avenue, Dallas",75214,"BBQ,American",,zomato_2_1730,,,,
+Franki's Pizza and Pasta,(469) 335-0345,"11722 Marsh Lane, Unit 202, Dallas",75229,Italian,,zomato_2_1733,Beverly,,3909.0,los angeles
+Rafa's Cafe,(214) 357-2080,"5617 W Lovers Lane, Dallas",75209,Tex-Mex,,zomato_2_1734,,,,
+Betty's Best Around,(214) 826-2266,"3607 Greenville Avenue, Dallas",75206,"Asian,Chinese",,zomato_2_1735,,,,
+Koryo Kalbi Korean BBQ,(972) 406-0087,"2560 Royal Lane, Suite 105, Dallas",75229,Korean,,zomato_2_1741,Venice,,10319.0,los angeles
+In-N-Out,(800) 786-1000,"7940 N Central Expressway, Dallas",75206,Burger,,zomato_2_1743,Beverly,,8009.0,los angeles
+Smoke,(214) 393-4141,"901 Fort Worth Avenue, Dallas",75208,"American,BBQ",,zomato_2_1749,Wilshire,,3377.0,los angeles
+Howard Wang's China Grill,(214) 366-1606,"4343 W Northwest Highway, Suite 345",75220,"Asian,Chinese",,zomato_2_1750,,,,
+i Fratelli Pizza,(214) 720-0070,"2815 Allen Street, Suite 124, Dallas",75204,Pizza,,zomato_2_1752,3Rd,W,8420.0,los angeles
+Cedar's Mediterranean Mezza & Grill,(214) 373-8141,"8141 Walnut Hill Lane, Suite 1200, Dallas",75231,"Greek,Mediterranean",,zomato_2_1753,,,,
+Dodie's Seafood Cafe,(214) 821-8890,"2129 Greenville Avenue, Dallas",75206,"Seafood,Southern,Cajun",,zomato_2_1756,Westwood,,2005.0,los angeles
+Campisi's,(214) 350-2595,"5405 West Lovers Lane, Dallas",75209,"Italian,Pizza",,zomato_2_1757,8Th,W,3516.0,los angeles
+Daddy Jack's,(214) 826-4910,"1916 Greenville Avenue, Dallas",75206,Seafood,,zomato_2_1758,,,,
+Matt's Rancho Martinez,(214) 823-5517,"1904 Skillman Street, Dallas",75206,"Mexican,Tex-Mex",,zomato_2_1760,,,,
+The Free Man Cajun Cafe & Lounge,(214) 377-9893,"2626 Commerce Street, Dallas",75226,Cajun,,zomato_2_1762,Cahuenga,N,1552.0,los angeles
+Olivella's Neo Pizza Napoletana,(214) 528-7070,"3406 McFarlin Boulevard, Dallas",75205,"Italian,Pizza",,zomato_2_1764,,,,
+20 Feet Seafood Joint,(972) 707-7442,"1160 Peavy Road, Dallas",75218,Seafood,,zomato_2_1766,Vermont,N,1757.0,los angeles
+Amberjax,(469) 513-9088,"3011 Gulden Lane, Suite 107, Dallas",75212,"American,Seafood",,zomato_2_1768,Robertson,S,1128.0,los angeles
+Zoli's NY Pizza Tavern,(214) 942-9654,"202 W Davis Street, Dallas",75208,"Italian,Pizza",,zomato_2_1769,,,,
+Sissy's Southern Kitchen and Bar,(214) 827-9900,"2929 N Henderson Avenue, Dallas",75206,"Southern,New American",,zomato_2_1771,Melrose,,5200.0,los angeles
+Flying Fish,(214) 696-3474,"6126 Luther Lane, Dallas",75225,Seafood,,zomato_2_1773,,,,
+Hunky's,(214) 941-3322,"321 N Bishop Avenue, Dallas",75208,"Burger,Diner",,zomato_2_1776,,,,
+Oliver's Eatery,(972) 818-5445,"4727 Frankford Road, Suite 373, Dallas",75287,American,,zomato_2_1778,,,,
+The Mint,(214) 219-6468,"4246 Oak Lawn Avenue, Dallas",75219,"Asian,Desserts,Thai",,zomato_2_1780,Figueroa,N,702.0,los angeles
+Sweet Tomatoes,(972) 385-7160,"15225 Montfort Drive, Addison",75248,Healthy Food,,zomato_2_1781,1/2 Wilshire,,3456.0,los angeles
+Stephan Pyles,(214) 580-7000,"1807 Ross Avenue, Suite 200, Dallas",75201,"New American,Southwestern",,zomato_2_1782,1/2 N Cahuenga,,1623.0,los angeles
+Fujiyama Sushi & Yakitori Bar,(972) 662-2885,"18217 Midway Road, Dallas",75287,"Japanese,Sushi",,zomato_2_1784,Wall,S,945.0,los angeles
+Momo Italian Kitchen,(972) 234-6800,"8989 Forest Lane, Suite130, Dallas",75243,"Italian,Pizza",,zomato_2_1785,,,,
+Salum,(214) 252-9604,"4152 Cole Avenue, Suite 103, Dallas",75204,New American,,zomato_2_1786,Pico,W,10928.0,los angeles
+Dallas Chop House,(214) 736-7300,"1717 Main Street, Dallas",75201,Steakhouse,,zomato_2_1787,,,,
+Torchy's Tacos,(214) 379-1550,"14760 Preston Road, Dallas",75254,"Taco,Tex-Mex",,zomato_2_1788,,,,
+Ai Sushi Sake Grill,(214) 468-4587,"4123 Cedar Springs Road, Suite 102, Dallas",75219,"Asian,Japanese,Sushi",,zomato_2_1789,Rowena,,2903.0,los angeles
+Fish City Grill,(214) 891-9979,"10720 Preston Road, Suite 1012, Dallas",75230,Seafood,,zomato_2_1790,,,,
+Snuffer's,(214) 265-9911,"8411 Preston Road, Dallas",75225,"American,Burger",,zomato_2_1792,Main,S,524.0,los angeles
+Dragonfly - Hotel Zaza,(214) 550-9500,"Hotel Zaza, 2332 Leonard Street, Dallas",75201,New American,,zomato_2_1795,La Brea,N,1655.0,los angeles
+Woodlands American Grill,(972) 239-2024,"6073 Forest Lane, Dallas",75230,"American,Seafood",,zomato_2_1799,Allison,,1356.0,los angeles
+Baboush,(214) 599-0707,"3636 McKinney Avenue, Suite 160, Dallas",75204,Moroccan,,zomato_2_1801,Melrose,,7371.0,los angeles
+Sevy's Grill,(214) 265-7389,"8201 Preston Road, Dallas",75225,"American,International",,zomato_2_1802,,,,
+Kosta's Cafe,(214) 987-3225,"4914 Greenville Avenue, Dallas",75206,"Greek,Mediterranean",,zomato_2_1808,,,,
+Naga Thai Kitchen and Bar,(214) 953-0023,"665 High Market Street, Dallas",75219,"Asian,Thai",,zomato_2_1809,Sunset,W,6464.0,los angeles
+In-N-Out,(800) 786-1000,"7909 LBJ Freeway, Dallas",75240,Burger,,zomato_2_1812,Pico,W,2771.0,los angeles
+Cindi's,(972) 241-9204,"3565 Forest Lane, Dallas",75234,"Cafe,Sandwich,Deli",,zomato_2_1813,,,,
+Rex's Seafood,(214) 351-6363,"5200 West Lovers Lane, Suite 100, Dallas",75209,Seafood,,zomato_2_1817,Santa Monica,,5101.0,los angeles
+Si Lom Thai Asian Fusion,(214) 780-0983,"3300 Oak Lawn Avenue, Suite 110, Dallas",75219,"Asian,Thai,Fusion",,zomato_2_1818,,,,
+Chubby's Family Restaurant,(214) 348-6065,"11331 E Northwest Highway, Dallas",75238,American,,zomato_2_1819,3Rd,W,4055.0,los angeles
+St. Pete's Dancing Marlin,(214) 698-1511,"2730 Commerce Street, Dallas",75226,"Seafood,Italian,Bar Food",,zomato_2_1821,,,,
+Grub Burger Bar,(972) 370-3636,"4925 Greenville Avenue, Dallas",75243,"American,Burger",,zomato_2_1822,,,,
+Lover's Pizza Pasta & Grill,(214) 321-2223,9440 Garland Road,75218,Pizza,,zomato_2_1824,Wilshire,,5515.0,los angeles
+Razzoo's,(972) 235-3700,"13949 N Central Expressway, Dallas",75243,"Seafood,Cajun",,zomato_2_1826,Sepulveda,S,9149.0,los angeles
+El Ranchito,(214) 946-4238,"610 W Jefferson Boulevard, Dallas",75208,Mexican,,zomato_2_1830,,,,
+Bandito's Tex Mex Cantina,(214) 750-6100,"6615 Snider Plaza, Dallas",75205,"Mexican,Tex-Mex",,zomato_2_1832,,,,
+Baker's Ribs,(214) 748-5433,"3033 Main Street, Dallas",75226,BBQ,,zomato_2_1834,Fairfax,S,175.0,los angeles
+Cindi's,(972) 248-0608,"7522 Campbell Road, Suite 117, Dallas",75248,"Deli,Cafe",,zomato_2_1837,,,,
+Sonny Bryan's Smokehouse,(214) 744-1610,"302 N Market Street, Dallas",75202,BBQ,,zomato_2_1841,,,,
+Dive Coastal Cuisine,(214) 891-1700,"3404 Rankin Street, Dallas",75205,"Seafood,Sandwich",,zomato_2_1842,Hollywood,,5633.0,los angeles
+Wai Wai Kitchen,(214) 520-8868,"4315 Lemmon Avenue, Dallas",75219,Asian,,zomato_2_1844,,,,
+Pho Chau,(214) 678-9600,"1640 West Mockingbird Lane, Dallas",75235,"Vietnamese,Vegetarian,Sandwich",,zomato_2_1846,Olympic,W,501.0,los angeles
+Hook Line & Sinker,(214) 965-0707,"3103 Lemmon Avenue, Dallas",75204,Seafood,,zomato_2_1849,,,,
+Piggie Pies Pizza & Pasta,(214) 821-6465,"5315 Greenville Avenue, Dallas",75206,Italian,,zomato_2_1850,Wilshire,,12009.0,los angeles
+Texas Land & Cattle Steak House,(214) 526-4664,"3130 Lemmon Avenue, Dallas",75204,"BBQ,Steakhouse",,zomato_2_1851,,,,
+Local Oak,(214) 946-4625,"409 N Zang Boulevard, Dallas",75208,American,,zomato_2_1853,,,,
+Pera Turkish Kitchen,(972) 267-4444,"17479 Preston Road, Suite, Dallas",75252,"Mediterranean,Turkish,Middle Eastern",,zomato_2_1857,,,,
+Cafe Express,(214) 841-9444,"Mockingbird Station, 5307 E Mockingbird Lane, First Level, Suite 150, Dallas",75206,"American,Healthy Food,Cafe",,zomato_2_1859,,,,
+Taverna,(214) 520-9933,"3312 Knox Street, Dallas",75205,Italian,,zomato_2_1860,Melrose,,5786.0,los angeles
+Mattito's Tex-Mex,(214) 526-8181,"3102 Oak Lawn Ave, Dallas",75219,Tex-Mex,,zomato_2_1861,,,,
+Babb Bros. BBQ & Blues,(214) 745-2224,"3015 Gulden Lane, Suite 105, Dallas",75212,BBQ,,zomato_2_1863,Westmoreland,S,534.0,los angeles
+Sunrise Asian Cuisine,(214) 826-6300,"5631 Alta Avenue, Dallas",75206,"Asian,Tapas,Thai",,zomato_2_1864,,,,
+Angela's Cafe,(214) 904-8122,7979 Inwood Rd,75209,"Cafe,Diner,Mexican",,zomato_2_1869,,,,
+Carbone's Fine Food & Wine,(214) 522-4208,"4208 Oak Lawn Avenue., Dallas",75219,Italian,,zomato_2_1870,Beverly,,7825.0,los angeles
+Greenville Avenue Pizza Company,(214) 826-5404,"1923 Greenville Avenue, Dallas",75206,"Pizza,Italian",,zomato_2_1872,Sunset,W,6660.0,los angeles
+Fajita Pete's,(972) 818-3900,"6090 Campbell Road Suite 124, Dallas",75248,Mexican,,zomato_2_1878,,,,
+Maguire's Regional Cuisine,(972) 818-0068,"17552 Dallas Parkway, Dallas",75287,American,,zomato_2_1879,,,,
+Highland Park Cafeteria,(214) 324-5000,"1200 N Buckner Road, Dallas",75218,American,,zomato_2_1880,,,,
+The Original Snuffer's Restaurant & Bar,(214) 826-6850,"3526 Greenville Avenue, Dallas",75206,"American,Burger",,zomato_2_1882,Washington,W,4053.0,los angeles
+Mesa,(214) 941-4246,"118 W Jefferson Boulevard, Dallas",75208,Latin American,,zomato_2_1887,Los Angeles,S,737.0,los angeles
+True Food Kitchen,(214) 377-3333,"8383 Preston Center Plaza, Suite 100",75225,"Healthy Food,Fusion",,zomato_2_1890,,,,
+Wabi House,(469) 779-6474,"1802 Greenville Avenue, Suite 100, Dallas",75206,"Japanese,Tapas,Ramen",,zomato_2_1891,Wilshire,,5779.0,los angeles
+Thai Lotus Kitchen,(214) 520-9385,"3851 Cedar Springs Road, Dallas",75219,"Asian,Thai",,zomato_2_1896,,,,
+St. Martin's Wine Bistro,(214) 826-0940,"3020 Greenville Avenue, Dallas",75206,"French,New American",,zomato_2_1899,6Th,W,520.0,los angeles
+Southpaw's Organic Cafe,(214) 987-0351,"6009 Berkshire Lane, Dallas",75225,"Sandwich,Beverages",,zomato_2_1901,Wilshire,,3250.0,los angeles
+Stampede 66,(214) 550-6966,"1717 McKinney Avenue, Dallas",75201,"Southern,Tex-Mex,American",,zomato_2_1905,Vermont,N,1761.0,los angeles
+FireXbox,(214) 503-8888,"9918 Plano Road, Dallas",75238,"Japanese,Sushi",,zomato_2_1907,Olympic,W,11301.0,los angeles
+Half Shells Oyster Bar & Grill,(214) 691-8164,"6617 Snider Plaza, Dallas",75205,Seafood,,zomato_2_1908,Highland,N,641.0,los angeles
+Cafe Express,(214) 352-2211,"5600 West Lovers Lane Suite 109, Dallas",75209,"American,Healthy Food,Cafe",,zomato_2_1912,,,,
+El Bolero,(214) 741-1986,1201 Oak Lawn Avenue,75207,Mexican,,zomato_2_1915,,,,
+Dream Cafe,(214) 954-0486,"2800 Routh Street, Suite 170, Dallas",75201,"American,Cafe",,zomato_2_1916,1St,E,327.0,los angeles
+Lover's Pizza and Pasta,(214) 823-2262,"6434 E Mockingbird Lane, Suite 113, Dallas",75214,"Italian,Pizza",,zomato_2_1917,,,,
+Old Chicago Pizza & Taproom,(214) 821-5700,"5319 E Mockingbird Lane, Suite 100, Dallas",75206,"American,Pizza",,zomato_2_1918,Virgil,N,751.0,los angeles
+C Senor!,(214) 941-4766,"330 W Davis Street,  Dallas",75208,"Cuban,Sandwich",,zomato_2_1922,7Th,W,812.0,los angeles
+Pho Is For Lovers,(972) 708-1028,"5521 Greenville Avenue, Suite 105, Dallas",75206,Vietnamese,,zomato_2_1924,Olympic,W,2717.0,los angeles
+Sushiya,(214) 744-9600,"1306 Elm Street, Dallas",75202,"Japanese,Sushi",,zomato_2_1928,,,,
+Big Al's Smokehouse BBQ,(214) 350-2649,"3317 Inwood Road, Dallas",75235,BBQ,,zomato_2_1931,,,,
+El Come Taco,(214) 821-3738,"2513 N Fitzhugh Avenue, Dallas",75204,Mexican,,zomato_2_1937,,,,
+Rise No. 1,(214) 366-9900,"5360 West Lovers Lane, Dallas",75209,"American,French",,zomato_2_1938,Melrose,,4620.0,los angeles
+Buzzbrews,(214) 741-2801,"2801 Commerce Street, Dallas",75226,American,,zomato_2_1939,,,,
+Gloria's Latin Cuisine,(214) 303-1166,"3223 Lemmon Avenue, Dallas",75204,Tex-Mex,,zomato_2_1945,,,,
+Edohana Sushi,(214) 599-0093,"3839 McKinney Avenue, Unit 130, Dallas",75204,"Sushi,Japanese,Asian",,zomato_2_1947,Pico,W,10610.0,los angeles
+Dunston's Prime Steak House,(214) 637-3513,"8526 Harry Hines Boulevard, Dallas",75235,"Steakhouse,Seafood",,zomato_2_1953,9Th,W,105.0,los angeles
+Chino Chinatown,(469) 513-7457,"3011 Gulden Lane, Suite 110, Dallas",75212,"Asian,Latin American",,zomato_2_1955,,,,
+Smashburger,(469) 341-3394,"2222 McKinney Street, Suite 280, Dallas",75201,"American,Burger",,zomato_2_1959,,,,
+Nick & Sam's Steakhouse,(214) 871-7444,"3008 Maple Avenue, Dallas",75201,"Steakhouse,Seafood,Sushi",,zomato_2_1960,Sunset,W,1525.0,los angeles
+Dough Bro's,(469) 248-0058,"5181 Keller Springs Road, Dallas",75248,"Italian,Pizza,Sandwich",,zomato_2_1961,Vermont,S,856.0,los angeles
+Thai-Rrific Cuisine,(972) 241-2412,"3068 Forest Lane, Dallas",75234,"Asian,Thai",,zomato_2_1962,,,,
+Becks Prime,(972) 661-8681,"5931 Forest Lane, Dallas",75230,"American,Burger",,zomato_2_1963,,,,
+Penne Pomodoro,(214) 826-6075,"1924 Abrams Parkway, Dallas",75214,Italian,,zomato_2_1965,,,,
+Flaming Burger,(214) 321-3734,"11255 Garland Road, Suite 101A",75218,American,,zomato_2_1966,,,,
+Bob's Steak and Chop House - Omni Hotel Dallas,(214) 652-4800,"Omni Hotel Dallas, 555 South Lamar Street, Dallas",75202,Steakhouse,,zomato_2_1967,Olympic,W,800.0,los angeles
+Mexicali,(214) 341-9405,"11277 E Northwest Highway, Dallas",75238,Tex-Mex,,zomato_2_1968,,,,
+Truluck's,(214) 220-2401,"2401 McKinney Avenue, Dallas",75201,"Seafood,Steakhouse",,zomato_2_1971,San Vicente,,11647.0,los angeles
+Red Curry,(972) 820-7775,"3628 Frankford Road, Suite 255, Dallas",75287,Thai,,zomato_2_1975,Highland,N,1900.0,los angeles
+Taqueria El Si Hay,(214) 941-4042,"601 W Davis Street, Dallas",75208,Taco,,zomato_2_1977,6Th,W,3317.0,los angeles
+Ginger Thai,(972) 481-1230,"3797 Forest Lane, Unit 107A, Dallas",75244,Thai,,zomato_2_1981,Larchmont,N,626.0,los angeles
+Atomic Pie,(214) 553-5733,"9660 Audelia Road, Dallas",75238,"Pizza,American",,zomato_2_1988,,,,
+Taza Grill,(972) 934-9767,"12817 Preston Road, Dallas",75230,"Greek,Lebanese,Mediterranean",,zomato_2_1990,La Brea,N,143.0,los angeles
+Original Italian Cafe,(214) 651-7000,"115 Field Street, Dallas",75202,"Italian,Pizza",,zomato_2_1991,Sunset,W,3827.0,los angeles
+Start,(214) 265-1411,"4814 Greenville Avenue, Dallas",75206,"Fast Food,American",,zomato_2_1992,,,,
+Offshore's Nextdoor,(214) 503-1012,"9660 Audelia Road, Suite 305",75238,"Sandwich,Seafood,Cajun",,zomato_2_1997,Melrose,,5003.0,los angeles
+FT33,(214) 741-2629,"617 Hi Line Drive, Suite 250, Dallas",75207,American,,zomato_2_1998,Hollywood,,5759.0,los angeles
+Stock & Barrel,(214) 888-0150,"316 W Davis Street, Dallas",75208,American,,zomato_2_2000,,,,
+Aboca's Italian Grill,(214) 346-1700,"10455 N Central Expressway, Suite 118, Dallas",75231,Italian,,zomato_2_2002,Hyperion,N,2611.0,los angeles
+Iron Cactus,(214) 749-4766,"1520 Main Street, Dallas",75201,Mexican,,zomato_2_2004,,,,
+Remedy,(469) 294-4012,"2010 Greenville Avenue, Suite B, Dallas",75206,"American,Desserts",,zomato_2_2005,,,,
+Nora Restaurant and Bar,(214) 828-0095,"1928 Greenville Avenue, Dallas",75206,"Afghani,Middle Eastern",,zomato_2_2006,,,,
+Ginger Thai Express,(972) 481-1230,"6300 Skillman Street, Dallas",75231,Thai,,zomato_2_2008,Pico,W,3809.0,los angeles
+Knife - The Highland Hotel,(214) 443-9339,"The Highland Hotel, 5300 E Mockingbird Lane, Dallas",75206,"American,Steakhouse",,zomato_2_2009,,,,
+Texadelphia,(214) 265-8044,"5500 Greenville Avenue, Suite 600, Dallas",75206,Sandwich,,zomato_2_2010,,,,
+Toulouse Cafe and Bar,(214) 520-8999,"3314 Knox Street, Dallas",75205,French,,zomato_2_2016,,,,
+Saltgrass Steak House,(469) 330-0152,"13561 N Central Expressway, Dallas",75243,"American,Steakhouse",,zomato_2_2023,,,,
+Mutt's Cantina,(214) 377-8723,"2889 Cityplace W Boulvard, Dallas",75204,"American,Burger",,zomato_2_2024,,,,
+Jorge's Tex-Mex,(214) 720-2211,"One Arts Plaza, 1722 Routh Street, Dallas",75201,Tex-Mex,,zomato_2_2026,,,,
+Company Cafe & Bar,(214) 827-2233,"2104 Greenville Avenue, Dallas",75206,"American,Cafe",,zomato_2_2027,,,,
+Penne Pomodoro,(214) 373-9911,"6815 Snider Plaza, Dallas",75205,Italian,,zomato_2_2028,,,,
+Eden Restaurant & Pastries,(972) 267-3336,4416 W Lovers Lane,75209,American,,zomato_2_2032,North,W,6954.0,chicago
+Suze,(214) 350-6135,"4345 W Northwest Highway, Dallas",75220,"French,Italian,Mediterranean",,zomato_2_2037,Chicago,W,3506.0,chicago
+Chicken Scratch,(214) 749-1112,"2303 Pittman Street, Dallas",75208,"Sandwich,Southern",,zomato_2_2038,Division,W,2013.0,chicago
+Mad Hatter Cafe,(214) 954-9900,"400 North Saint Paul Street, Suite 120",75201,"Sandwich,Vegetarian",,zomato_2_2041,Grand,W,59.0,chicago
+Big Shucks,(214) 887-6353,6232 E Mockingbird Lane,75214,"Seafood,Southern,Cajun",,zomato_2_2042,Lincoln,N,2221.0,chicago
+Penne Pomodoro,(214) 368-3100,"11661 Preston Road, Suite 143, Dallas",75230,Italian,,zomato_2_2045,Lincoln,N,2408.0,chicago
+Kuai Dumplings and Soups,(214) 571-4544,"1201 Elm Street, Lower Level, Dallas",75270,"Asian,Chinese,Frozen Yogurt",,zomato_2_2046,,,,
+Nazca Kitchen,(214) 696-2922,"8041 Walnut Hill Lane, Suite 854, Dallas",75231,Latin American,,zomato_2_2051,,,,
+Monkey King Noodle Co.,(469) 206-3658,"3014 Main Street, Dallas",75226,"Asian,Chinese",,zomato_2_2052,Hubbard,W,59.0,chicago
+Coal Vines,(214) 855-4999,"2404 Cedar Springs Road, Dallas",75201,"American,Italian,Pizza",,zomato_2_2060,,,,
+Buck's Prime,(214) 741-4141,"1950 Market Center Boulevard, Dallas",75207,American,,zomato_2_2068,Milwaukee,N,1385.0,chicago
+Opening Bell Coffee,(214) 565-0383,"1409 S Lamar Street, Dallas",75215,"Coffee and Tea,Cafe",,zomato_2_2069,,,,
+Cuquita's Restaurant,(214) 575-3188,"8076 Spring Valley Road, Dallas",75240,Mexican,,zomato_2_2075,Belmont,W,1211.0,chicago
+Seoul Garden,(972) 484-6090,"2502 Royal Lane, Dallas",75229,Korean,,zomato_2_2080,Montrose,W,844.0,chicago
+Oishii,(214) 599-9448,"2525 Wycliff Avenue, Dallas",75219,"Japanese,Sushi,Vietnamese",,zomato_2_2082,Lasalle,N,737.0,chicago
+Project Pie,(469) 547-1257,"6030 Luther Lane, Suite 110, Dallas",75225,"Desserts,Pizza",,zomato_2_2083,,,,
+Black Eyed Pea,(214) 521-4580,3857 Cedar Springs Road,75219,"American,Southern",,zomato_2_2085,Lincoln,N,3000.0,chicago
+Bread Winners,(469) 232-9798,"8687 North Central Expressway, Dallas",75225,"American,Bakery",,zomato_2_2089,Damen,N,1958.0,chicago
+Saucy's Thai and Pho,(214) 378-8424,"5944 Royal Lane, Dallas",75230,"Thai,Vietnamese",,zomato_2_2091,,,,
+Havana Cafe,(214) 660-9611,"1152 Buckner Boulevard, Suite 126, Dallas",75218,"Cuban,Desserts",,zomato_2_2092,,,,
+Lucky's Cafe,(214) 522-3500,"3531 Oak Lawn Avenue, Dallas",75219,"American,Diner",,zomato_2_2093,,,,
+Bugatti Ristorante,(214) 350-2470,"3802 W Northwest Highway, Dallas",75220,Italian,,zomato_2_2100,,,,
+Mia's Tex-Mex Restaurant,(214) 526-1020,"4322 Lemmon Avenue, Dallas",75219,Tex-Mex,,zomato_2_2104,,,,
+Yolk,(214) 855-9655,"1722 Routh Street, Dallas",75201,Cafe,,zomato_2_2105,,,,
+El Jordan Cafe,(214) 941-4451,"416 N Bishop Avenue, Dallas",75208,Tex-Mex,,zomato_2_2113,,,,
+Reikyu,(214) 823-3772,"5321 E Mockingbird Lane, Second Level, Dallas",75206,"Japanese,Sushi",,zomato_2_2120,,,,
+The Hospitality Sweet,(214) 999-6704,"400 N Ervay Street, Dallas",75201,"Cafe,Desserts",,zomato_2_2121,,,,
+Del Frisco's Grille,(972) 807-6152,"3232 McKinney Avenue, Dallas",75204,American,,zomato_2_2127,Taylor,W,1500.0,chicago
+Crossroads at House of Blues,(214) 978-2583,"2200 N Lamar Street, Dallas",75202,American,,zomato_2_2129,,,,
+Thai2go,(214) 484-2161,"2222 Medical District, Suite 205, Dallas",75235,Thai,,zomato_2_2131,State,N,111.0,chicago
+Smokey John's Bar-B-Que,(214) 352-2752,"1820 W Mockingbird Lane, Dallas",75235,BBQ,,zomato_2_2136,,,,
+Sahara Restaurant,(972) 788-1898,"5441 Alpha Road, Dallas",75240,"Mediterranean,Middle Eastern,Persian",,zomato_2_2141,Halsted,N,2100.0,chicago
+Amore Italian,(214) 739-0502,"6931 Snider Plaza, Dallas",75205,"Italian,Pizza",,zomato_2_2155,,,,
+El Corazon de Tejas,(214) 943-8610,"110 W Davis Street, Dallas",75208,Tex-Mex,,zomato_2_2157,Broadway,N,3021.0,chicago
+SER Steak+Spirits - Hilton Anatole,(214) 761-7479,"Hilton Anatole, Floor 27, 2201 N Stemmons Freeway, Dallas",75207,Steakhouse,,zomato_2_2169,18Th,W,1544.0,chicago
+Cook Hall - W Hotel,(214) 397-4111,"W Hotel, 2440 Victory Park Lane, Dallas",75219,"American,Fusion",,zomato_2_2170,Lincoln,N,4600.0,chicago
+R + D Kitchen,(214) 890-7900,"8300 Preston Center Plaza, Dallas",75225,"American,Seafood",,zomato_2_2171,,,,
+Green House Market,(214) 809-5977,"8687 North Central Expressway, Dallas",75225,"Coffee and Tea,Sandwich,Healthy Food",,zomato_2_2177,,,,
+Pappy's Old Fashion Hamburger,(214) 678-0760,"1475 W Mockingbird Lane, Dallas",75247,"Burger,Fast Food",,zomato_2_2181,,,,
+Tillman's Roadhouse,(214) 942-0988,"324 W 7th Street, Dallas",75208,"Southern,American",,zomato_2_2182,Clark,N,2568.0,chicago
+Little Katana Sushi Bar,(972) 991-1122,"Galleria Dallas, 13350 Dallas Parkway, Level One, Dallas",75240,"Japanese,Sushi",,zomato_2_2190,Hubbard,E,22.0,chicago
+El Rey Del Grill,(214) 559-3668,"4535 Maple Avenue, Dallas",75219,"Mexican,Vegetarian",,zomato_2_2191,North,W,1608.0,chicago
+Mama's Daughter's Diner,(972) 241-8646,"2610 Royal Lane, Dallas",75229,Diner,,zomato_2_2195,,,,
+Shuck N Jive,(214) 369-9471,"5315 Greenville Avenue, Dallas",75206,"Cajun,Seafood",,zomato_2_2197,,,,
+Stonedeck Pizza Pub,(469) 802-6742,"2613 Elm Street, Dallas",75226,Pizza,,zomato_2_2199,,,,
+Natalie's,(214) 739-0362,"5944 Royal Lane, Dallas",75230,American,,zomato_2_2202,,,,
+Mangiamo Italian Restaurant,(214) 866-0044,"Preston Valley, 12835 Preston Road, Suite 220, Dallas",75230,"Italian,Pizza",,zomato_2_2203,,,,
+Rock & Roll Sushi,(214) 987-1966,"6109 Berkshire Lane, Dallas",75225,"Japanese,Sushi",,zomato_2_2205,Clark,N,3700.0,chicago
+Charco Broiler Steak House,(214) 942-6806,"413 W Jefferson Boulevard, Dallas",75208,"Steakhouse,American",,zomato_2_2211,,,,
+Kalachandji's Restaurant & Palace,(214) 821-1048,"5430 Gurley Avenue, Dallas",75223,Indian,,zomato_2_2215,Chicago,W,2258.0,chicago
+Super Chix,(972) 788-0660,"14999 Preston Road, Suite 226 D, Dallas, TX",75254,American,,zomato_2_2217,,,,
+San Francisco Rose,(214) 826-2020,"3024 Greenville Avenue, Dallas",75206,"American,Bar Food",,zomato_2_2220,,,,
+Nick & Sam's Grill,(214) 379-1111,8111 Preston Rd,75225,American,,zomato_2_2221,,,,
+Sushi Kyoto,(214) 520-9991,"6429 Hillcrest Avenue, Dallas",75205,"Japanese,Sushi",,zomato_2_2224,26Th,W,252.0,chicago
+Avila's Restaurant,(214) 520-2700,"4714 Maple Avenue, Dallas",75219,Tex-Mex,,zomato_2_2226,Clark,N,2723.0,chicago
+Meddlesome Moth,(214) 628-7900,"1621 Oak Lawn Avenue, Dallas",75207,"New American,Pub Food",,zomato_2_2227,,,,
+E Bar Tex Mex,(214) 824-3227,"1901 N Haskell Avenue, Suite 120, Dallas",75204,Tex-Mex,,zomato_2_2232,Dearborn,N,1212.0,chicago
+Pho Envy,(214) 987-1468,"8611 Hillcrest Avenue, Suite 190, Dallas",75248,Vietnamese,,zomato_2_2235,,,,
+Green Papaya,(214) 521-4811,"3211 Oak Lawn Avenue, Suite B, Dallas",75219,"Asian,Vietnamese,Fusion",,zomato_2_2238,18Th,W,1519.0,chicago
+Mesero,(214) 821-6426,"2822 N Henderson Avenue, Dallas",75206,Mexican,,zomato_2_2248,Belmont,W,1622.0,chicago
+Shell Shack,(877) 434-1411,"2916 McKinney Avenue, Dallas",75204,Seafood,,zomato_2_2254,Lincoln,N,2360.0,chicago
+City Cafe,(214) 351-2233,"5757 West Lovers Lane, Dallas",75209,"American,Cafe",,zomato_2_2261,California,N,3159.0,chicago
+Taco Stop,(972) 971-4859,"1900 Irving Boulevard, Dallas",75207,"Fast Food,Mexican",,zomato_2_2262,Chicago,W,2557.0,chicago
+Italia Express,(214) 521-3300,"4000A Cedar Springs Road, Dallas",75219,Pizza,,zomato_2_2267,,,,
+CiboDivino Cafe,(214) 653-2426,"1868 Sylvan Avenue, Suite D100, Dallas, TX",75208,"Italian,Pizza",,zomato_2_2276,California,N,6240.0,chicago
+Aloha Hawaiian Barbecue,(214) 521-8868,"5610 Lemmon Avenue, Suite A1, Dallas",75209,"BBQ,Hawaiian",,zomato_2_2277,,,,
+Hibiscus,(214) 827-2927,"2927 N Henderson Avenue, Dallas",75206,New American,,zomato_2_2282,,,,
+Alligator Cafe,(214) 748-6901,"2912 Elm Street, Dallas",75226,"Seafood,Cajun",,zomato_2_2283,,,,
+Ming Place,(214) 350-8188,"5715 Lemmon Avenue, Dallas",75209,"Chinese,Asian",,zomato_2_2292,,,,
+Crossroads Diner,(214) 346-3491,"8121 Walnut Hill Lane, Suite 1100, Dallas",75231,Diner,,zomato_2_2293,,,,
+Oasis,(214) 361-8120,"5945 Greenville Avenue, Dallas",75206,Cafe,,zomato_2_2298,,,,
+Grand Lux Cafe,(972) 385-3114,"Galleria Dallas, 13420 Dallas Pkwy, Level One, Dallas",75240,American,,zomato_2_2300,Diversey,W,433.0,chicago
+El Fenix,(214) 747-1121,"1601 McKinney Avenue, Dallas",75202,Tex-Mex,,zomato_2_2301,,,,
+Chip's Old Fashioned Hamburgers,(214) 691-2447,"4530 Lovers Lane, Dallas",75225,"American,Burger",,zomato_2_2302,Clark,N,435.0,chicago
+Pappadeaux Seafood Kitchen,(214) 521-4700,"3520 Oak Lawn Avenue, Dallas",75219,"Seafood,Southern,Cajun",,zomato_2_2304,,,,
+Pappas Brothers Steakhouse,(214) 366-2000,"10477 Lombardy Lane, Dallas",75220,"Steakhouse,Seafood",,zomato_2_2305,,,,
+Campisi's,(214) 752-0141,"1520 Elm Street, Dallas",75201,Italian,,zomato_2_2307,,,,
+The Rustic,(214) 730-0596,"3656 Howell Street, Dallas",75204,"American,Southern",,zomato_2_2308,Randolph,W,652.0,chicago
+Royal China,(214) 361-1771,"6025 Royal Lane, Suite 201, Dallas",75230,"Asian,Chinese",,zomato_2_2310,,,,
+Rapscallion,(469) 291-5660,"2023 Greenville Avenue, Suite 110, Dallas",75206,"New American,Seafood",,zomato_2_2311,,,,
+Royal Thai,(214) 691-3555,"5500 Greenville Avenue, Suite 608, Dallas",75206,Thai,,zomato_2_2312,,,,
+P.F. Chang's,(214) 265-8669,"NorthPark Center, 8697 North Central Expressway, Level One, Dallas",75225,"Asian,Chinese",,zomato_2_2314,,,,
+25 Degrees,(323) 785-7244,"7000 Hollywood Blvd, Los Angeles",90028,Burger,,zomato_2_2326,,,,
+Dong Il Jang,(213) 383-5757,"3455 W 8th St, Los Angeles",90005,"BBQ,Korean",,zomato_2_2333,Hubbard,W,51.0,chicago
+Ham Ji Park,(213) 365-8773,"3407 W 6th St Ste 101-C, Los Angeles",90020,Korean,,zomato_2_2347,,,,
+Terrine,(323) 746-5130,"8265 Beverly Blvd, Los Angeles",90048,American,,zomato_2_2355,Michigan,S,1150.0,chicago
+Honey Pig,(213) 380-0256,"3400 W 8th St, Los Angeles",90005,"BBQ,Korean",,zomato_2_2365,Southport,N,2819.0,chicago
+Open Sesame,(323) 525-1698,"7458 Beverly Blvd, Los Angeles",90036,Middle Eastern,,zomato_2_2368,,,,
+Meals By Genet,(323) 938-9304,"1053 S Fairfax Ave, Los Angeles",90019,"African,Ethiopian,Italian",,zomato_2_2384,,,,
+Hinoki & the Bird,(310) 552-1200,"10 Century Dr, Los Angeles",90067,California,,zomato_2_2392,,,,
+Tacos Baja Ensenada,(323) 887-1980,"5385 Whittier Blvd, Los Angeles",90022,Mexican,,zomato_2_2400,,,,
+Wat Dong Moon Lek Noodle,(323) 666-5993,"4356 Fountain Ave, Los Angeles",90029,Thai,,zomato_2_2422,,,,
+Animal,(323) 782-9225,"435 N Fairfax Ave, Los Angeles",90036,American,,zomato_2_2426,Michigan,S,1120.0,chicago
+Sky's Gourmet Tacos,(323) 932-6253,"5408 W Pico Blvd, Los Angeles",90019,Mexican,,zomato_2_2427,,,,
+La Paella,(323) 951-0745,"476 S San Vicente Blvd, Los Angeles",90048,"Spanish,Tapas",,zomato_2_2447,,,,
+Hot Wings Cafe,(323) 930-1233,"7011 Melrose Ave, Los Angeles",90038,"American,Sandwich",,zomato_2_2455,,,,
+Bloom Cafe,(323) 934-6900,"5544 W Pico Blvd, Los Angeles",90019,"Burger,Pizza,California",,zomato_2_2461,,,,
+Amalfi Restaurant and Bar,(323) 938-2504,"143 N La Brea Ave, Los Angeles",90036,"American,Italian,Pizza",,zomato_2_2462,,,,
+The Park's Finest,(213) 481-2800,"1267 W Temple Street, Los Angeles",90026,"American,BBQ,Filipino",,zomato_2_2511,Broadway,N,3112.0,chicago
+Churros Calientes,(424) 248-3890,"11521 Santa Monica Blvd., Los Angeles",90025,"Desserts,Spanish",,zomato_2_2516,,,,
+Cafe Bella Roma,(310) 277-7662,"1509 S Robertson Blvd, Los Angeles",90035,Italian,,zomato_2_2520,Belden,W,3581.0,chicago
+The Hollywood Corner,(323) 463-2220,"1156 N Highland Ave, Los Angeles",90038,"American,Breakfast,Diner",,zomato_2_2550,Sheridan,N,5020.0,chicago
+Yard House,(213) 745-9273,"800 W Olympic Blvd Ste 110, Los Angeles",90015,"American,Bar Food",,zomato_2_2559,,,,
+Four Cafe,(323) 550-1988,2122 1/2 Colorado Blvd,90041,"Sandwich,California",,zomato_2_2579,,,,
+Cassell's Hamburgers,(213) 387-5502,"3600 W 6th St, Los Angeles",90020,"Breakfast,Burger,Sandwich",,zomato_2_2580,Clark,N,321.0,chicago
+Faith & Flower,(213) 239-0642,"705 W 9th St, Los Angeles",90015,California,,zomato_2_2581,Michigan,N,835.0,chicago
+Berlin Currywurst,(323) 663-1989,"3827 W Sunset Blvd, Los Angeles",90026,German,,zomato_2_2587,Clybourn,N,2201.0,chicago
+Guelaguetza,(213) 427-0608,"3014 W Olympic Blvd, Los Angeles",90006,Mexican,,zomato_2_2648,,,,
+Angelini Osteria,(323) 297-0070,"7313 Beverly Blvd, Los Angeles",90036,Italian,,zomato_2_2670,Randolph,W,844.0,chicago
+Spice Restaurant,(323) 876-0497,2011 N Highland Ave,90068,"American,European,International",,zomato_2_2678,,,,
+Sadie Kitchen and Lounge,(323) 467-0200,1638 North Las Palmas Ave,90028,"American,Desserts,Southern",,zomato_2_2679,,,,
+Phillips' Barbecue,(323) 731-4772,"2619 Crenshaw Blvd, Los Angeles",90016,BBQ,,zomato_2_2685,,,,
+Kamin,(323) 938-8808,"7275 Melrose Ave, Los Angeles",90046,"Asian,Thai",,zomato_2_2691,,,,
+Wirtshaus,(323) 931-9291,"345 N La Brea Ave, Los Angeles",90036,German,,zomato_2_2701,,,,
+Wood Spoon,(213) 629-1765,"107 West 9th St, Los Angeles",90015,"Brazilian,International",,zomato_2_2703,,,,
+The Boiling Crab,(213) 389-2722,"3377 Wilshire Blvd. #115, Los Angeles",90010,Seafood,,zomato_2_2714,,,,
+Fiddler's Bistro,(323) 931-8167,"6009 W 3rd St, Los Angeles",90036,"American,International,California",,zomato_2_2723,,,,
+Sugarfish by Sushi Nozawa,(213) 627-3000,"600 W 7th St Ste 150, Los Angeles",90017,"Japanese,Sushi",,zomato_2_2736,,,,
+Gushi,(310) 208-4038,"978 Gayley Ave, Los Angeles",90024,"Japanese,Korean",,zomato_2_2742,,,,
+Dino's Burgers Number One,(323) 223-1843,"2817 N Main St, Los Angeles",90031,"American,Burger,Mexican",,zomato_2_2743,,,,
+Nonna's Empanadas,(310) 385-0445,"8570 W. 3rd St., Los Angeles",90048,"Latin American,Argentine",,zomato_2_2746,Halsted,N,1625.0,chicago
+Calle Tacos,(323) 465-9100,"6506 Hollywood Blvd, Los Angeles",90028,"Mexican,Spanish",,zomato_2_2748,Chicago,W,1136.0,chicago
+BCD Tofu House,(213) 380-3807,"869 S Western Ave #2, Los Angeles",90005,"Asian,Korean",,zomato_2_2752,,,,
+Little Dom's,(323) 661-0055,"2128 Hillhurst Ave, Los Angeles",90027,Italian,,zomato_2_2781,Clark,N,5009.0,chicago
+Cafe Verona,(323) 934-6188,"201 S La Brea Ave, Los Angeles",90036,"American,Italian",,zomato_2_2806,,,,
+Pho 87,(323) 227-0758,"1019 N Broadway, Los Angeles",90012,Vietnamese,,zomato_2_2816,,,,
+Gulp,(310) 474-0007,"10928 W Pico Blvd, Los Angeles",90064,"Seafood,Southern",,zomato_2_2822,,,,
+Seongbukdong,(213) 738-8977,"3303 W 6th St, Los Angeles",90020,Korean,,zomato_2_2834,,,,
+Pip's on La Brea Restaurant,(323) 954-7477,"1356 S La Brea Avenue, Los Angeles",90019,"Italian,Healthy Food",,zomato_2_2835,,,,
+Boo's Philly Cheesesteaks & Hoagies,(323) 661-1955,"4501 Fountain Ave, Los Angeles",90029,Sandwich,,zomato_2_2857,,,,
+Blu Jam Cafe,(323) 951-9191,"7371 Melrose Ave, Los Angeles",90046,"Breakfast,Coffee and Tea,Tapas",,zomato_2_2869,Sheridan,N,4654.0,chicago
+Roscoe's House of Chicken & Waffles,(323) 466-7453,1514 N Gower St,92802,Southern,,zomato_2_2870,Taylor,W,1014.0,chicago
+Pita Bar & Grill,(323) 653-9024,"519 N Fairfax Ave, Los Angeles",90036,"Mediterranean,Middle Eastern,Moroccan",,zomato_2_2893,,,,
+Grub,(323) 461-3663,"911 Seward St, Los Angeles",90038,California,,zomato_2_2903,,,,
+Sushi Enya,(213) 626-3692,"343 E. 1st Street, Los Angeles",90012,Japanese,,zomato_2_2906,Fullerton,W,444.0,chicago
+Oo-Kook Korean BBQ,(213) 385-5665,"3385 W. 8th Street, Los Angeles",90005,"BBQ,Korean",,zomato_2_2909,,,,
+Prado,(323) 467-3871,"244 North Larchmont Boulevard, Los Angeles",90004,"Caribbean,Latin American",,zomato_2_2923,,,,
+Amalia's,(323) 644-1515,"751 N Virgil Ave, Los Angeles",90029,Latin American,,zomato_2_2928,Grand,W,1202.0,chicago
+Home Restaurant,(323) 669-0211,"1760 Hillhurst Ave, Los Angeles",90027,American,,zomato_2_2958,Lawrence,W,2739.0,chicago
+The Factory Kitchen,(213) 996-6000,"1300 Factory Place # 101, Los Angeles",90013,Italian,,zomato_2_2979,Damen,N,2152.0,chicago
+Bestia,(213) 514-5724,"2121 7th Pl, Los Angeles",90021,Italian,,zomato_2_2981,Chicago,W,2524.0,chicago
+Orsa & Winston,(213) 687-0300,"122 W 4th St, Los Angeles",90013,"Italian,Japanese",,zomato_2_3001,Damen,N,1545.0,chicago
+DeSano Pizza,(323) 913-7000,"4959 Santa Monica Blvd, Los Angeles",90029,"Italian,Pizza",,zomato_2_3002,,,,
+C J's Cafe,(323) 936-3216,"5501 West Pico Boulevard, Los Angeles",90019,"Breakfast,Coffee and Tea,Diner",,zomato_2_3010,,,,
+Hakata Ramen Shin-Sen-Gumi,(424) 208-3293,"1601 Sawtelle Boulevard, Los Angeles",90025,"Japanese,Ramen",,zomato_2_3016,,,,
+Myung Dong Kyoja,(213) 385-7789,"3630 Wilshire Blvd, Los Angeles",90010,Korean,,zomato_2_3022,,,,
+Wako Donkasu,(213) 381-9256,"3377 Wilshire Blvd, Los Angeles",90010,"Japanese,Korean",,zomato_2_3055,,,,
+La Cevicheria,(323) 732-1253,"3809 W Pico Blvd, Los Angeles",90019,Latin American,,zomato_2_3064,,,,
+EMC Seafood & Raw Bar,(213) 351-9988,"3500 West 6th St, Los Angeles",90020,Seafood,,zomato_2_3090,20Th,E,701.0,houston
+Canter's Deli,(323) 651-2030,"419 N Fairfax Ave, Los Angeles",90036,"American,Deli",,zomato_2_3092,,,,
+The Original Ramen Burger,(213) 380-2399,"239 S Vermont Avenue, Los Angeles, CA",90004,"Burger,Ramen",,zomato_2_3097,,,,
+Dan Sung Sa,(213) 487-9100,"3545 W Olympic Blvd, Los Angeles",90019,Korean,,zomato_2_3108,Houston Galleria 5061 Westheimer,,-1.0,houston
+Sushi Gen,(213) 617-0552,"422 E 2nd St, Los Angeles",90012,"Japanese,Sushi",,zomato_2_3114,,,,
+Kobawoo,(213) 389-7300,"698 S Vermont Ave, Los Angeles",90005,Korean,,zomato_2_3117,,,,
+Marty's Hamburger Stand,(310) 836-6944,"10558 W Pico Blvd, Los Angeles",90064,Burger,,zomato_2_3122,,,,
+Osteria La Buca,(323) 462-1900,"5210 Melrose Ave, Los Angeles",90069,"Italian,Pizza",,zomato_2_3136,,,,
+TLT Food,(310) 443-4433,"1116 Westwood Blvd, Los Angeles",90024,"American,International",,zomato_2_3140,,,,
+Versailles,(310) 289-0392,"1415 S La Cienega Blvd, Los Angeles",90035,Cuban,,zomato_2_3147,,,,
+The Golden State,(323) 782-8331,"426 N Fairfax Avenue, Los Angeles",90036,"Burger,Mediterranean",,zomato_2_3158,,,,
+Nature's Brew,(213) 741-9393,"2316 South Union Avenue, Los Angeles",90007,"Coffee and Tea,Sandwich",,zomato_2_3159,,,,
+Ro Ro's Chicken,(323) 461-9999,"6660 W Sunset Blvd, Los Angeles",90028,Middle Eastern,,zomato_2_3164,Stella Link,,8806.0,houston
+LA Rose Cafe,(323) 662-4024,"4749 Fountain Ave, Los Angeles",90029,International,,zomato_2_3193,,,,
+Izaka-Ya,(323) 782-9536,"8420 west third street, Los Angeles",90048,"Japanese,Sushi",,zomato_2_3194,,,,
+Pizzeria Mozza,(323) 297-0101,"641 N Highland Ave, Los Angeles",90036,"Italian,Pizza",,zomato_2_3203,Texas,,1510.0,houston
+Thai Original BBQ & Restaurant,(213) 383-8571,"4055 W 3rd St, Los Angeles",90020,"BBQ,Thai",,zomato_2_3234,,,,
+Andre's Italian Restaurant & Pizzeria,(323) 935-1246,"6332 W 3rd St, Los Angeles",90036,"Italian,Pizza",,zomato_2_3276,Times,,2512.0,houston
+Seoul Garden,(213) 386-8477,"1833 W Olympic Blvd, Los Angeles",90006,Korean,,zomato_2_3279,,,,
+Otomisan,(323) 526-1150,"2506 1/2 E 1st St, Los Angeles",90033,Japanese,,zomato_2_3295,Shepherd,S,1103.0,houston
+Rose and Vine,(323) 962-6369,"724 Vine St, Los Angeles",90038,American,,zomato_2_3304,Sw,,2615.0,houston
+Silverlake Ramen,(323) 660-8100,"2927 W Sunset Blvd, Los Angeles",90026,"Asian,Japanese",,zomato_2_3311,Gaylord,,9061.0,houston
+The Original Pantry Cafe,(213) 972-9279,"877 S Figueroa St, Los Angeles",90017,"American,Breakfast,Diner",,zomato_2_3314,,,,
+Ondal 2,(323) 933-3228,"4566 W Washington Blvd, Los Angeles",90016,Korean,,zomato_2_3324,,,,
+Bao Dim Sum House,(323) 655-6556,"8256 Beverly Blvd., Los Angeles",90048,"Asian,Chinese,Dim Sum",,zomato_2_3336,,,,
+Baltaire,(424) 273-1660,"11647 San Vicente Blvd, Los Angeles",90049,Steakhouse,,zomato_2_3340,Louisiana,,2616.0,houston
+All'Acqua,(323) 663-3280,"3280 Glendale Blvd, Los Angeles",90039,"Italian,Pizza",,zomato_2_3346,Birdsall,,1.0,houston
+Craft,(310) 279-4180,10100 Constellation Blvd,90067,American,,zomato_2_3347,E Interstate 10,,11831.0,houston
+Wexler's Deli,(213) 624-2378,"317 S Broadway, Los Angeles",90013,"Sandwich,Deli",,zomato_2_3350,Pierce,,1217.0,houston
+Blue Plate Oysterette,(323) 656-5474,"8048 W 3rd St, Los Angeles",90048,Seafood,,zomato_2_3389,,,,
+I Panini di Ambra,(323) 463-1200,"5633 Hollywood Blvd, Los Angeles",90028,"Italian,Pizza",,zomato_2_3443,,,,
+Wakasan Food Service,(310) 446-5241,"1929 Westwood Blvd, Los Angeles",90025,Asian,,zomato_2_3446,,,,
+Carney's,(323) 654-8300,"8351 W Sunset Blvd, Los Angeles",90069,Burger,,zomato_2_3448,,,,
+Soot Bull Jeep,(213) 387-3865,"3136 W 8th St, Los Angeles",90005,"Asian,BBQ,Korean",,zomato_2_3461,,,,
+Luna Park,(323) 934-2110,"672 S La Brea Ave, Los Angeles",90036,American,,zomato_2_3469,San Felipe,,3939.0,houston
+Pine & Crane,(323) 668-1128,"1521 Griffith Park Blvd, Los Angeles",90026,Chinese,,zomato_2_3473,University,,2325.0,houston
+Cafe Beaujolais,(323) 255-5111,"1712 Colorado Blvd, Los Angeles",90041,French,,zomato_2_3487,Kirby,,6603.0,houston
+Swingers,(323) 653-5858,"8020 Beverly Blvd, Los Angeles",90048,"American,Diner",,zomato_2_3491,Studewood,,933.0,houston
+Best Fish Taco in Ensenada,(323) 466-5552,"1650 Hillhurst Ave, Los Angeles",90027,"Fast Food,Mexican",,zomato_2_3496,Sampson,,304.0,houston
+Daikokuya,(213) 626-1680,"327 E 1st St, Los Angeles",90012,Japanese,,zomato_2_3497,Houston Galleria,,-1.0,houston
+Road To Seoul,(323) 731-9292,"1230 S Western Avenue, Los Angeles",90006,"Asian,BBQ,Korean",,zomato_2_3500,,,,
+Hakata Ramen Shin-Sen-Gumi,(213) 687-7108,"132 S Central Ave, Los Angeles",90012,"Japanese,Ramen",,zomato_2_3501,,,,
+Ayara Thai Cuisine,(310) 410-8848,6245 W 87th St,90045,Thai,,zomato_2_3502,,,,
+Village Idiot,(323) 655-3331,"7383 Melrose Ave, West Hollywood",90046,"British,Bar Food",,zomato_2_3505,Calhoun,,4701.0,houston
+The Little Door,(323) 951-1210,"8164 W 3rd St, Los Angeles",90048,"French,Mediterranean",,zomato_2_3507,Buffalo Speedway,,5115.0,houston
+Robata Jinya,(323) 653-8877,"8050 W 3rd St, Los Angeles",90048,"Asian,Japanese",,zomato_2_3513,Gray,W,1962.0,houston
+Sanamluang Cafe,(323) 660-8006,"5176 Hollywood Blvd, Los Angeles",90027,"Asian,Thai",,zomato_2_3535,,,,
+Vinoteque on Melrose,(310) 860-6060,"7469 Melrose Ave, Los Angeles",90046,"American,Spanish,California",,zomato_2_3536,,,,
+M Cafe,(323) 525-0588,"7119 Melrose Ave, Los Angeles",90046,"Breakfast,Vegetarian",,zomato_2_3537,Welch,,1985.0,houston
+Yang Chow,(213) 625-0811,"819 N Broadway, Los Angeles",90012,"Chinese,Dim Sum",,zomato_2_3541,,,,
+Shojin Organic & Natural,(213) 617-0305,"333 S Alameda St Unit 310, Los Angeles",90013,Japanese,,zomato_2_3546,Morningside,,5210.0,houston
+Blair's,(323) 660-1882,"2903 Rowena Ave, Los Angeles",90039,"American,Vegetarian,California",,zomato_2_3548,Memorial,,5512.0,houston
+Redbird,(213) 788-1191,"114 E 2nd St, Los Angeles",90012,American,,zomato_2_3559,,,,
+Pace Restaurant,(323) 654-8583,"2100 Laurel Canyon Blvd, Los Angeles",90046,"Italian,Pizza,California",,zomato_2_3565,,,,
+Son of a Gun Restaurant,(323) 782-9033,"8370 W 3rd St, Los Angeles",90048,Seafood,,zomato_2_3575,,,,
+Marugame Monzo,(213) 346-9762,"329 E 1st St., Los Angeles",90012,"Asian,Japanese",,zomato_2_3577,Westheimer,,5901.0,houston
+Yuko Kitchen,(323) 933-4020,"5484 Wilshire Blvd, Los Angeles",90036,"Japanese,Beverages",,zomato_2_3582,Richmond,,3957.0,houston
+L&E Oyster Bar,(323) 660-2255,"1637 Silver Lake Blvd, Los Angeles",90026,Seafood,,zomato_2_3589,,,,
+Perch,(213) 802-1770,"448 S Hill St, Los Angeles",90013,"American,French",,zomato_2_3592,Kirby,,5600.0,houston
+Osteria Mozza,(323) 297-0100,"6602 Melrose Ave, Los Angeles",90038,Italian,,zomato_2_3597,Park,,8114.0,houston
+Park's BBQ,(213) 380-1717,"955 S Vermont Ave, Los Angeles",90006,"Asian,BBQ,Korean",,zomato_2_3600,,,,
+Osteria Mamma,(323) 284-7060,"5732 Melrose Ave, Los Angeles",90038,Italian,,zomato_2_3602,,,,
+Noshi Sushi,(323) 469-3458,"4430 Beverly Blvd, Los Angeles",90004,"Japanese,Sushi",,zomato_2_3607,,,,
+Il Capriccio on Vermont,(323) 662-5900,"1757 N Vermont Ave, Los Angeles",90027,Italian,,zomato_2_3618,,,,
+Birds,(323) 465-0175,5925 Franklin Ave,90028,"American,BBQ",,zomato_2_3620,,,,
+BLD,(323) 930-9744,"7450 Beverly Blvd, Los Angeles",90036,"American,Breakfast",,zomato_2_3630,Blodgett,,2712.0,houston
+BCD Tofu House,(213) 382-6677,"3575 Wilshire Blvd, Los Angeles",90010,"Asian,Korean",,zomato_2_3634,,,,
+Tsujita LA,(310) 231-7373,"2057 Sawtelle Blvd, Los Angeles",90025,"Japanese,Ramen",,zomato_2_3635,Yale,,5204.0,houston
+Versailles,(310) 558-3168,10319 Venice Blvd,90232,Cuban,,zomato_2_3641,,,,
+Cafe Brasil,(310) 837-8957,"10831 Venice Blvd, Los Angeles",90034,"Brazilian,Latin American",,zomato_2_3643,Shepherd,N,7413.0,houston
+Simpang Asia,(310) 815-9075,"10433 National Blvd #213, Los Angeles",90034,Indonesian,,zomato_2_3649,Anita,,3345.0,houston
+Santouka Ramen,(310) 391-1101,"3760 S Centinela Ave, Los Angeles",90066,"Japanese,Ramen",,zomato_2_3650,,,,
+Square One Dining,(323) 661-1109,"4854 Fountain Ave, Los Angeles",90029,"American,Breakfast,California",,zomato_2_3659,,,,
+Little Jewel of New Orleans,(213) 620-0461,"207 Ord St, Los Angeles",90012,Cajun,,zomato_2_3661,Airline,,1511.0,houston
+Mario's Peruvian Seafood Restaurant,(323) 466-4181,"5786 Melrose Ave, Los Angeles",90038,"Latin American,Seafood",,zomato_2_3666,,,,
+Littlefork,(323) 465-3675,"1600 Wilcox Ave, Los Angeles",90028,"American,Seafood",,zomato_2_3671,,,,
+Cha Cha Cha,(323) 664-7723,"656 N Virgil Ave, Los Angeles",90004,Caribbean,,zomato_2_3673,,,,
+A.O.C.,(310) 859-9859,"8700 W 3rd St, Los Angeles",90048,Mediterranean,,zomato_2_3674,,,,
+Bourgeois Pig,(323) 464-6008,"5931 Franklin Ave, Los Angeles",90028,"Coffee and Tea,Desserts",,zomato_2_3694,,,,
+EVO Kitchen,(323) 375-3390,"7950 Sunset Blvd Ste 104, Los Angeles",90046,"Pizza,California",,zomato_2_3707,Wirt,,1014.0,houston
+Suehiro Cafe,(213) 626-9132,"337 E 1st St, Los Angeles",90012,"Asian,Chinese,Japanese",,zomato_2_3713,Main,,914.0,houston
+Curry House,(213) 620-0855,"123 Astronaut E S Onizuka St, Los Angeles",90012,Japanese,,zomato_2_3715,Bellaire,,9889.0,houston
+Cube Cafe,(323) 939-1148,"615 N La Brea Ave, Los Angeles",90036,"Italian,Pizza",,zomato_2_3721,Westcott,,6603.0,houston
+Ruen Pair,(323) 466-0153,"5257 Hollywood Blvd, Los Angeles",90027,"Asian,Thai",,zomato_2_3727,,,,
+Village Pizzeria,(323) 465-5566,"131 N Larchmont Blvd, Los Angeles",90004,"Italian,Pizza",,zomato_2_3734,Norfolk,,2425.0,houston
+Badmaash,(213) 221-7466,"108 West 2nd St, Los Angeles",90012,Indian,,zomato_2_3736,,,,
+Soowon Galbi,(213) 365-9292,"856 S Vermont Ave, Los Angeles",90005,"Asian,Korean",,zomato_2_3755,Post Oak,S,11107.0,houston
+Bludso's Bar & Que,(323) 931-2583,"609 N La Brea Ave., Los Angeles",90036,"American,BBQ",,zomato_2_3759,,,,
+Beverly Soon Tofu House,(213) 380-1113,"2717 W Olympic Blvd, Los Angeles",90006,Korean,,zomato_2_3765,,,,
+Saint Felix Hollywood,(323) 469-5001,"1602 Cahuenga Blvd, Los Angeles",90028,"American,Tapas",,zomato_2_3770,Westheimer,,6006.0,houston
+Colori Kitchen,(213) 622-5950,"429 W 8th St, Los Angeles",90014,Italian,,zomato_2_3778,,,,
+Genwa Korean BBQ,(323) 549-0760,"5115 Wilshire Blvd #A, Los Angeles",90036,"BBQ,Korean",,zomato_2_3782,Westheimer,,6445.0,houston
+Shabu Shabu House,(213) 680-3890,"127 Japanese Village Plaza Mall, Los Angeles",90012,Japanese,,zomato_2_3784,Bellaire,,5506.0,houston
+Lucifers Pizza,(323) 906-8603,"1958 Hillhurst Ave, Los Angeles",90027,Pizza,,zomato_2_3794,,,,
+Michelangelo Ristorante in Silver Lake,(323) 660-4843,"2742 Rowena Ave, Los Angeles",90039,Italian,,zomato_2_3801,,,,
+Taylor's Steak House,(213) 382-8449,"3361 W 8th St, Los Angeles",90005,"American,Steakhouse",,zomato_2_3807,,,,
+Church and State Bistro,(213) 405-1434,"1850 Industrial St, Los Angeles",90021,French,,zomato_2_3808,,,,
+Oomasa,(213) 623-9048,"100 Japanese Village Plaza Mall, Los Angeles",90012,Sushi,,zomato_2_3810,,,,
+Hama Sushi,(213) 680-3454,"347 E 2nd St, Los Angeles",90012,"Japanese,Sushi",,zomato_2_3820,,,,
+Black Hogg,(323) 953-2820,"2852 W Sunset Blvd, Los Angeles",90026,American,,zomato_2_3826,,,,
+M Grill,(213) 389-2770,"3832 W Wilshire Blvd, Los Angeles",90010,"BBQ,Brazilian,Steakhouse",,zomato_2_3835,,,,
+Pacific Dining Car,(213) 483-6000,"1310 W 6th St, Los Angeles",90017,American,,zomato_2_3839,,,,
+Fratelli Cafe,(323) 938-2233,"7200 Melrose Ave, Los Angeles",90046,"Coffee and Tea,Sandwich,Tea",,zomato_2_3847,Airport,,7800.0,houston
+Maggiano's Little Italy,(323) 965-9665,"189 The Grove Dr #Z80, Los Angeles",90036,Italian,,zomato_2_3860,Greenbriar,,3745.0,houston
+Tatsu Ramen,(310) 684-2889,"2123 Sawtelle Blvd, Los Angeles",90025,"Japanese,Ramen",,zomato_2_3870,,,,
+Mitsuru Cafe,(213) 613-1028,"117 Japanese Village Plaza Mall, Los Angeles",90012,Japanese,,zomato_2_3878,,,,
+Fred 62,(323) 667-0062,"1850 N Vermont Ave, Los Angeles",90027,"American,Diner",,zomato_2_3885,,,,
+Empanada's Place,(310) 391-0888,"3811 Sawtelle Blvd, Los Angeles",90066,"Latin American,Argentine",,zomato_2_3886,,,,
+Kouraku Japanese Restaurant,(213) 687-4972,"314 E 2nd St, Los Angeles",90012,Japanese,,zomato_2_3887,,,,
+Myung In Dumplings,(213) 381-3568,"3109 W Olympic Blvd, Los Angeles",90006,"African,Chinese,Korean",,zomato_2_3888,Long,,6806.0,houston
+Dresden Room,(323) 665-4294,"1760 N Vermont Ave, Los Angeles",90027,"European,Italian,Steakhouse",,zomato_2_3891,,,,
+Elf Cafe,(213) 484-6829,"2135 W Sunset Blvd, Los Angeles",90026,Vegetarian,,zomato_2_3892,Fairview,,1018.0,houston
+Local,(323) 662-4740,"2943 W Sunset Blvd, Los Angeles",90026,California,,zomato_2_3899,,,,
+Blue Cow Kitchen & Bar,(213) 621-2249,"350 S Grand Ave, Los Angeles",90071,"Burger,Vegetarian",,zomato_2_3901,,,,
+Gulfstream,(310) 553-3636,"10250 Santa Monica Boulevard, Los Angeles",90067,"American,Seafood,California",,zomato_2_3908,,,,
+Pingtung,(323) 866-1866,"7455 Melrose Ave, Los Angeles",90046,"Dim Sum,Japanese",,zomato_2_3909,,,,
+Blossom,(213) 623-1973,"426 S Main St, Los Angeles",90013,Vietnamese,,zomato_2_3911,,,,
+Nickel Diner,(213) 623-8301,"524 S Main St, Los Angeles",90013,"American,Diner",,zomato_2_3919,Kirby,,8236.0,houston
+Fundamental LA,(310) 444-7581,"1303 Westwood Blvd, Los Angeles",90024,American,,zomato_2_3920,,,,
+Palomino,(310) 208-1960,"10877 Wilshire Blvd, Los Angeles",90024,"American,Italian,Mediterranean",,zomato_2_3922,,,,
+Pa-Ord Noodle,(323) 461-3945,"5301 Sunset Boulevard, #8, Los Angeles",90027,Thai,,zomato_2_3924,Richmond,,6324.0,houston
+Tere's Mexican Grill,(323) 468-9345,"5870 Melrose Ave, Los Angeles",90038,Mexican,,zomato_2_3927,Westheimer,,4702.0,houston
+Hae Jang Chon Restaurant,(213) 389-8777,"3821 W 6th St, Los Angeles",90020,Korean,,zomato_2_3930,,,,
+Cooks County,(323) 653-8009,"8009 Beverly Blvd, Los Angeles",90048,American,,zomato_2_3950,Silber,,1106.0,houston
+Monsieur Marcel,(323) 939-7792,"6333 W 3rd St, Los Angeles",90036,"American,French,Sandwich",,zomato_2_3966,Morningside,,5214.0,houston
+Cliff's Edge,(323) 666-6116,"3626 W Sunset Blvd, Los Angeles",90026,"Italian,California",,zomato_2_3974,,,,
+Vintage Enoteca,(323) 512-5278,"7554 W Sunset Blvd, Los Angeles",90046,"Italian,Tapas",,zomato_2_3981,Alabama,W,2390.0,houston
+Sage Organic Vegan,(213) 989-1718,"1700 W Sunset Blvd, Los Angeles",90026,Vegetarian,,zomato_2_3985,,,,
+Pizzeria il Fico,(310) 271-3426,"310 S Robertson Blvd, Los Angeles",90048,"Italian,Pizza,Vegetarian",,zomato_2_3987,Braeswood,S,2473.0,houston
+Kitchen,(323) 664-3663,"4348 Fountain Ave, Los Angeles",90029,"American,California",,zomato_2_3988,,,,
+Providence,(323) 460-4170,"5955 Melrose Ave, Los Angeles",90038,"French,Seafood",,zomato_2_3996,,,,
+Izakaya Honda-Ya,(213) 625-1184,"333 S Alameda St # 314, Los Angeles",90013,"Japanese,Sushi,Tapas",,zomato_2_3997,Sw,,6688.0,houston
+In-N-Out Burger,(800) 786-1000,"7009 Sunset Blvd, Los Angeles",90028,"American,Burger,Fast Food",,zomato_2_4008,Edgebrook,,887.0,houston
+Spitz,(213) 613-0101,"371 E 2nd St, Los Angeles",90012,Middle Eastern,,zomato_2_4014,,,,
+Crossroads,(323) 782-9245,"8284 Melrose Ave, Los Angeles",90048,Vegetarian,,zomato_2_4019,,,,
+Jacks N Joe,(213) 748-4565,"2498 S Figueroa St, Los Angeles",90007,"American,Breakfast,Hawaiian",,zomato_2_4029,,,,
+Shintaro,(323) 882-6524,"1900 N Highland Ave, Los Angeles",90068,"Japanese,Sushi",,zomato_2_4031,Montrose,,1209.0,houston
+Simplethings Sandwich & Pie Shop,(323) 592-3390,"8310 W Third Street, Los Angeles",90048,"American,Sandwich",,zomato_2_4052,Shepherd,S,3310.0,houston
+El Cochinito,(323) 668-0737,"3508 W Sunset Blvd, Los Angeles",90026,Cuban,,zomato_2_4055,Jefferson,,2130.0,houston
+OB Bear,(213) 480-4910,"3002 W 7th St, Los Angeles",90005,Korean,,zomato_2_4067,,,,
+Picca Peruvian Cantina,(310) 277-0133,"9575 W Pico Blvd, Los Angeles",90035,Peruvian,,zomato_2_4074,,,,
+Yu Chun Chic Naeng Myun,(213) 382-3815,"3185 W Olympic Blvd, Los Angeles",90006,Korean,,zomato_2_4093,,,,
+The Pikey,(323) 850-5400,"7617 W Sunset Blvd, Los Angeles",90046,British,,zomato_2_4100,,,,
+The Fix Burger,(323) 661-8494,"2520 Hyperion Ave, Los Angeles",90027,Burger,,zomato_2_4125,,,,
+Trois Mec,(323) 782-9225,"716 N Highland Ave, Los Angeles",90038,French,,zomato_2_4128,Pease,,2108.0,houston
+El Carmen,(323) 852-1552,"8138 W 3rd St, Los Angeles",90048,Mexican,,zomato_2_4148,21St,S,104.0,philadelphia
+Local Table,(213) 488-2654,"800 S Figueroa St, Los Angeles",90017,,,zomato_2_4151,,,,
+The Park,(213) 482-9209,"1400 W Sunset Blvd, Los Angeles",90026,,,zomato_2_4155,Pennsylvania,,2601.0,philadelphia
+Aroma,(323) 644-2833,"2903 W Sunset Blvd, Los Angeles",90026,Italian,,zomato_2_4156,16Th,S,2300.0,philadelphia
+Forage,(323) 663-6885,"3823 W Sunset Blvd, Los Angeles",90026,California,,zomato_2_4157,,,,
+Masa of Echo Park,(213) 989-1558,"1800 W Sunset Blvd, Los Angeles",90026,"Italian,Pizza,Vegetarian",,zomato_2_4163,,,,
+Little Beast Restaurant,(323) 341-5899,"1496 Colorado Boulevard, Los Angeles",90041,,,zomato_2_4168,Spruce,,1521.0,philadelphia
+Kang Ho-dong Baekjeong,(213) 384-9678,"3465 W 6th St, Los Angeles",90020,"BBQ,Korean",,zomato_2_4174,11Th,S,138.0,philadelphia
+Nick's Cafe,(323) 222-1450,"1300 N Spring St, Los Angeles",90012,"American,Diner",,zomato_2_4176,Passyunk,E,1601.0,philadelphia
+Panini Cafe,(213) 489-4200,"600 W 9th St, Los Angeles",90015,"Italian,Mediterranean",,zomato_2_4177,Queen,,342.0,philadelphia
+Mexicali Taco & Co,(213) 613-0416,"702 N Figueroa St, Los Angeles",90012,Mexican,,zomato_2_4184,12Th,N,345.0,philadelphia
+Tatsu Ramen,(323) 747-1388,"7111 Melrose Ave, Los Angeles",90046,Ramen,,zomato_2_4191,,,,
+The Hart and the Hunter,(323) 424-3055,"7950 Melrose Ave, Los Angeles",90048,"American,Southern",,zomato_2_4195,,,,
+Carlitos Gardel,(323) 655-0891,"7963 Melrose Ave, Los Angeles",90046,"Italian,Latin American,Argentine",,zomato_2_4198,,,,
+Tomato Pie Pizza Joint,(323) 661-6474,2457 Hyperion Ave,90027,"Italian,Pizza",,zomato_2_4202,Locust,,1221.0,philadelphia
+Nick's Coffee Shop & Deli,(310) 652-3567,"8536 W Pico Blvd, Los Angeles",90035,"Coffee and Tea,Diner,Sandwich",,zomato_2_4211,,,,
+Jon and Vinny's,(323) 334-3369,412 North Fairfax Avenue,90036,Italian,,zomato_2_4222,,,,
+Industriel,(213) 488-8020,"609 S Grand Ave, Los Angeles",90017,French,,zomato_2_4240,,,,
+Speranza,(323) 644-1918,"2547 Hyperion Ave, Los Angeles",90027,Italian,,zomato_2_4244,,,,
+Truxton's American Bistro,(310) 417-8789,"8611 Truxton Ave, Los Angeles",90045,American,,zomato_2_4263,Spruce,,2229.0,philadelphia
+Jack n' Jill's Too,(310) 858-4900,"8738 W 3rd St, Los Angeles",90048,French,,zomato_2_4264,,,,
+Arashi Sushi,(213) 749-1900,"1111 S Hope St #100, Los Angeles",90015,"Japanese,Sushi",,zomato_2_4270,11Th,S,1537.0,philadelphia
+Papa Cristo's,(323) 737-2970,"2771 W Pico Boulevard, Los Angeles",90006,Greek,,zomato_2_4274,,,,
+Marouch,(323) 662-9325,"4905 Santa Monica Blvd, Los Angeles",90029,Middle Eastern,,zomato_2_4291,Bainbridge,,1315.0,philadelphia
+Cafe Tropical,(323) 661-8391,"2900 W Sunset Blvd, Los Angeles",90026,"Coffee and Tea,Cuban",,zomato_2_4306,South,,901.0,philadelphia
+Pomodoro Trattoria,(310) 445-9998,"1393 Westwood Blvd, Los Angeles",90024,Italian,,zomato_2_4319,,,,
+Sushi Komasa,(213) 680-1792,"351 E 2nd St, Los Angeles",90012,"Japanese,Sushi",,zomato_2_4329,,,,
+Father's Office,(310) 736-2224,"3229 Helms Ave, Los Angeles",90034,"American,Burger",,zomato_2_4341,Snyder,,1242.0,philadelphia
+Buddha Bodai One Vegetarian Restaurant,(212) 566-8388,"5 Mott Street, New York",10013,"Chinese,Vegetarian",,zomato_2_5795,,,,
+Stanton Social,(212) 995-0099,"99 Stanton Street, New York",10002,"New American,International",,zomato_2_5813,Mcdowell,E,1436.0,phoenix
+Supper,(212) 477-7600,"156 E 2nd Street, New York",10009,Italian,,zomato_2_5857,32Nd,N,10626.0,phoenix
+Trattoria Trecolori,(212) 997-4540,"254 W 47th Street, New York",10036,Italian,,zomato_2_5902,3Rd,N,801.0,phoenix
+Bistango,(212) 725-8484,"415 3rd Avenue, New York",10016,Italian,,zomato_2_5916,,,,
+Los Tacos No. 1,(212) 256-0343,"Chelsea Market, 75 9th Avenue, New York",10011,Taco,,zomato_2_5985,Northern,W,3575.0,phoenix
+Mamoun's Falafel,(212) 674-8685,"119 MacDougal Street, New York",10012,Middle Eastern,,zomato_2_6057,24Th,N,4742.0,phoenix
+Maysville,(646) 490-8240,"17 West 26th Street, New York",10010,American,,zomato_2_6073,Mcdowell,E,2310.0,phoenix
+Burger & Barrel,(212) 334-7320,"25 W Houston Street, New York",10012,"Bar Food,American",,zomato_2_6082,Grand,,2448.0,phoenix
+Galli Restaurant,(212) 966-9288,"45 Mercer Street, New York, NY",10013,"Italian,Cafe",,zomato_2_6105,2Nd,S,3.0,phoenix
+Cooper's Craft & Kitchen,(646) 606-2384,"87 2nd Avenue, New York",10003,American,,zomato_2_6110,,,,
+Scarpetta,(212) 691-0555,"355 West 14th Street, New York",10014,Italian,,zomato_2_6112,,,,
+Yakiniku West,(212) 979-9238,"218 E 9th Street, New York",10003,"Japanese,BBQ",,zomato_2_6138,Union,E,814.0,phoenix
+Freemans,(212) 420-0012,"8 Rivington Street, New York",10002,American,,zomato_2_6146,19Th,S,1002.0,phoenix
+Beyond Sushi,(646) 861-2889,"229 E 14th Street, New York",10003,"Sushi,Vegetarian",,zomato_2_6164,Bell,E,2848.0,phoenix
+Robataya NY,(212) 979-9674,"231 E 9th Street, New York",10003,Japanese,,zomato_2_6170,44Th,N,5101.0,phoenix
+Jewel Bako,(212) 979-1012,"239 East 5th Street, New York",10003,"Japanese,Sushi",,zomato_2_6183,,,,
+Adrienne's Pizza Bar,(212) 248-3838,"54 Stone Street, New York",10004,"Italian,Pizza",,zomato_2_6201,7Th,N,2022.0,phoenix
+The Bao,(212) 388-9238,"13 Saint Marks Place, New York",10003,Chinese,,zomato_2_6207,7Th,N,5150.0,phoenix
+12 Chairs,(212) 254-8640,"56 MacDougal Streeet, New York",10012,Mediterranean,,zomato_2_6241,Washington,W,11.0,phoenix
+El Cocotero,(212) 206-8930,"228 West 18th Street, New York",10011,"Latin American,Venezualan",,zomato_2_6244,Baseline,E,2160.0,phoenix
+Beauty & Essex,(212) 614-0146,"146 Essex Street, New York",10002,"American,Fusion",,zomato_2_6257,,,,
+Mighty Quinn's Barbeque,(212) 677-3733,"103 2nd Avenue, New York",10003,BBQ,,zomato_2_6279,,,,
+Luke's Lobster,(212) 387-8487,"93 E 7th Street, New York",10009,Seafood,,zomato_2_6301,Tatum,N,21001.0,phoenix
+The Grey Dog,(212) 462-0041,"49 Carmine Street, New York",10014,"Cafe,Sandwich",,zomato_2_6323,,,,
+Junior's,(212) 302-2000,"1515 Broadway, New York",10036,"American,Desserts",,zomato_2_6335,,,,
+NGam,(212) 777-8424,"99 3rd Avenue, New York",10003,Thai,,zomato_2_6373,19Th,N,15414.0,phoenix
+The Spotted Pig,(212) 620-0393,"314 W 11th Street, New York",10014,Burger,,zomato_2_6446,Bell,W,2340.0,phoenix
+Somtum Der,(212) 260-8570,"85 Avenue A, New York",10009,Thai,,zomato_2_6510,Thomas,W,4434.0,phoenix
+The MasalaWala,(212) 358-9300,"179 Essex Street, New York",10002,Indian,,zomato_2_6513,,,,
+Cowgirl Seahorse,(212) 608-7873,"259 Front Street, New York",10038,Mexican,,zomato_2_6604,Cave,N,13035.0,phoenix
+Bobwhite Lunch & Supper Counter,(212) 228-2972,"94 Avenue C, New York",10009,Southern,,zomato_2_6678,Central,N,1401.0,phoenix
+Ponty Bistro,(212) 777-1616,"218 3rd Avenue, New York",10003,"African,French",,zomato_2_6691,Nacogdoches,,2442.0,san antonio
+Becco,(212) 397-7597,"355 West 46th Street, New York",10036,Italian,,zomato_2_6779,La Cantera,,17603.0,san antonio
+Ofrenda,(212) 924-2305,"113 7th Avenue South, New York",10014,Mexican,,zomato_2_6784,Nacogdoches,,2447.0,san antonio
+BCD Tofu House,(212) 967-1900,"5 West 32nd Street, New York",10001,Korean,,zomato_2_6805,,,,
+Extra Virgin,(212) 691-9359,"259 W 4th Street, New York",10014,Mediterranean,,zomato_2_6821,Wagon Wheel,,2611.0,san antonio
+Colicchio & Sons,(212) 400-6699,"85 10th Avenue, New York",10011,New American,,zomato_2_6837,Broadway,,8142.0,san antonio
+Joe's Shanghai,(212) 233-8888,"9 Pell Street, New York",10013,Chinese,,zomato_2_6845,,,,
+Sakagura,(212) 953-7253,"211 E 43rd Street, New York",10017,Japanese,,zomato_2_6852,Military,NW,2211.0,san antonio
+Pure Thai Cookhouse,(212) 581-0999,"766 9th Avenue #2, New York",10019,Thai,,zomato_2_6885,Loop 1604 W,N,1207.0,san antonio
+Mooncake Foods,(212) 219-8888,"28 Watts Street, New York",10013,"Asian,Chinese,Vietnamese",,zomato_2_6891,19Th,SW,822.0,san antonio
+Barbuto,(212) 924-9700,"775 Washington Street, New York",10014,Italian,,zomato_2_6892,,,,
+L'Artusi,(212) 255-5757,"228 West 10th Street, New York",10014,Italian,,zomato_2_6904,Evers,,5750.0,san antonio
+Rubirosa,(212) 965-0500,"235 Mulberry Street, New York",10012,"Italian,Pizza",,zomato_2_6920,,,,
+Cafe Orlin,(212) 777-1447,"41 Saint Marks Place, New York",10003,"American,Middle Eastern",,zomato_2_6921,,,,
+Blue Hill,(212) 539-1776,"75 Washington Place, New York",10011,American,,zomato_2_6939,,,,
+Vanessa's Dumpling House,(212) 625-8008,"118A Eldridge Street, New York",10002,Chinese,,zomato_2_6942,,,,
+Great N.Y. Noodletown,(212) 349-0923,"28 Bowery, New York",10013,Chinese,,zomato_2_6962,Loop 410,NW,6424.0,san antonio
+Risotteria,(212) 924-6664,"270 Bleecker Street, New York",10014,Italian,,zomato_2_6969,,,,
+Cha-An,(212) 228-8030,"230 East 9th Street, New York",10003,"Japanese,Cafe",,zomato_2_6990,Lockhill Selma,,2249.0,san antonio
+Big Wong,(212) 964-0540,"67 Mott Street, New York",10013,"Chinese,Cantonese",,zomato_2_7009,Alamo,S,1024.0,san antonio
+Sushi Yasuda,(212) 972-1001,"204 East 43rd Street, New York",10017,Sushi,,zomato_2_7011,Loop 1604 W,N,389.0,san antonio
+Cuba,(212) 420-7878,"222 Thompson Street, New York",10012,Cuban,,zomato_2_7025,Fredericksburg,,3700.0,san antonio
+Yakitori Totto,(212) 245-4555,"251 W 55th Street, New York",10019,Japanese,,zomato_2_7047,Basse,E,999.0,san antonio
+Tartine,(212) 229-2611,"253 West 11th Street, New York",10014,"French,Cafe",,zomato_2_7054,,,,
+Sweet Revenge,(212) 242-2240,"62 Carmine Street, New York",10014,Desserts,,zomato_2_7057,Vance Jackson,,1106.0,san antonio
+Barrio Chino,(212) 228-6710,"253 Broome Street, New York",10002,Mexican,,zomato_2_7071,,,,
+La Esquina,(646) 613-7100,"114 Kenmare Street, New York",10012,Mexican,,zomato_2_7133,Babcock,,5802.0,san antonio
+Pylos,(212) 473-0220,"128 E 7th Street, New York",10009,Greek,,zomato_2_7140,Huebner,,11267.0,san antonio
+ABC Kitchen,(212) 475-5829,"35 East 18th Street, New York",10003,Healthy Food,,zomato_2_7156,,,,
+Woorijip,(212) 244-1115,"12 West 32nd Street, New York",10001,Korean,,zomato_2_7187,Broadway,,7701.0,san antonio
+Westville,(212) 677-2033,"173 Avenue A, New York",10009,American,,zomato_2_7201,New Braunfels,N,6462.0,san antonio
+The Meatball Shop,(212) 982-8895,"84 Stanton Street, New York",10002,"American,Italian,Sandwich",,zomato_2_7211,,,,
+Eleven Madison Park,(212) 889-0905,"11 Madison Avenue, New York",10010,New American,,zomato_2_7222,Grissom,,8733.0,san antonio
+Gato,(212) 334-6400,"324 Lafayette Street, New York",10012,"Mediterranean,Spanish",,zomato_2_7232,,,,
+Capizzi,(212) 695-6900,"547 9th Avenue, New York",10018,"Pizza,Italian",,zomato_2_7251,Bandera,,612.0,san antonio
+Pepolino Ristorante,(212) 966-9983,"281 West Broadway, New York",10013,Italian,,zomato_2_7314,,,,
+Tasty Hand-Pulled Noodles,(212) 791-1817,"1 Doyers Street, New York",10013,Chinese,,zomato_2_7321,Loop 410,NE,847.0,san antonio
+Pellegrino's,(212) 226-3177,"138 Mulberry Street, New York",10013,Italian,,zomato_2_7332,Fm 2252,,18816.0,san antonio
+Il Corallo Trattoria,(212) 941-7119,"176 Prince Street, New York",10012,Italian,,zomato_2_7405,Broadway,,5800.0,san antonio
+Via Quadronno,(212) 650-9880,"25 E 73rd Street, New York",10021,"Italian,Ice Cream",,zomato_2_7409,,,,
+Atera,(212) 226-1444,"77 Worth Street, New York",10013,American,,zomato_2_7418,Afterglow,,824.0,san antonio
+Emporio,(212) 966-1234,"231 Mott Street, New York",10012,"Italian,Pizza",,zomato_2_7426,La Cantera,,15900.0,san antonio
+Lam Zhou Hand Made Noodle & Dumpling,(212) 566-6933,"144 East Broadway, New York",10002,Chinese,,zomato_2_7428,H W Interstate 10,,9502.0,san antonio
+Hillstone,(212) 689-1090,"378 Park Avenue South, New York",10010,American,,zomato_2_7457,,,,
+La Lanterna di Vittorio,(212) 529-5945,"129 Macdougal Street, New York",10012,"Desserts,Italian,Pizza",,zomato_2_7468,Broadway,,4003.0,san antonio
+The Green Table,(212) 741-6623,"Chelsea Market, 75 9th Avenue, New York",10011,American,,zomato_2_7484,Loop 410,NW,6719.0,san antonio
+Daniel,(212) 288-0033,"60 E 65th Street, New York",10065,French,,zomato_2_7489,West,,12403.0,san antonio
+Degustation,(212) 979-1012,"239 E 5th Street, New York",10003,"American,French,Spanish",,zomato_2_7520,Loop 1604 E,N,3830.0,san antonio
+Sushi Nakazawa,(212) 924-2212,"23 Commerce Street, New York",10014,"Sushi,Japanese",,zomato_2_7552,,,,
+Boqueria,(212) 255-4160,"53 W 19th Street, New York",10011,"Spanish,Tapas",,zomato_2_7555,Evers,,5714.0,san antonio
+Bubby's,(212) 219-0666,"120 Hudson Street, , New York",10013,"American,BBQ",,zomato_2_7577,,,,
+Lombardi's Pizza,(212) 941-7994,"32 Spring Street, New York",10012,"Pizza,Italian",,zomato_2_7578,,,,
+Zutto Japanese American Pub,(212) 233-3287,"77 Hudson Street, New York",10013,"Ramen,Sushi",,zomato_2_7585,Wetmore,,13465.0,san antonio
+Caracas Arepa Bar,(212) 529-2314,"93 E 7th Street, New York",10009,"Latin American,Venezualan",,zomato_2_7600,Nacogdoches,,1896.0,san antonio
+Saxon and Parole,(212) 254-0350,"316 Bowery, New York",10012,American,,zomato_2_7667,Huebner,,9386.0,san antonio
+Buddakan,(212) 989-6699,"75 9th Avenue, New York",10011,"Chinese,Fusion,Asian",,zomato_2_7689,Sports Arena,,3455.0,san diego

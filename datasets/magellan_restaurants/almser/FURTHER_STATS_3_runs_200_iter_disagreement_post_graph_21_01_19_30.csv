@@ -1,0 +1,7 @@
+Task,Annotations,Exploit_Score,Explore_Score,Task-F1
+yelp_3__zomato_2,15,,,0.915
+yelp_2__zomato_2,21,,,0.962
+yelp_2__yelp_3,12,,,0.963
+yellow_pages_1__zomato_2,22,,,0.915
+yellow_pages_1__yelp_3,119,,,0.913
+yellow_pages_1__yelp_2,23,,,0.939

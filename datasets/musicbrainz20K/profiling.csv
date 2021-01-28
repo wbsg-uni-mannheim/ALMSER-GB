@@ -1,0 +1,11 @@
+Dataset pair,F1-xval_all_attr,Relevant Attributes,Top Features,Schema Complexity,Textuality,Sparsity,Size,Match#,Corner Cases
+2_1,0.98,"['album*', 'length*', 'title', 'year', 'number']","['album_lev', 'album_token_jaccard', 'album_relaxed_jaccard', 'length_sim']",5,3.77,0.07999999999999996,38270,1984,0.22
+2_3,0.85,"['title*', 'number*', 'length', 'year', 'language']","['title_relaxed_jaccard', 'title_jaccard', 'title_containment', 'title_token_jaccard', 'number_num_equal', 'number_sim', 'title_lev']",5,7.24,0.12,39260,2030,0.39
+2_4,0.98,"['length*', 'album*', 'title', 'number']","['length_sim', 'album_lev']",4,4.26,0.050000000000000044,38608,1244,0.42
+2_5,0.98,"['album*', 'length*', 'title', 'number']","['album_relaxed_jaccard', 'album_lev', 'album_token_jaccard', 'album_overlap', 'length_sim']",4,3.77,0.06000000000000005,38278,1284,0.19
+3_1,0.98,"['title*', 'artist', 'length']",['title_relaxed_jaccard'],3,7.49,0.050000000000000044,38270,1208,0.08
+4_1,0.99,"['length*', 'album*', 'artist', 'title']","['length_sim', 'length_num_equal', 'album_lev']",4,4.2,0.06000000000000005,38270,1216,0.16
+4_3,0.97,"['artist*', 'title*', 'number', 'length', 'language']","['artist_lev', 'title_containment', 'title_jaccard']",5,7.81,0.06000000000000005,39246,2002,0.18
+4_5,0.99,"['title*', 'album*', 'length', 'artist', 'number']","['title_relaxed_jaccard', 'album_lev']",5,7.54,0.06000000000000005,38261,1980,0.11
+5_1,0.99,"['album*', 'length*', 'artist', 'title', 'year']","['album_relaxed_jaccard', 'album_lev', 'album_token_jaccard', 'length_sim']",5,3.74,0.06999999999999995,38186,1969,0.2
+5_3,0.96,"['title*', 'artist*', 'number', 'length']","['title_jaccard', 'title_relaxed_jaccard', 'title_containment', 'artist_relaxed_jaccard']",4,7.76,0.06000000000000005,39260,1262,0.16

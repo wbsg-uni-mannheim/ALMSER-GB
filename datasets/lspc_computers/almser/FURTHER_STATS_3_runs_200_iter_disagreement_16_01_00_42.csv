@@ -1,0 +1,7 @@
+Task,Annotations,Exploit_Score,Explore_Score,Task-F1
+usapartsdirect_tweakers,11,,,0.919
+usapartsdirect_sillworks,49,,,0.901
+usapartsdirect_harddrivesdirect,56,,,0.906
+harddrivesdirect_tweakers,14,,,0.969
+sillworks_tweakers,16,,,0.981
+harddrivesdirect_sillworks,66,,,0.903
