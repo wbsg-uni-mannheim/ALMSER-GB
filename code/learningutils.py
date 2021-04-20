@@ -10,6 +10,9 @@ import numpy as np
 from profiling import *
 import pandas as pd
 from sklearn.tree import export_text
+import seaborn as sns;
+from tqdm import tqdm
+
 
 def getClassifier(name, *args, **kwargs):
     if name=="rf": return RandomForestClassifier(*args, **kwargs)
@@ -142,4 +145,66 @@ def getSplitValidationResults(train_val, test, model_type, optimization= False, 
 
     return precision, recall, f1
 
+def getHeatmapOfSetting(fv, distinct_sources):
     
+    print("Calculate and display heatmap of the complete matching setting")
+    results_hmap = pd.DataFrame(index=sorted(list(distinct_sources)), columns=sorted(list(distinct_sources)))
+    results = pd.DataFrame(columns= ['source_pair', 'target_pair','precision','recall','f1'])
+    
+    for source in tqdm(sorted(list(distinct_sources))):
+        for target in sorted(list(distinct_sources)): 
+            #print ("Source - Target: %s - %s " %(source,target))
+            fv_source = fv[fv.datasource_pair==source]
+            fv_target = fv[fv.datasource_pair==target]
+
+            metadata_columns = ['source_id','target_id','pair_id','datasource_pair', 'agg_score', 'unsupervised_label', 'source', 'target']
+            selected_columns = [ele for ele in fv_source.columns.values.tolist() if ele not in metadata_columns]
+               
+            feature_vector_source = fv_source[selected_columns]
+            feature_vector_target = fv_target[selected_columns]
+            #the order of columns matters!!!!
+            feature_vector_target = feature_vector_target[feature_vector_source.columns]
+
+            if (source is target):      
+                X = feature_vector_source.drop(['label'], axis=1)
+                y = feature_vector_source['label'].values
+
+                clf = RandomForestClassifier(random_state=1)
+                xval_scoring = {'precision' : make_scorer(precision_score),'recall' : make_scorer(recall_score),
+                                'f1_score' : make_scorer(f1_score)}            
+                max_result = cross_validate(clf, X, y, cv=StratifiedShuffleSplit(n_splits=4,random_state =1),  scoring=xval_scoring, n_jobs=-1)
+                f1 = round(np.mean(max_result['test_f1_score']),2)
+                precision = round(np.mean(max_result['test_precision']),2)
+                recall = round(np.mean(max_result['test_recall']),2)
+
+                #print("F1 for %s is %f" %(source,f1))
+
+            else:
+                X_train = feature_vector_source.drop(['label'], axis=1)
+                y_train = feature_vector_source['label'].values
+                
+                X_test = feature_vector_target.drop(['label'], axis=1)
+                y_test = feature_vector_target['label'].values
+                
+                model = RandomForestClassifier(random_state=1)
+                model.fit(X_train,y_train)
+                predictions = model.predict(X_test)
+                prec, recall, f1, support  = precision_recall_fscore_support(y_test, predictions, average='binary')
+            
+            results_hmap.loc[source, target] = f1
+            results.loc[results.shape[0]] = [source, target, precision, recall, f1] 
+    
+    heatm = results_hmap.fillna(value=1)
+    ax = sns.heatmap(heatm, annot=True)
+    plt.show()
+    all_scores = results_hmap.values.flatten()
+    ntl_scores = []
+    rem_index = []
+    for i in range(0, len(all_scores), 11):
+        rem_index.append(i)
+
+    for s in range(0,len(all_scores)):
+        if s not in rem_index: ntl_scores.append(all_scores[s])
+
+    print("Mean of Naive Transfer Learning Results: ", statistics.mean(ntl_scores))
+    print("Median of Naive Transfer Learning Results: ", statistics.median(ntl_scores))

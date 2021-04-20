@@ -103,7 +103,6 @@ def constructGraphFromWeightedPredictions(predicted_labels, labeled_set, unlabel
                         edge_cut_list.append((p1_node,p2_node))
                         cut_label = unlabeled_set_md[((unlabeled_set_md.source==p1_node) & (unlabeled_set_md.target==p2_node)) |  ((unlabeled_set_md.source==p2_node) & (unlabeled_set_md.target==p1_node))].label
                         
-                        print("Cut label", cut_label)
             G.remove_edges_from(edge_cut_list)
     
   

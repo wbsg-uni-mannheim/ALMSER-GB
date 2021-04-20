@@ -1,0 +1,221 @@
+source,target,datasource_pair,label,predicted_label,disagreement,weighted_disagreement,datasource_pair_frequency,explore_score,exploit_score,betweeness,graph_inferred_label,inf_score,votes,sel_proba,cc_size,query_strategy,size
+2_11755,1_13911,2_1,True,bootstrap,,,,,,,,,,,,,
+2_15825,3_10623,2_3,True,bootstrap,,,,,,,,,,,,,
+2_9971,4_8116,2_4,True,bootstrap,,,,,,,,,,,,,
+2_11200,5_13050,2_5,True,bootstrap,,,,,,,,,,,,,
+3_1622,1_4251,3_1,True,bootstrap,,,,,,,,,,,,,
+4_16989,1_15928,4_1,True,bootstrap,,,,,,,,,,,,,
+4_16989,3_9529,4_3,True,bootstrap,,,,,,,,,,,,,
+4_15640,5_3480,4_5,True,bootstrap,,,,,,,,,,,,,
+5_760,1_1655,5_1,True,bootstrap,,,,,,,,,,,,,
+5_10449,3_1622,5_3,True,bootstrap,,,,,,,,,,,,,
+2_17706,1_6881,2_1,False,bootstrap,,,,,,,,,,,,,
+2_10010,3_17576,2_3,False,bootstrap,,,,,,,,,,,,,
+2_13411,4_13188,2_4,False,bootstrap,,,,,,,,,,,,,
+2_17706,5_15835,2_5,False,bootstrap,,,,,,,,,,,,,
+3_5784,1_7935,3_1,False,bootstrap,,,,,,,,,,,,,
+4_1020,1_9447,4_1,False,bootstrap,,,,,,,,,,,,,
+4_7086,3_8169,4_3,False,bootstrap,,,,,,,,,,,,,
+4_3900,5_18153,4_5,False,bootstrap,,,,,,,,,,,,,
+5_7448,1_1692,5_1,False,bootstrap,,,,,,,,,,,,,
+5_7012,3_8218,5_3,False,bootstrap,,,,,,,,,,,,,
+5_15309,3_3515,5_3,False,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,20
+5_16263,3_3241,5_3,False,True,0.4,,,,,,,0.4,"(True, False, False, True, True)",,,disagreement,21
+2_2439,4_7216,2_4,False,False,0.4,,,,,,,0.4,"(False, True, True, False, True)",,,disagreement,22
+2_17328,4_6782,2_4,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,23
+2_37,1_4605,2_1,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,24
+4_8553,3_8437,4_3,False,False,0.4,,,,,,,0.4,"(False, True, True, True, False)",,,disagreement,25
+2_16800,5_6556,2_5,False,False,0.4,,,,,,,0.4,"(False, True, True, False, True)",,,disagreement,26
+2_11455,5_10849,2_5,True,True,0.4,,,,,,,0.4,"(True, False, True, False, True)",,,disagreement,27
+2_429,5_4274,2_5,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,28
+4_1850,5_11301,4_5,False,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,29
+3_6438,1_17540,3_1,False,False,0.4,,,,,,,0.4,"(False, False, True, False, True)",,,disagreement,30
+5_2084,3_8794,5_3,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,31
+2_18128,4_16053,2_4,True,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,32
+4_13720,3_11671,4_3,True,True,0.4,,,,,,,0.4,"(True, False, False, True, True)",,,disagreement,33
+2_6025,3_18544,2_3,True,False,0.4,,,,,,,0.4,"(False, False, True, False, True)",,,disagreement,34
+4_313,5_5128,4_5,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,35
+2_4397,5_508,2_5,False,False,0.4,,,,,,,0.4,"(False, True, False, False, True)",,,disagreement,36
+3_10893,1_3527,3_1,True,True,0.4,,,,,,,0.4,"(True, False, False, False, True)",,,disagreement,37
+2_14533,3_3857,2_3,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,38
+2_11895,4_2780,2_4,True,True,0.4,,,,,,,0.4,"(True, True, False, False, False)",,,disagreement,39
+2_13139,4_1378,2_4,False,False,0.4,,,,,,,0.4,"(False, True, True, True, False)",,,disagreement,40
+4_6000,3_3939,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,41
+5_6452,3_12415,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0,disagreement_post_graph_transfer,42
+5_14247,3_8221,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,43
+2_7924,3_6313,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.2,5.0,disagreement_post_graph_transfer,44
+4_15580,3_5186,4_3,False,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.09090909090909091,11.0,disagreement_post_graph_transfer,45
+2_6107,3_1654,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,46
+4_10015,5_3410,4_5,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,47
+3_5521,1_17131,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,48
+2_2327,3_13014,2_3,False,True,0.4,,,,,,0.0,0.4,"(True, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,49
+2_11409,3_588,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,50
+2_18426,3_8420,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,51
+5_10135,3_11822,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,52
+4_4707,3_13223,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,53
+5_1388,1_12675,5_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, False, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,54
+4_17616,1_11914,4_1,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.1111111111111111,9.0,disagreement_post_graph_transfer,55
+2_5320,3_1935,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,56
+2_13096,3_17698,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,57
+2_5312,4_1124,2_4,False,True,0.4,,,,,,0.0,0.4,"(True, True, False, False, False)",1.0,0.0,disagreement_post_graph_transfer,58
+2_6426,3_6280,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, False, True)",1.0,0.0,disagreement_post_graph_transfer,59
+4_17523,5_15409,4_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,60
+2_12152,4_5378,2_4,False,True,0.4,,,,,,0.0,0.4,"(True, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,61
+5_1990,3_2730,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,62
+3_13845,1_6650,3_1,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0,disagreement_post_graph_transfer,63
+4_3182,1_11454,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,64
+2_6271,3_11838,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.25,4.0,disagreement_post_graph_transfer,65
+2_13473,3_16493,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,66
+5_10324,3_1946,5_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.0136986301369863,73.0,disagreement_post_graph_transfer,67
+4_9456,5_15519,4_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,68
+4_9047,1_16651,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,69
+2_15002,3_16431,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,70
+4_17685,3_5009,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,71
+4_13525,1_2691,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,72
+2_14731,1_10717,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, True)",0.2,5.0,disagreement_post_graph_transfer,73
+2_14669,3_7676,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,74
+2_12124,4_18630,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,75
+4_3522,1_4795,4_1,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,76
+4_7771,3_10678,4_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.125,8.0,disagreement_post_graph_transfer,77
+2_9239,1_10056,2_1,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.010752688172043012,93.0,disagreement_post_graph_transfer,78
+2_11373,3_13203,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,79
+2_12925,3_17495,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,80
+5_18458,1_18565,5_1,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,81
+2_12152,3_15625,2_3,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,82
+4_18492,1_2443,4_1,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.2,5.0,disagreement_post_graph_transfer,83
+4_19292,3_15587,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.25,4.0,disagreement_post_graph_transfer,84
+2_10959,3_6205,2_3,False,True,0.4,,,,,,0.0,0.4,"(True, True, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,85
+2_2552,1_16090,2_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,86
+4_12951,3_18142,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,87
+4_15622,3_13327,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,88
+4_10694,5_17128,4_5,False,True,0.4,,,,,,0.0,0.4,"(True, True, False, False, False)",1.0,0.0,disagreement_post_graph_transfer,89
+4_17664,5_19208,4_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,90
+3_11505,1_6197,3_1,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,91
+4_14099,3_13800,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.041666666666666664,24.0,disagreement_post_graph_transfer,92
+5_8925,3_16231,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,93
+4_7284,1_13809,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,94
+2_1431,5_18497,2_5,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,95
+4_1341,1_9409,4_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.01694915254237288,59.0,disagreement_post_graph_transfer,96
+3_6084,1_13581,3_1,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,97
+2_3913,3_19275,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.14285714285714285,7.0,disagreement_post_graph_transfer,98
+2_9998,3_13014,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,99
+5_8430,1_5401,5_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,100
+2_9239,3_16299,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,101
+4_1454,5_13839,4_5,False,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.1,10.0,disagreement_post_graph_transfer,102
+4_18717,3_247,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,103
+2_16513,1_3561,2_1,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.25,4.0,disagreement_post_graph_transfer,104
+4_7405,3_6785,4_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.5,2.0,disagreement_post_graph_transfer,105
+5_7611,1_6098,5_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,106
+4_15992,5_4012,4_5,False,True,0.4,,,,,,0.0,0.4,"(True, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,107
+3_16683,1_3560,3_1,False,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,108
+2_3785,3_7797,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,109
+2_12177,4_12457,2_4,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.014492753623188406,69.0,disagreement_post_graph_transfer,110
+4_17139,3_1283,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,111
+2_18710,3_2251,2_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.2,5.0,disagreement_post_graph_transfer,112
+2_11310,4_6627,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,113
+2_17206,4_18182,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0,disagreement_post_graph_transfer,114
+2_18311,3_16192,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,115
+2_521,5_55,2_5,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,116
+2_5504,5_10961,2_5,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.07142857142857142,14.0,disagreement_post_graph_transfer,117
+5_19077,1_18952,5_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,118
+4_6666,5_4905,4_5,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,119
+2_8952,4_12423,2_4,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,120
+2_6927,1_2006,2_1,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.125,8.0,disagreement_post_graph_transfer,121
+4_7365,3_533,4_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, False)",0.021739130434782608,46.0,disagreement_post_graph_transfer,122
+2_13694,1_13533,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,123
+2_17126,3_13520,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,124
+4_12277,3_17279,4_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,125
+2_5092,1_10921,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,126
+3_16172,1_13836,3_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,127
+4_18981,3_16798,4_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.034482758620689655,29.0,disagreement_post_graph_transfer,128
+2_8934,3_2551,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0,disagreement_post_graph_transfer,129
+2_14369,3_1169,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,130
+4_12277,5_18865,4_5,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,131
+2_6484,5_13394,2_5,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.04,25.0,disagreement_post_graph_transfer,132
+4_16924,3_13008,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, True)",0.25,4.0,disagreement_post_graph_transfer,133
+4_12966,5_15446,4_5,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,134
+2_11435,3_15821,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,135
+2_4278,4_6717,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.25,4.0,disagreement_post_graph_transfer,136
+4_8014,3_16722,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.25,4.0,disagreement_post_graph_transfer,137
+2_429,3_10465,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.1111111111111111,9.0,disagreement_post_graph_transfer,138
+5_13185,3_1618,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,139
+2_16489,1_9985,2_1,False,True,0.4,,,,,,0.0,0.4,"(True, True, False, False, False)",1.0,0.0,disagreement_post_graph_transfer,140
+5_12814,3_9089,5_3,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,141
+5_16725,3_6171,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,142
+2_6021,4_19350,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,143
+5_5358,1_14683,5_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.5,2.0,disagreement_post_graph_transfer,144
+4_7828,3_7855,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,145
+2_3164,1_12460,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,146
+4_5245,3_5274,4_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0,disagreement_post_graph_transfer,147
+4_11534,3_12271,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.25,4.0,disagreement_post_graph_transfer,148
+2_2913,4_8392,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0,disagreement_post_graph_transfer,149
+2_9237,5_17674,2_5,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,150
+5_11729,3_11612,5_3,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,151
+4_14564,3_2415,4_3,True,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,152
+4_14542,5_8093,4_5,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.2,5.0,disagreement_post_graph_transfer,153
+2_8525,1_18578,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, False, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,154
+4_8975,3_14786,4_3,True,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,155
+2_8217,4_1523,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, True)",0.25,4.0,disagreement_post_graph_transfer,156
+5_19319,3_13711,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,157
+2_15132,5_9585,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,158
+5_3488,3_16331,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, True)",0.25,4.0,disagreement_post_graph_transfer,159
+2_4578,5_13932,2_5,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,160
+3_161,1_4117,3_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,161
+2_7322,3_7836,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,162
+4_11261,3_17459,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,163
+2_2430,3_1470,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,164
+2_12366,3_15815,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,165
+5_10721,3_7642,5_3,False,True,0.4,,,,,,0.0,0.4,"(True, True, False, False, False)",1.0,0.0,disagreement_post_graph_transfer,166
+2_12428,3_2931,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,167
+5_12329,1_13006,5_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,168
+4_3248,3_15009,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0,disagreement_post_graph_transfer,169
+4_10360,1_14978,4_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.041666666666666664,24.0,disagreement_post_graph_transfer,170
+4_7114,3_3676,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,171
+3_2504,1_16752,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.25,4.0,disagreement_post_graph_transfer,172
+5_11874,1_14933,5_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,173
+2_8631,4_10211,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,174
+5_7186,3_8100,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,175
+3_4879,1_6279,3_1,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, True)",1.0,0.0,disagreement_post_graph_transfer,176
+2_5799,3_9977,2_3,False,True,0.4,,,,,,0.0,0.4,"(True, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,177
+2_4426,5_4248,2_5,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,178
+4_4401,3_9418,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,179
+4_4755,5_1759,4_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,180
+5_8527,3_2600,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, True)",0.25,4.0,disagreement_post_graph_transfer,181
+5_3605,3_5723,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,182
+4_2081,3_18327,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,183
+2_10270,4_17550,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,184
+5_3691,1_17066,5_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, False, True)",0.25,4.0,disagreement_post_graph_transfer,185
+2_9091,5_714,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,186
+2_8980,4_633,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0,disagreement_post_graph_transfer,187
+2_12200,1_10950,2_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,188
+2_2137,1_10712,2_1,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,189
+2_5301,3_2037,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.5,2.0,disagreement_post_graph_transfer,190
+4_16766,3_18437,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0,disagreement_post_graph_transfer,191
+2_18498,5_6007,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,192
+5_19306,3_15454,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,193
+2_5215,3_10218,2_3,False,True,0.4,,,,,,0.0,0.4,"(True, False, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,194
+4_19184,5_1844,4_5,True,False,0.4,,,,,,0.0,0.4,"(False, False, True, False, True)",1.0,0.0,disagreement_post_graph_transfer,195
+3_5132,1_7729,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,196
+2_3457,4_11713,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,197
+2_2098,3_6853,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,198
+2_1807,3_7451,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,199
+4_6920,3_3764,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,200
+4_15178,5_7429,4_5,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.09090909090909091,11.0,disagreement_post_graph_transfer,201
+4_2347,3_10146,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,202
+5_1955,1_13314,5_1,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,203
+4_319,5_4027,4_5,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,204
+4_2379,3_8945,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,205
+5_7028,3_11456,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.25,4.0,disagreement_post_graph_transfer,206
+4_9443,3_1087,4_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.07142857142857142,14.0,disagreement_post_graph_transfer,207
+3_3898,1_6279,3_1,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0,disagreement_post_graph_transfer,208
+2_15642,5_3133,2_5,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,209
+4_1378,3_8465,4_3,False,True,0.4,,,,,,0.0,0.4,"(True, False, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,210
+2_18528,3_947,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,211
+2_4411,3_3780,2_3,False,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.125,8.0,disagreement_post_graph_transfer,212
+5_18672,1_9560,5_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,213
+2_19039,3_14689,2_3,False,True,0.4,,,,,,0.0,0.4,"(True, True, False, False, False)",1.0,0.0,disagreement_post_graph_transfer,214
+2_8531,5_12731,2_5,False,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,215
+4_18981,5_13641,4_5,False,True,0.4,,,,,,0.0,0.4,"(True, False, True, False, True)",1.0,0.0,disagreement_post_graph_transfer,216
+4_4858,1_7352,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,217
+2_1345,1_13103,2_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,218
+2_15359,5_7060,2_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,219

@@ -1,0 +1,113 @@
+source,target,datasource_pair,label,predicted_label,disagreement,weighted_disagreement,datasource_pair_frequency,explore_score,exploit_score,betweeness,graph_inferred_label,inf_score,votes,sel_proba,cc_size,query_strategy,size
+harddrivesdirect_8269070,sillworks_17477907,harddrivesdirect_sillworks,True,bootstrap,,,,,,,,,,,,,
+harddrivesdirect_16578034,tweakers_13689514,harddrivesdirect_tweakers,True,bootstrap,,,,,,,,,,,,,
+sillworks_17273976,tweakers_6207914,sillworks_tweakers,True,bootstrap,,,,,,,,,,,,,
+usapartsdirect_12957102,harddrivesdirect_13313461,usapartsdirect_harddrivesdirect,True,bootstrap,,,,,,,,,,,,,
+usapartsdirect_17115570,sillworks_6584826,usapartsdirect_sillworks,True,bootstrap,,,,,,,,,,,,,
+usapartsdirect_9962668,tweakers_7588145,usapartsdirect_tweakers,True,bootstrap,,,,,,,,,,,,,
+harddrivesdirect_6750039,sillworks_17054073,harddrivesdirect_sillworks,False,bootstrap,,,,,,,,,,,,,
+harddrivesdirect_13008950,tweakers_135779,harddrivesdirect_tweakers,False,bootstrap,,,,,,,,,,,,,
+sillworks_17510523,tweakers_6232023,sillworks_tweakers,False,bootstrap,,,,,,,,,,,,,
+usapartsdirect_4968342,harddrivesdirect_7881354,usapartsdirect_harddrivesdirect,False,bootstrap,,,,,,,,,,,,,
+usapartsdirect_17483872,sillworks_11765286,usapartsdirect_sillworks,False,bootstrap,,,,,,,,,,,,,
+usapartsdirect_8032585,tweakers_1229406,usapartsdirect_tweakers,False,bootstrap,,,,,,,,,,,,,
+sillworks_3953447,tweakers_12318621,sillworks_tweakers,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,12
+harddrivesdirect_17507083,tweakers_16345015,harddrivesdirect_tweakers,False,False,0.4,,,,,,,0.4,"(False, False, True, True, True)",,,disagreement,13
+usapartsdirect_306740,harddrivesdirect_16287504,usapartsdirect_harddrivesdirect,False,True,0.4,,,,,,,0.4,"(True, False, False, True, True)",,,disagreement,14
+usapartsdirect_12155365,harddrivesdirect_1623293,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,15
+harddrivesdirect_11008840,sillworks_10772068,harddrivesdirect_sillworks,True,True,0.4,,,,,,,0.4,"(True, False, False, True, True)",,,disagreement,16
+harddrivesdirect_14351847,sillworks_1179406,harddrivesdirect_sillworks,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,17
+usapartsdirect_13182245,harddrivesdirect_13359301,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,18
+harddrivesdirect_3620630,sillworks_13258999,harddrivesdirect_sillworks,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,19
+sillworks_16617790,tweakers_9916470,sillworks_tweakers,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,20
+harddrivesdirect_2354837,tweakers_2692377,harddrivesdirect_tweakers,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,21
+usapartsdirect_828634,harddrivesdirect_8992858,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,22
+harddrivesdirect_13443020,sillworks_10446720,harddrivesdirect_sillworks,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,23
+usapartsdirect_780187,sillworks_7484877,usapartsdirect_sillworks,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,,disagreement,24
+usapartsdirect_1293532,sillworks_7813169,usapartsdirect_sillworks,True,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,25
+harddrivesdirect_10916433,sillworks_6957645,harddrivesdirect_sillworks,True,False,0.4,,,,,,,0.4,"(False, False, True, True, False)",,,disagreement,26
+usapartsdirect_1993494,sillworks_9964392,usapartsdirect_sillworks,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,27
+usapartsdirect_1375306,sillworks_16598220,usapartsdirect_sillworks,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,28
+usapartsdirect_8554231,harddrivesdirect_9882498,usapartsdirect_harddrivesdirect,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,29
+usapartsdirect_9405203,harddrivesdirect_5158963,usapartsdirect_harddrivesdirect,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,30
+usapartsdirect_4420351,sillworks_7048599,usapartsdirect_sillworks,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,,disagreement,31
+usapartsdirect_14636601,sillworks_14498910,usapartsdirect_sillworks,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,,disagreement,32
+sillworks_7325493,tweakers_17267247,sillworks_tweakers,True,True,0.4,,,,,,1.0,0.34590476190476194,"(True, False, False, True, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,33
+usapartsdirect_12616158,sillworks_14038453,usapartsdirect_sillworks,False,False,0.4,,,,,,1.0,0.38014834622027527,"(False, False, False, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,34
+usapartsdirect_10871607,harddrivesdirect_9236036,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,0.0,0.38694061064282925,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,35
+harddrivesdirect_11009483,sillworks_4861888,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.3816684571766609,"(True, True, True, False, False)",0.5,2.0,disagreement_post_graph_transfer,36
+usapartsdirect_12229536,harddrivesdirect_10233576,usapartsdirect_harddrivesdirect,True,True,0.4,,,,,,1.0,0.3885616659708331,"(True, False, False, True, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,37
+harddrivesdirect_3615995,sillworks_1950877,harddrivesdirect_sillworks,False,False,0.4,,,,,,0.0,0.36987350658218604,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,38
+usapartsdirect_12659699,sillworks_3572844,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.373873498813346,"(False, True, True, True, False)",0.14285714285714285,7.0,disagreement_post_graph_transfer,39
+usapartsdirect_4423174,sillworks_16600136,usapartsdirect_sillworks,False,True,0.4,,,,,,0.0,0.38547503508742365,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,40
+harddrivesdirect_10118972,sillworks_13196410,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.38242068359886283,"(True, True, True, False, False)",0.125,8.0,disagreement_post_graph_transfer,41
+usapartsdirect_17246173,harddrivesdirect_14014828,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,1.0,0.38282215765872607,"(False, True, False, False, True)",0.125,8.0,disagreement_post_graph_transfer,42
+harddrivesdirect_17453635,sillworks_15326224,harddrivesdirect_sillworks,False,True,0.4,,,,,,1.0,0.386447738902463,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,43
+usapartsdirect_12972843,harddrivesdirect_15299605,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,1.0,0.37510455045000757,"(False, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,44
+harddrivesdirect_7719353,sillworks_14477558,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.3808915178130636,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,45
+usapartsdirect_1375306,sillworks_3818653,usapartsdirect_sillworks,True,True,0.4,,,,,,1.0,0.3803285045554715,"(True, True, False, False, False)",0.2,5.0,disagreement_post_graph_transfer,46
+usapartsdirect_9213797,sillworks_14249568,usapartsdirect_sillworks,False,True,0.4,,,,,,1.0,0.3811077755511582,"(True, False, False, True, False)",0.14285714285714285,7.0,disagreement_post_graph_transfer,47
+usapartsdirect_2652502,harddrivesdirect_15336812,usapartsdirect_harddrivesdirect,True,True,0.4,,,,,,1.0,0.3727645129161645,"(True, True, False, True, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,48
+usapartsdirect_14122268,harddrivesdirect_4339126,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,1.0,0.38787832449829995,"(False, True, True, True, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,49
+usapartsdirect_1021956,harddrivesdirect_7489924,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,0.0,0.3870634459754701,"(False, True, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,50
+usapartsdirect_14193817,sillworks_16919368,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.37362685487503017,"(False, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,51
+usapartsdirect_12155365,harddrivesdirect_16265699,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,0.0,0.38811189035690474,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,52
+harddrivesdirect_17332550,sillworks_8804658,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.381977068085781,"(True, False, False, True, True)",0.5,2.0,disagreement_post_graph_transfer,53
+harddrivesdirect_120449,sillworks_15719094,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3821148562009358,"(False, False, False, True, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,54
+usapartsdirect_13858241,harddrivesdirect_16685669,usapartsdirect_harddrivesdirect,True,False,0.4,,,,,,1.0,0.3735641345058157,"(False, True, False, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,55
+usapartsdirect_2987784,sillworks_7972654,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.3804314028971443,"(False, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,56
+usapartsdirect_15296962,harddrivesdirect_9361778,usapartsdirect_harddrivesdirect,False,True,0.4,,,,,,0.0,0.3828664929632699,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,57
+harddrivesdirect_5707213,sillworks_2957431,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.38228192361437463,"(False, True, False, False, True)",0.25,4.0,disagreement_post_graph_transfer,58
+usapartsdirect_16891360,sillworks_6924155,usapartsdirect_sillworks,False,False,0.4,,,,,,1.0,0.37950927039420046,"(False, False, False, True, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,59
+usapartsdirect_15290761,sillworks_7713305,usapartsdirect_sillworks,False,True,0.4,,,,,,0.0,0.3800533694286419,"(True, False, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,60
+harddrivesdirect_6800598,sillworks_17035639,harddrivesdirect_sillworks,False,False,0.4,,,,,,1.0,0.38590470125426846,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,61
+usapartsdirect_10421661,harddrivesdirect_4645674,usapartsdirect_harddrivesdirect,False,True,0.4,,,,,,1.0,0.3709073738540687,"(True, True, False, False, False)",0.0625,16.0,disagreement_post_graph_transfer,62
+harddrivesdirect_13949046,sillworks_5012050,harddrivesdirect_sillworks,False,True,0.4,,,,,,1.0,0.3870517990819868,"(True, False, False, False, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,63
+usapartsdirect_4724731,sillworks_15949399,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.3843659196239726,"(False, False, False, True, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,64
+harddrivesdirect_9110001,sillworks_10058812,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3828583899047924,"(False, True, True, False, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,65
+harddrivesdirect_250427,sillworks_17038149,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.38112035943122935,"(True, True, True, False, False)",0.25,4.0,disagreement_post_graph_transfer,66
+usapartsdirect_698634,sillworks_9250794,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.3790062388353268,"(False, False, False, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,67
+usapartsdirect_2987784,sillworks_1328728,usapartsdirect_sillworks,False,False,0.4,,,,,,0.0,0.3840496163322438,"(False, True, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,68
+harddrivesdirect_12866738,sillworks_2335315,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.3850689983391566,"(True, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,69
+harddrivesdirect_217322,sillworks_6683223,harddrivesdirect_sillworks,False,False,0.4,,,,,,0.0,0.3859263477399975,"(False, True, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,70
+harddrivesdirect_5329182,sillworks_8470334,harddrivesdirect_sillworks,False,False,0.4,,,,,,1.0,0.38921077728750364,"(False, False, False, True, True)",0.05263157894736842,19.0,disagreement_post_graph_transfer,71
+usapartsdirect_8729743,sillworks_7865619,usapartsdirect_sillworks,False,False,0.4,,,,,,1.0,0.3753649786448828,"(False, True, True, True, False)",0.125,8.0,disagreement_post_graph_transfer,72
+harddrivesdirect_9790940,sillworks_12370117,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.38656206915667246,"(False, False, False, True, True)",0.1111111111111111,9.0,disagreement_post_graph_transfer,73
+usapartsdirect_1809031,harddrivesdirect_13330543,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,1.0,0.38566017444180245,"(False, True, True, False, False)",0.1111111111111111,9.0,disagreement_post_graph_transfer,74
+usapartsdirect_3478690,harddrivesdirect_16578034,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,0.0,0.38165896669096666,"(False, True, True, False, False)",1.0,0.0,disagreement_post_graph_transfer,75
+usapartsdirect_14906342,sillworks_9422810,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.38795988560162004,"(False, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,76
+harddrivesdirect_7900788,sillworks_11520723,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3845892040635638,"(False, True, False, True, False)",0.2,5.0,disagreement_post_graph_transfer,77
+usapartsdirect_12467373,sillworks_9460373,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.3835824534023819,"(False, True, True, False, True)",0.25,4.0,disagreement_post_graph_transfer,78
+harddrivesdirect_5833303,sillworks_14896687,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3808435561261093,"(False, False, True, True, False)",0.14285714285714285,7.0,disagreement_post_graph_transfer,79
+harddrivesdirect_8810173,sillworks_13282563,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.38496757765418393,"(False, True, False, True, False)",0.25,4.0,disagreement_post_graph_transfer,80
+harddrivesdirect_15894172,sillworks_6118935,harddrivesdirect_sillworks,False,True,0.4,,,,,,0.0,0.3833223221129658,"(True, False, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,81
+usapartsdirect_12959649,sillworks_1637334,usapartsdirect_sillworks,True,True,0.4,,,,,,1.0,0.38765668895689953,"(True, False, True, True, False)",0.2,5.0,disagreement_post_graph_transfer,82
+usapartsdirect_12993687,sillworks_2256639,usapartsdirect_sillworks,False,False,0.4,,,,,,1.0,0.38924016996482846,"(False, False, False, True, True)",0.3333333333333333,3.0,disagreement_post_graph_transfer,83
+harddrivesdirect_15478302,sillworks_2788521,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.388653056517247,"(False, False, True, False, True)",0.2,5.0,disagreement_post_graph_transfer,84
+harddrivesdirect_5352969,sillworks_8758049,harddrivesdirect_sillworks,False,False,0.4,,,,,,1.0,0.38653678909875505,"(False, False, False, True, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,85
+usapartsdirect_4281445,harddrivesdirect_15330295,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,1.0,0.3851304213378664,"(False, False, False, True, True)",0.09090909090909091,11.0,disagreement_post_graph_transfer,86
+usapartsdirect_10584911,sillworks_11715674,usapartsdirect_sillworks,True,False,0.4,,,,,,1.0,0.3825110431971336,"(False, False, False, True, True)",0.16666666666666666,6.0,disagreement_post_graph_transfer,87
+harddrivesdirect_9129568,sillworks_12087977,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.38833817764082945,"(True, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,88
+harddrivesdirect_5505095,sillworks_9424307,harddrivesdirect_sillworks,False,False,0.4,,,,,,0.0,0.38294890987597346,"(False, True, False, False, True)",1.0,0.0,disagreement_post_graph_transfer,89
+harddrivesdirect_7582829,sillworks_9792024,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3827532737792261,"(False, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,90
+harddrivesdirect_8498296,sillworks_3818181,harddrivesdirect_sillworks,False,False,0.4,,,,,,1.0,0.3861133617395827,"(False, False, False, True, True)",0.1111111111111111,9.0,disagreement_post_graph_transfer,91
+usapartsdirect_9476731,sillworks_7788623,usapartsdirect_sillworks,False,False,0.4,,,,,,0.0,0.38283971374594156,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,92
+harddrivesdirect_5287292,sillworks_15367047,harddrivesdirect_sillworks,False,False,0.4,,,,,,1.0,0.3862844018992332,"(False, False, True, False, True)",0.05,20.0,disagreement_post_graph_transfer,93
+harddrivesdirect_2946174,sillworks_8843514,harddrivesdirect_sillworks,False,False,0.4,,,,,,0.0,0.38578370502686576,"(False, True, False, True, False)",1.0,0.0,disagreement_post_graph_transfer,94
+usapartsdirect_15197137,harddrivesdirect_702978,usapartsdirect_harddrivesdirect,True,True,0.4,,,,,,1.0,0.3855738714838746,"(True, False, True, True, False)",0.5,2.0,disagreement_post_graph_transfer,95
+harddrivesdirect_5352969,sillworks_7170281,harddrivesdirect_sillworks,False,True,0.4,,,,,,0.0,0.3885006813782679,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,96
+harddrivesdirect_1976627,sillworks_2788521,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.38518958182240665,"(True, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,97
+harddrivesdirect_5224959,sillworks_2412527,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3873112058183461,"(False, False, False, True, True)",0.2,5.0,disagreement_post_graph_transfer,98
+usapartsdirect_7134591,harddrivesdirect_13750019,usapartsdirect_harddrivesdirect,False,False,0.4,,,,,,0.0,0.38966770330095224,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,99
+usapartsdirect_8729743,harddrivesdirect_14944094,usapartsdirect_harddrivesdirect,False,True,0.4,,,,,,0.0,0.38625201696146005,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,100
+harddrivesdirect_16372486,sillworks_5793605,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.39011406924097286,"(True, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,101
+harddrivesdirect_10101309,sillworks_373468,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.390167840121592,"(False, False, False, True, True)",0.25,4.0,disagreement_post_graph_transfer,102
+harddrivesdirect_593838,sillworks_7774395,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.38469006817384305,"(False, False, True, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,103
+harddrivesdirect_11983139,sillworks_6683272,harddrivesdirect_sillworks,False,False,0.4,,,,,,0.0,0.3891088454960779,"(False, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,104
+harddrivesdirect_15299605,sillworks_4512969,harddrivesdirect_sillworks,False,True,0.4,,,,,,0.0,0.3850470250145467,"(True, False, False, True, True)",1.0,0.0,disagreement_post_graph_transfer,105
+harddrivesdirect_11402212,sillworks_16690127,harddrivesdirect_sillworks,True,False,0.4,,,,,,1.0,0.3892264327012896,"(False, False, False, True, True)",0.14285714285714285,7.0,disagreement_post_graph_transfer,106
+usapartsdirect_4951627,harddrivesdirect_3446516,usapartsdirect_harddrivesdirect,False,True,0.4,,,,,,1.0,0.39020304038473086,"(True, True, True, False, False)",0.3333333333333333,3.0,disagreement_post_graph_transfer,107
+usapartsdirect_4281445,sillworks_9038904,usapartsdirect_sillworks,False,True,0.4,,,,,,0.0,0.3856596435350059,"(True, False, True, True, False)",1.0,0.0,disagreement_post_graph_transfer,108
+usapartsdirect_12494411,sillworks_863002,usapartsdirect_sillworks,True,True,0.4,,,,,,1.0,0.38756642577497935,"(True, True, True, False, False)",0.2,5.0,disagreement_post_graph_transfer,109
+harddrivesdirect_5483479,sillworks_15376227,harddrivesdirect_sillworks,True,True,0.4,,,,,,1.0,0.3882758524675076,"(True, True, True, False, False)",0.14285714285714285,7.0,disagreement_post_graph_transfer,110
+harddrivesdirect_5487117,sillworks_13907389,harddrivesdirect_sillworks,False,False,0.4,,,,,,1.0,0.3846810631945723,"(False, True, True, False, False)",0.16666666666666666,6.0,disagreement_post_graph_transfer,111

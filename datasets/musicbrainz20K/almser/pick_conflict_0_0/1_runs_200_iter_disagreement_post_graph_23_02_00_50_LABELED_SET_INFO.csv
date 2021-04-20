@@ -1,0 +1,221 @@
+source,target,datasource_pair,label,predicted_label,disagreement,weighted_disagreement,datasource_pair_frequency,explore_score,exploit_score,betweeness,graph_inferred_label,inf_score,votes,sel_proba,cc_size
+2_1886,1_5080,2_1,True,bootstrap,,,,,,,,,,,
+2_15825,3_10623,2_3,True,bootstrap,,,,,,,,,,,
+2_5161,4_9278,2_4,True,bootstrap,,,,,,,,,,,
+2_18231,5_8364,2_5,True,bootstrap,,,,,,,,,,,
+3_17555,1_14715,3_1,True,bootstrap,,,,,,,,,,,
+4_16989,1_15928,4_1,True,bootstrap,,,,,,,,,,,
+4_16989,3_9529,4_3,True,bootstrap,,,,,,,,,,,
+4_17469,5_4370,4_5,True,bootstrap,,,,,,,,,,,
+5_3051,1_12203,5_1,True,bootstrap,,,,,,,,,,,
+5_15922,3_18667,5_3,True,bootstrap,,,,,,,,,,,
+2_17706,1_15692,2_1,False,bootstrap,,,,,,,,,,,
+2_10010,3_13445,2_3,False,bootstrap,,,,,,,,,,,
+2_12656,4_8890,2_4,False,bootstrap,,,,,,,,,,,
+2_1055,5_10298,2_5,False,bootstrap,,,,,,,,,,,
+3_16303,1_8312,3_1,False,bootstrap,,,,,,,,,,,
+4_1020,1_9447,4_1,False,bootstrap,,,,,,,,,,,
+4_7540,3_6384,4_3,False,bootstrap,,,,,,,,,,,
+4_12409,5_13549,4_5,False,bootstrap,,,,,,,,,,,
+5_7203,1_9447,5_1,False,bootstrap,,,,,,,,,,,
+5_17910,3_17533,5_3,False,bootstrap,,,,,,,,,,,
+5_4838,3_17921,5_3,False,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,
+3_7836,1_1078,3_1,False,False,0.4,,,,,,,0.4,"(False, True, False, False, True)",,
+4_11169,5_11110,4_5,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+4_17245,5_16709,4_5,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+2_2484,1_14146,2_1,True,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+2_14334,3_18165,2_3,True,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,
+5_10230,1_8115,5_1,False,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,
+2_117,5_3133,2_5,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+2_17208,1_4335,2_1,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,
+2_2282,5_13255,2_5,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+2_15926,5_864,2_5,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,
+5_17320,1_5294,5_1,True,True,0.4,,,,,,,0.4,"(True, True, False, False, True)",,
+5_19192,1_7439,5_1,False,True,0.4,,,,,,,0.4,"(True, False, False, False, True)",,
+2_15506,4_5124,2_4,True,True,0.4,,,,,,,0.4,"(True, True, True, False, False)",,
+2_694,1_12068,2_1,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,
+4_5090,3_4598,4_3,True,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,
+5_18130,3_13787,5_3,True,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+5_96,1_14884,5_1,True,True,0.4,,,,,,,0.4,"(True, True, False, False, True)",,
+2_4398,3_12820,2_3,False,True,0.4,,,,,,,0.4,"(True, False, True, False, False)",,
+2_5127,5_5350,2_5,False,False,0.4,,,,,,,0.4,"(False, True, True, False, False)",,
+5_13636,3_2990,5_3,False,False,0.4,,,,,,,0.4,"(False, False, False, True, True)",,
+2_12973,1_535,2_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0
+2_5630,4_9336,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+5_11729,3_10495,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+4_16404,5_2924,4_5,False,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, True)",0.14285714285714285,7.0
+4_17386,3_5688,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.5,2.0
+2_17697,3_6229,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.5,2.0
+2_14757,5_18059,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_5469,3_8110,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_5630,4_2781,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0
+2_17611,5_7984,2_5,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.2,5.0
+2_8926,4_655,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0
+3_18594,1_5119,3_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.16666666666666666,6.0
+4_7336,3_10193,4_3,True,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_10234,4_13453,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+2_10048,1_13546,2_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.5,2.0
+3_17319,1_734,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.25,4.0
+4_15086,3_4355,4_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.25,4.0
+2_6347,5_7436,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_9148,1_18982,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.25,4.0
+4_5894,3_1089,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.2,5.0
+5_14294,3_1187,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.25,4.0
+2_15942,3_2756,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0
+4_2326,5_16147,4_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+4_12785,5_6083,4_5,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.3333333333333333,3.0
+4_6106,3_16287,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_5527,3_7220,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+5_15101,3_18854,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, False, True)",1.0,0.0
+2_3550,3_8826,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.25,4.0
+2_13059,3_18959,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.1,10.0
+5_17964,3_5463,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.2,5.0
+5_10815,3_14225,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+4_3168,1_5114,4_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.25,4.0
+2_15468,5_18733,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+2_16712,1_2443,2_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.2,5.0
+2_8296,5_1826,2_5,True,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_3479,4_12094,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.25,4.0
+5_1621,3_9067,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_6950,5_17615,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0
+5_12498,3_5089,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+3_13754,1_17288,3_1,False,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.125,8.0
+3_6503,1_7263,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.2,5.0
+4_18361,1_3431,4_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0
+4_2571,3_11541,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, True)",0.2,5.0
+5_6753,3_772,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, False, True)",1.0,0.0
+4_7472,3_16956,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_11365,3_1123,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.25,4.0
+2_5215,5_13641,2_5,False,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.029411764705882353,34.0
+4_1208,1_13053,4_1,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.2,5.0
+2_15870,3_13399,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.16666666666666666,6.0
+5_4639,3_2886,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.16666666666666666,6.0
+5_7766,3_7325,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+5_1824,3_19093,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.25,4.0
+2_12996,3_12632,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.05263157894736842,19.0
+2_14558,3_14070,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, True)",0.25,4.0
+2_11810,3_15060,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.25,4.0
+2_5482,3_12877,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.1111111111111111,9.0
+4_2003,3_3076,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+4_1847,3_18415,4_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+4_10197,3_18237,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, True, False)",0.2,5.0
+4_6093,1_460,4_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_4320,1_13586,2_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_7124,3_5213,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_18623,3_10327,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+5_3410,1_13546,5_1,True,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_1993,3_10003,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+5_3704,3_12901,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+2_16489,3_12491,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_480,3_4727,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.5,2.0
+5_15345,1_14038,5_1,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_2127,3_11999,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0
+2_15870,5_11947,2_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_7544,3_12402,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, True, False)",0.2,5.0
+5_13658,3_15913,5_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.5,2.0
+4_14549,3_6905,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.25,4.0
+4_7160,5_12843,4_5,False,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.3333333333333333,3.0
+2_4676,4_4462,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_8907,3_2283,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.2,5.0
+4_13243,1_11204,4_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0
+2_4420,3_11112,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+3_10616,1_15192,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.25,4.0
+2_5870,5_8832,2_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_12028,3_3471,2_3,True,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+2_1032,4_2402,2_4,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, False)",0.16666666666666666,6.0
+2_428,3_19093,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.25,4.0
+2_18041,3_16308,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_246,3_6283,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.25,4.0
+4_6499,3_18337,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.25,4.0
+3_17323,1_5056,3_1,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.25,4.0
+2_12428,3_2931,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.2,5.0
+5_11963,3_6053,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+5_13924,3_14595,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+2_8037,5_17309,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_8294,5_13885,2_5,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0
+2_10051,3_14313,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.5,2.0
+2_151,3_8382,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_17403,3_8933,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.25,4.0
+2_18623,3_6492,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+3_17695,1_9124,3_1,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.037037037037037035,27.0
+2_14731,4_17836,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0
+5_12523,3_10675,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0
+5_8985,3_16611,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_13286,3_8414,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.3333333333333333,3.0
+2_4253,3_12278,2_3,True,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_926,3_6826,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+4_6869,1_14758,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.25,4.0
+2_1510,3_10299,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0
+2_3962,5_10180,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0
+2_9276,3_4203,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, True)",0.3333333333333333,3.0
+2_9291,3_274,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_10082,3_8434,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_1647,3_18373,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.3333333333333333,3.0
+2_1487,1_3549,2_1,True,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_5757,3_636,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_13059,3_5752,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+2_10536,3_7933,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0
+2_6281,4_18443,2_4,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, True, False)",0.05263157894736842,19.0
+2_11074,3_9735,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+4_12273,1_3570,4_1,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.2,5.0
+5_12873,3_15931,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_10828,3_8690,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+3_11352,1_3570,3_1,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_6075,3_6082,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_14474,3_14245,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.3333333333333333,3.0
+5_18100,3_1634,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+4_6286,5_5004,4_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, False, True)",1.0,0.0
+2_7353,1_14865,2_1,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.5,2.0
+4_18431,3_8222,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0
+2_2291,4_1493,2_4,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.25,4.0
+2_12177,1_504,2_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+4_8618,3_6589,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.2,5.0
+2_277,1_504,2_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+4_7771,3_11286,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.14285714285714285,7.0
+2_15463,3_18873,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_6288,4_8730,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.2,5.0
+5_6247,3_12425,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+5_3583,1_18593,5_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+5_4623,3_2887,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+2_6517,3_3003,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, True, False)",1.0,0.0
+2_1391,3_8415,2_3,True,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+2_14533,3_7406,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.5,2.0
+5_108,3_6503,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, False, False)",0.2,5.0
+2_4437,3_18655,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_18738,4_8440,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_12161,4_14546,2_4,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.3333333333333333,3.0
+3_17493,1_18598,3_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, False, True)",0.14285714285714285,7.0
+2_14731,1_10717,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.2,5.0
+2_11995,3_16021,2_3,True,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_17048,3_12721,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_11074,5_13523,2_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.25,4.0
+5_14649,3_10501,5_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.2,5.0
+5_9163,3_10061,5_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, False, True, True)",0.3333333333333333,3.0
+2_7413,3_16390,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.16666666666666666,6.0
+4_6363,1_8507,4_1,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_13367,3_7251,2_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, True, False)",0.2,5.0
+2_13139,4_1378,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+5_1680,3_5293,5_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.037037037037037035,27.0
+2_12156,5_5923,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, False, True, False, True)",1.0,0.0
+5_8694,3_9613,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+4_3113,3_7675,4_3,True,True,0.4,,,,,,1.0,0.4,"(True, True, True, False, False)",0.2,5.0
+2_11621,3_6686,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, False)",0.5,2.0
+2_18583,5_8801,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+2_10481,3_13322,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+4_18618,3_1596,4_3,True,False,0.4,,,,,,1.0,0.4,"(False, True, False, False, True)",0.3333333333333333,3.0
+2_8091,3_11052,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, False, False)",1.0,0.0
+5_10948,3_5293,5_3,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+2_9670,3_2045,2_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.5,2.0
+2_1601,3_17471,2_3,False,False,0.4,,,,,,0.0,0.4,"(False, True, True, True, False)",1.0,0.0
+2_2327,1_12315,2_1,False,True,0.4,,,,,,1.0,0.4,"(True, False, True, False, True)",0.125,8.0
+2_5884,4_3960,2_4,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+2_15690,5_18378,2_5,True,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.2,5.0
+5_17128,1_13053,5_1,False,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0
+5_15022,1_10069,5_1,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+5_7853,1_7860,5_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, True, True, False)",0.25,4.0
+5_13354,3_14609,5_3,True,True,0.4,,,,,,1.0,0.4,"(True, False, True, True, False)",0.25,4.0
+2_10986,1_11955,2_1,True,False,0.4,,,,,,1.0,0.4,"(False, False, False, True, True)",0.3333333333333333,3.0
+4_13999,1_12079,4_1,True,False,0.4,,,,,,1.0,0.4,"(False, True, True, True, False)",0.2,5.0
+2_16492,3_15631,2_3,False,True,0.4,,,,,,1.0,0.4,"(True, True, False, False, False)",0.2,5.0
+2_532,5_12239,2_5,False,False,0.4,,,,,,0.0,0.4,"(False, True, False, True, False)",1.0,0.0
+5_5550,1_8600,5_1,True,False,0.4,,,,,,0.0,0.4,"(False, False, False, True, True)",1.0,0.0

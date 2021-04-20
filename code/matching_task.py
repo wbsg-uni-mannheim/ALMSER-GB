@@ -79,7 +79,8 @@ class MatchingTask(object):
 
         #get identifying features
         #we drop the cosine_tfidf because we want to get single attribute related features (and importances)
-        X = self.gs_feature_vector.drop(['source_id', 'target_id', 'pair_id', 'label','cosine_tfidf'], axis=1)
+        #X = self.gs_feature_vector.drop(['source_id', 'target_id', 'pair_id', 'label','cosine_tfidf'], axis=1)
+        X = self.gs_feature_vector.drop(['source_id', 'target_id', 'pair_id', 'label'], axis=1)
         y =  self.gs_feature_vector['label'].values
         clf = RandomForestClassifier(random_state=1)
         model = clf.fit(X,y)     
