@@ -3,7 +3,6 @@ from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
-import xgboost as xgb
 from sklearn.model_selection import cross_val_score, cross_validate,cross_val_predict, StratifiedShuffleSplit, GridSearchCV, PredefinedSplit
 from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall_score, f1_score, precision_recall_fscore_support
 import numpy as np
