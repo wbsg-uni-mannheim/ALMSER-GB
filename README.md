@@ -1,7 +1,7 @@
 # ALMSER-GB
 
 This project contains the code and data necessary for reproducing the results of the paper 
-<b>"Graph-boosted Active Learning for Multi-Source Entity Resolution"</b> submitted for ISWC2021.
+<b>"Graph-boosted Active Learning for Multi-Source Entity Resolution"</b> by Anna Primpeli and Christian Bizer submitted for ISWC2021.
 
 <b>INSTALLATION OF REQUIRED PACKAGES:</b>
 1. The project runs on Anaconda 4.6.8 with Python 3.7 without further package requirements.
