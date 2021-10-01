@@ -17,7 +17,7 @@ This project contains the code and data necessary for reproducing the results of
   and the splitter character is '_')</li>
   
   <li>Defining the max queries (stopping criterion for Active Learning), #runs of the experiment (if >1 the results will be averaged and the std will be calculated),
-  the query strategy (choose from: almser_gb, disagreement (HeALer) (B1-QHC), uncertainty (B2-MB))</li>
+  the query strategy (choose from: almser_gb, almser_gb_group, disagreement (HeALer) (B1-QHC), uncertainty (B2-MB))</li>
   </ul>
 </li> 
 <li>(optional) Run the second cell *Passive Learning Results* to get the Precision, Recall and F1 score when all available training data is used.</li>
