@@ -5,6 +5,9 @@ from networkx.algorithms import community
 from pandas import Series
 import pdb
 
+from datetime import datetime
+
+
 class ALMSER_EXP(ALMSER):    
     pass
 
@@ -14,7 +17,10 @@ class ALMSER_EXP(ALMSER):
         print_progress(1, self.quota, prefix="ALMSER Mode: Active Learning")
         initial_qs = self.query_strategy
         initial_criteria = self.criteria
-        for i in range(self.quota):           
+        for i in range(self.quota): 
+            start=datetime.now()
+
+
             self.iteration=i
             self.simplify_qs(i, initial_qs,initial_criteria)
             
@@ -31,10 +37,10 @@ class ALMSER_EXP(ALMSER):
 
             if 'all' in self.learning_models:
                 self.evaluateCurrentModel(i)
-
                 
             print_progress(i+1, self.quota, prefix="ALMSER Mode: Active Learning")
            
+        
     def simplify_qs(self,i, initial_qs,initial_criteria):
         #do the basic for first iterations
         if  ('graph_signal' in initial_criteria) or ('ensemble_graph' in initial_criteria):
@@ -43,8 +49,6 @@ class ALMSER_EXP(ALMSER):
             else: 
                 self.query_strategy='disagreement'
                 
-        if (initial_qs=='exploit_explore' or initial_qs=='almser_gb_transfer' or initial_qs=='almser_gb_explore_exploit') and i in range(20):
-            self.query_strategy='disagreement_stratified'
     
     def update_criteria_scores(self, iteration):
         try: 
@@ -134,7 +138,7 @@ class ALMSER_EXP(ALMSER):
         elif self.query_strategy=='graph_based':    
             self.unlabeled_set['inf_score'] = self.unlabeled_set.apply(lambda x: 1 if (x['predicted_label']!=x['graph_inferred_label']) else 0, axis=1)
             
-        elif self.query_strategy=='almser_gb' or self.query_strategy=='almser_gb_transfer' or self.query_strategy=='almser_gb_explore_exploit':
+        elif self.query_strategy=='almser_gb' or self.query_strategy=='almser_gb_transfer' or self.query_strategy=='almser_gb_explore_exploit' or self.query_strategy=='almser_group':
             
             if (self.unlabeled_set['disagreement_graph_pred'] == 0).all():
                 print("No disagreement between graph and predictions. Will consider QHC.")
@@ -150,17 +154,13 @@ class ALMSER_EXP(ALMSER):
                 self.unlabeled_set.loc[dis_match, 'sel_proba'] = 1/len(dis_match) if len(dis_match)>0 else 0
                 self.unlabeled_set.loc[dis_non_match, 'sel_proba'] = 1/len(dis_non_match)  if len(dis_non_match)>0 else 0
 
-            if self.query_strategy=='almser_gb_transfer':
+            if self.query_strategy=='almser_gb_transfer' or self.query_strategy=='almser_group':
                 
                 gb_scores= copy.copy(self.unlabeled_set['inf_score'])
-                if it_ in range(20) or it_ in range(40,50) or it_ in range(70,80) or it_ in range(100,110) or it_ in range(130,140) or it_ in range(160,170) or it_ in range(190,200) : self.phase='explore'
-                else: self.phase='exploit'           
-            
-                #if self.phase=='exploit':
+                
                 print("Iteration: %i" %it_)
                 if it_>=20 and it_%20==0: 
-                    print("Change to exploit phase on iteration: %i" %it_)
-                    print("--Recalculate tasks to exploit--")
+                    print("--Recalculate best transfer setting--")
                     self.tasks_to_exploit = self.get_best_transf_setting(showHeatmap=True) 
                     
                     print("Current Task distribution:")
@@ -169,34 +169,30 @@ class ALMSER_EXP(ALMSER):
                     plt.show()
 
                 print("Tasks to exploit: ", self.tasks_to_exploit)
-                #if a task to exploit has no pred-graph disagreement, take the committee disagreement rescaled (1-0)
+                
+                ds_p_inx = self.unlabeled_set[~self.unlabeled_set.datasource_pair.isin(self.tasks_to_exploit)].index
+                self.unlabeled_set.loc[ds_p_inx,'inf_score']=0
+                
                 for task_exploit in self.tasks_to_exploit:
                     task_idx = self.unlabeled_set[(self.unlabeled_set['datasource_pair']==task_exploit)].index
-                    if (self.unlabeled_set.loc[task_idx,'inf_score'] == 0).all():
+                    
+                    task_idx_lfp = self.unlabeled_set[(self.unlabeled_set['datasource_pair']==task_exploit) & (self.unlabeled_set['graph_inferred_label']==False)].index
+                    task_idx_lfn = self.unlabeled_set[(self.unlabeled_set['datasource_pair']==task_exploit) & (self.unlabeled_set['graph_inferred_label']==True)].index
+                    #if a task to exploit has no pred-graph disagreement for both lfp and lfn, take the committee disagreement rescaled (1-0)
+                    #if (self.unlabeled_set.loc[task_idx,'inf_score'] == 0).all():
+                    if ((self.unlabeled_set.loc[task_idx_lfp,'inf_score'] == 0).all()) or ((self.unlabeled_set.loc[task_idx_lfn,'inf_score'] == 0)).all():
                         print("No dis for task %s. Will consider QHC." %task_exploit)
                         self.unlabeled_set.loc[task_idx,'inf_score']=self.unlabeled_set.loc[task_idx,'disagreement']/self.unlabeled_set['disagreement'].max()
                         self.unlabeled_set.loc[task_idx,'sel_proba']= 1
                     
-                ds_p_inx = self.unlabeled_set[~self.unlabeled_set.datasource_pair.isin(self.tasks_to_exploit)].index
-                self.unlabeled_set.loc[ds_p_inx,'inf_score']=0
-                
-                task_freq_scores = dict()
-                for task_exploit in self.tasks_to_exploit:
-                    task_freq_scores[task_exploit] = self.unlabeled_set[(self.unlabeled_set.datasource_pair==task_exploit) & (self.unlabeled_set.inf_score==1)].inf_score.sum()/self.unlabeled_set[self.unlabeled_set.inf_score==1].inf_score.sum()
-                
-                self.unlabeled_set['sel_proba'] = self.unlabeled_set.apply(lambda x, scs=task_freq_scores: x['sel_proba']*(1-scs.get(x['datasource_pair']) if x['inf_score']==1 else 0), axis=1 )
-                #self.unlabeled_set['inf_score'] = (self.unlabeled_set['inf_score']*(1-self.unlabeled_set['datasource_pair_frequency']))
+                    else:
+                        #give selection probability scores based on the count of lfp and lfn per task
+                        lfp_of_task = self.unlabeled_set[(self.unlabeled_set['inf_score']==1) & (self.unlabeled_set['graph_inferred_label']==False) & (self.unlabeled_set['datasource_pair']==task_exploit)].index
+                        lfn_of_task = self.unlabeled_set[(self.unlabeled_set['inf_score']==1) & (self.unlabeled_set['graph_inferred_label']==True) & (self.unlabeled_set['datasource_pair']==task_exploit)].index
 
-                print("Distinct tasks with non-zero inf score:", set(self.unlabeled_set[self.unlabeled_set['inf_score']>0].datasource_pair.values))
-                
-                
-                if (self.unlabeled_set['inf_score'] == 0).all():
-                    #fallback to explore
-                    print("All exploit tasks have 0 disagreement. Fallback to explore for this iteration.")
-                    self.unlabeled_set['inf_score'] = (gb_scores*(1-self.unlabeled_set['datasource_pair_frequency']))
-                        
-                #else:
-                    #self.unlabeled_set['inf_score'] = (self.unlabeled_set['inf_score']*(1-self.unlabeled_set['datasource_pair_frequency']))
+                        self.unlabeled_set.loc[lfp_of_task,'sel_proba'] = 1/lfp_of_task.shape[0] if lfp_of_task.shape[0]>0 else 0
+                        self.unlabeled_set.loc[lfn_of_task,'sel_proba'] = 1/lfn_of_task.shape[0] if lfn_of_task.shape[0]>0 else 0
+
             if self.query_strategy=='almser_gb_explore_exploit':
                 if it_ in range(20) or it_ in range(40,50) or it_ in range(70,80) or it_ in range(100,110) or it_ in range(130,140) or it_ in range(160,170) or it_ in range(190,200) : self.phase='explore'
                 else: self.phase='exploit'
@@ -242,8 +238,6 @@ class ALMSER_EXP(ALMSER):
                     self.unlabeled_set['inf_score'] = (self.unlabeled_set['inf_score']*(1-self.unlabeled_set['datasource_pair_frequency']))
                
 
-        
-        
         elif self.query_strategy=='exploit_explore':
             if it_ in range(20) or it_ in range(40,50) or it_ in range(70,80) or it_ in range(100,110) or it_ in range(130,140) or it_ in range(160,170) or it_ in range(190,200) : self.phase='explore'
             else: self.phase='exploit'
@@ -282,6 +276,18 @@ class ALMSER_EXP(ALMSER):
             
             if self.query_strategy=='almser_gb' or self.query_strategy=='almser_gb_transfer' or self.query_strategy=='almser_gb_explore_exploit':
                 candidate = random.choices(all_max_candidates.index, weights=all_max_candidates.sel_proba,k=1)[0]
+            
+            if self.query_strategy=='almser_group' :
+                
+                intersection_exploit_tasks_max_cand_tasks = set(self.tasks_to_exploit).intersection(set(self.unlabeled_set.loc[all_max_candidates.index,'datasource_pair']))
+                if (len(intersection_exploit_tasks_max_cand_tasks)>0):
+                    task = random.choices(list(intersection_exploit_tasks_max_cand_tasks), k=1)[0]
+                
+                    candidate = random.choices(all_max_candidates[all_max_candidates.datasource_pair==task].index, weights=all_max_candidates[all_max_candidates.datasource_pair==task].sel_proba,k=1)[0]
+                else:
+                    #if there is no good candidate from the task to exploit fllback to pure disagreement
+                    print("Pure disagreement fallback")
+                    candidate = random.choice(all_max_candidates.index)
             
             if self.query_strategy=='disagreement_post_graph' or self.query_strategy=='exploit_explore':
                 #do some post processing. pick with probability 50% what is corrected by the graph. 

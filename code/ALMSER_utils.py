@@ -44,6 +44,7 @@ def get_criteria_list(query_strategy):
     
     elif query_strategy=='uncertainty': return ['uncertainty']
     elif query_strategy=='margin_boost_learner': return ['uncertainty','predicted_label','ensemble_graph']
+    elif query_strategy=='almser_group': return ['predicted_label','ensemble_graph','disagreement_graph_pred', 'datasource_pair_frequency', 'disagreement']
 
 def disagreement_score(votes):
     non_AL_model_votes = votes[1:]

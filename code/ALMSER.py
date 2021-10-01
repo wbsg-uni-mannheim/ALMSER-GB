@@ -21,10 +21,10 @@ class ALMSER(object):
     
     random.seed(15)
     
-    def __init__(self, feature_vector_train, feature_vector_test, unique_sources, quota, classifier_name, query_strategy, fvsplitter, bootstrap=True):        
+    def __init__(self, feature_vector_train, feature_vector_test, unique_sources, quota, classifier_name, query_strategy, fvsplitter, rltd,  bootstrap=True, use_origin=False, groups=None, rltd_top_setting=None):        
         
         self.criteria = get_criteria_list(query_strategy)
-
+        
         
         unlabeled_set_ids = list(feature_vector_train['source']+"-"+feature_vector_train['target'])
         unlabeled_set_ds_pair = list(map(lambda x: x.split("-")[0].rsplit("_",1)[0]+fvsplitter+x.split("-")[1].rsplit("_",1)[0], unlabeled_set_ids))
@@ -36,21 +36,28 @@ class ALMSER(object):
         self.unlabeled_set['target'] = feature_vector_train['target']
         self.unlabeled_set['unsupervised_label'] = feature_vector_train['unsupervised_label']
         self.unlabeled_set['datasource_pair'] = unlabeled_set_ds_pair
-         
-        metadata_columns = ['source_id','target_id','pair_id','datasource_pair', 'agg_score', 'unsupervised_label']
+        
+        metadata_columns = ['source_id','target_id','pair_id','agg_score', 'unsupervised_label','datasource_pair']
+        
         features_columns = [ele for ele in feature_vector_train.columns.values.tolist() if ele not in metadata_columns]
         self.feature_vector = feature_vector_train[features_columns]
-        self.unlabeled_set_metadata = copy.copy(feature_vector_train[metadata_columns+['source','target', 'label']])
+        
+        metadata_columns_in_pool_and_gs = metadata_columns+['source','target', 'label']
+
+        self.unlabeled_set_metadata = copy.copy(feature_vector_train[metadata_columns_in_pool_and_gs])
+         
         
         self.gs = feature_vector_test[features_columns]
-        metadata_columns = ['source_id','target_id','pair_id','datasource_pair', 'agg_score', 'unsupervised_label']
-        self.gs_metadata = feature_vector_test[metadata_columns+['source','target', 'label']]
-        
+        self.gs_metadata = feature_vector_test[metadata_columns_in_pool_and_gs]
         self.quota = quota
         self.unique_source_pairs = unique_sources
         self.count_sources()
         self.classifier_name = classifier_name
         self.query_strategy = query_strategy
+        self.rltd = rltd
+        if rltd_top_setting is None:
+            self.rltd_top_setting = 'unassigned'
+        else: self.rltd_top_setting=rltd_top_setting
 
         #initialize the pair-source learning models and the overall learning model
         self.learning_models = dict()
@@ -60,6 +67,10 @@ class ALMSER(object):
         self.informants_eval = pd.DataFrame()
         self.G = nx.Graph()
 
+        self.groups_of_tasks = groups
+        if (groups):
+            print("Groups of matching tasks to consider:", self.groups_of_tasks)
+        
         #bootstrap AL model by training the model of iteration 0 with the unsupervised labels
         print("Bootstrap model")
         model = getClassifier(self.classifier_name, n_estimators=10, warm_start=True)
@@ -69,13 +80,12 @@ class ALMSER(object):
         if (bootstrap):
             print("Bootstrap labeled set")
             self.bootstrap_labeled_set()
-            
+    
         self.tasks_to_exploit=[]
         self.phase= ""
         
         self.log = ALMSER_log(self.quota)
 
-        
     def calculate_graph_info(self):
 
         self.unlabeled_set.graph_inferred_label = self.unlabeled_set.apply(lambda row, G=self.G: has_path_(G, row.source, row.target), axis=1)
@@ -130,6 +140,19 @@ class ALMSER(object):
             status[sp] = round(source_pair_labeled_set.count(sp)/len(self.labeled_set),3)
         return status
     
+    def get_labeledsetgroup_current_status(self):
+   
+        groups = []
+        for sp in self.labeled_set['datasource_pair'].values.tolist():
+            groups.append(self.groups_of_tasks.get(sp))
+        
+        #group frequency per data source pair
+        status = dict()
+        for sp in self.labeled_set['datasource_pair'].values.tolist():
+            status[sp] = round(groups.count(self.groups_of_tasks.get(sp))/len(self.labeled_set),3)
+        
+        return status
+    
     def get_unlabeledset_current_status(self):
         source_pair_unlabeled_set = self.unlabeled_set['datasource_pair'].values.tolist()  
         status = dict()
@@ -143,8 +166,12 @@ class ALMSER(object):
         idx_min_scores = self.unlabeled_set_metadata.groupby("datasource_pair")['agg_score'].transform(min) == self.unlabeled_set_metadata['agg_score']
 
         #now select one random pair per datasource
-        max_indices_boot = self.unlabeled_set_metadata[idx_max_scores].groupby('datasource_pair').apply(lambda x: x.sample(1,random_state=42).index)
-        min_indices_boot = self.unlabeled_set_metadata[idx_min_scores].groupby('datasource_pair').apply(lambda x: x.sample(1,random_state=42).index)   
+        how_many_to_select = 1
+        if (self.groups_of_tasks):
+            how_many_to_select = int(len(self.groups_of_tasks.keys())/len(self.groups_of_tasks.values()))
+        
+        max_indices_boot = self.unlabeled_set_metadata[idx_max_scores].groupby('datasource_pair').apply(lambda x: x.sample(how_many_to_select,random_state=42).index)
+        min_indices_boot = self.unlabeled_set_metadata[idx_min_scores].groupby('datasource_pair').apply(lambda x: x.sample(how_many_to_select,random_state=42).index)   
         
 
         for pos_boot_idx in max_indices_boot:
@@ -168,7 +195,6 @@ class ALMSER(object):
             self.unlabeled_set_metadata.drop(neg_boot_idx, inplace=True)
 
         self.update_learning_models_per_ds(boot_state=True)
-        
        
             
     def update_after_answer(self, candidate_idx):
@@ -215,12 +241,14 @@ class ALMSER(object):
         
     
     def update_learning_models_per_ds(self, boot_state=False):
-        #update the learning models per source pair
-        if 'mult_models' in self.criteria:
-            self.learning_models.update(self.get_mult_models(augmented_data=not self.unlabeled_set['graph_inferred_label'].isnull().values.all()))
-        
+
         #and now update the overall model
         if self.labeled_set.label.nunique()==2:
+            
+            #update the learning models per group
+            if 'mult_models' in self.criteria:
+                self.learning_models.update(self.get_mult_models())
+            
             all_data, all_labels = self.get_feature_vector_subset(self.labeled_set)
             
             if (not boot_state):
@@ -283,8 +311,8 @@ class ALMSER(object):
         self.results.loc[iteration].F1_model_micro=round(fscore,3)
         self.results.loc[iteration].F1_model_micro_boot=round(fscore_boot,3)
         self.results.loc[iteration].F1_model_micro_boost_graph=round(fscore_boost_graph,3)
-
-        #f1 per model
+        
+        #f1 per group based model
         datasource_pair_f1=dict()
         datasource_pair_f1_boost=dict()
     
@@ -295,25 +323,25 @@ class ALMSER(object):
             record_pairs = self.gs[self.gs_metadata.datasource_pair == datasource_pair].index
             gs_fv_data = self.gs.loc[record_pairs].drop(['source','target', 'label'], axis=1)
             gs_fv_labels = self.gs.loc[record_pairs]['label']
-            #model_based
+            #group
             if 'mult_models' in self.criteria:
-                gs_y_predict_task_based =  self.learning_models[datasource_pair].predict(gs_fv_data)
+                group_of_task = self.groups_of_tasks[datasource_pair]
+                gs_y_predict_task_based =  self.learning_models[group_of_task].predict(gs_fv_data)
                 all_correct = np.concatenate((all_correct, gs_fv_labels))
                 all_mult_pred = np.concatenate((all_mult_pred, gs_y_predict_task_based))
-            #macro
+            
+            #micro
             gs_y_predict = self.learning_models['all'].predict(gs_fv_data)
             prec, recall, fscore, support  = precision_recall_fscore_support(gs_fv_labels, gs_y_predict, average='binary')
             datasource_pair_f1[datasource_pair]=round(fscore,3)
-            #macro boost
+            #micro boost
             gs_y_predict_boost =  self.learning_models['boost_graph'].predict(gs_fv_data)
             prec_boost, recall_boost, fscore_boost, support_boost  = precision_recall_fscore_support(gs_fv_labels, gs_y_predict_boost, average='binary')
             datasource_pair_f1_boost[datasource_pair]=round(fscore_boost,3)
 
-        #else: 
-            #datasource_pair_f1[datasource_pair]=None
-            #datasource_pair_f1_boost[datasource_pair]=None
-
+       
         self.results.loc[iteration].F1_pairwise_model=datasource_pair_f1
+        self.results.loc[iteration].F1_pairwise_model_boosted=datasource_pair_f1_boost
         self.results.loc[iteration].F1_model_macro=np.mean(list(datasource_pair_f1.values()))
         self.results.loc[iteration].F1_model_macro_boost_graph=np.mean(list(datasource_pair_f1_boost.values()))
         if 'mult_models' in self.criteria:
@@ -335,7 +363,7 @@ class ALMSER(object):
             results_row[inf_name]=fscore
 
         self.informants_eval = self.informants_eval.append(results_row, ignore_index=True)
-
+    
     def count_sources(self):
         i=1
         sum_=0
@@ -345,38 +373,18 @@ class ALMSER(object):
         
         self.count_sources=i
     
-    #adaptation from the paper of Thimuruganathan
-    def get_mult_models(self, transfer_from_sim= False, augmented_data=False):
-        
-        transfer_from_sim = 'transfer' in self.criteria
-        if transfer_from_sim and augmented_data:
-            heatmap = self.get_heatmap_of_iteration()
+    def get_mult_models(self):
+          
         learning_models = dict()
-        for source in sorted(list(self.unique_source_pairs)):
-            if augmented_data:
-                #get unlabeled data of task with their pseudolabels
-                small_cc_train = self.unlabeled_set[(self.unlabeled_set.graph_cc_size<=self.count_sources) & (self.unlabeled_set.datasource_pair == source)]
-                small_cc_data_train, small_cc_labels_train = self.get_feature_vector_from_unlabeled_data(small_cc_train)
-            
-            if transfer_from_sim and augmented_data:
-                #get most similar task based on the heatmap
-                similar_tasks = pd.to_numeric(heatmap[source]).nlargest(1).index.values
-                record_pairs_train = self.labeled_set[(self.labeled_set.datasource_pair == source) | (self.labeled_set.datasource_pair.isin(similar_tasks))]
-            else: 
-                record_pairs_train = self.labeled_set[(self.labeled_set.datasource_pair == source)]
+        for source in self.rltd_top_setting:             
+            record_pairs_train = self.labeled_set[(self.labeled_set.datasource_pair == source)]
                 
-            lab_train_X, lab_train_y = self.get_feature_vector_subset(record_pairs_train)
-            
-            if augmented_data:
-                train_X = pd.concat([small_cc_data_train, lab_train_X])
-                train_y = np.concatenate((small_cc_labels_train, lab_train_y))
-            else: 
-                train_X = lab_train_X
-                train_y = lab_train_y 
-            
+            train_X, train_y = self.get_feature_vector_subset(record_pairs_train)
             model = getClassifier(self.classifier_name, random_state=1)
             model.fit(train_X,train_y)
-            learning_models[source] = model
+            
+            group_of_task = self.groups_of_tasks[source]
+            learning_models[group_of_task] = model
         return learning_models
         
     def get_heatmap_of_iteration(self):
@@ -428,11 +436,31 @@ class ALMSER(object):
         return results_hmap
     
     def get_best_transf_setting(self, showHeatmap=False):
-        heatmap_ = self.get_heatmap_of_iteration()
+        correlation_thresh = 0.9
+        if self.query_strategy!='almser_group':
+            ntl_heatmap = self.get_heatmap_of_iteration()
+            ntl_heatmap = ntl_heatmap.reindex(self.rltd.index, columns=self.rltd.columns)
+            ntl_heatmap  = ntl_heatmap.apply(pd.to_numeric)
+
+            correlation =statistics.mean(self.rltd.corrwith(ntl_heatmap, axis=0))
+            print("Correlation between heatmap and task relatedness scores (per column): ",correlation)
+        else: correlation = 0
+        #check if the correlate already enough. If yes, use heatmap. If no use relatedness - do not recalculate rltd top setting once it is set
+        if correlation<correlation_thresh or self.query_strategy=='almser_group' : 
+            print("Based on unsupervised relatedness")
+            heatmap_ = self.rltd
+            if self.rltd_top_setting!='unassigned':
+                return self.rltd_top_setting
+    
+        else:
+            print("Based on supervised naive transfer learning results")
+            heatmap_ = ntl_heatmap
+        
         if showHeatmap:
             ax = sns.heatmap(heatmap_.to_numpy(dtype=float), xticklabels=heatmap_.index, yticklabels=heatmap_.columns, annot=True)
             plt.show()
         all_combinations = []
+        print("Calculate best setting")
         for r in range(len(heatmap_.index) + 1):
             combinations_object = itertools.combinations(heatmap_, r)
             combinations_list = list(combinations_object)
@@ -445,8 +473,35 @@ class ALMSER(object):
             if len(task_combi)==0: continue;
             transf_score = heatmap_.loc[task_combi, :].max(axis=0).mean()
             new_row = {'setting':task_combi, 'score':transf_score, 'count_tasks':len(task_combi), 'pen_score':transf_score-(len(task_combi)*0.01)}
+            
             transferrability_scores = transferrability_scores.append(new_row, ignore_index=True)
 
-        top_setting = transferrability_scores.sort_values('pen_score', ascending=False).head(1)['setting']
+        #top_setting = transferrability_scores.sort_values('pen_score', ascending=False).head(1)['setting']
+        # do not penalize
+
+
+        if self.query_strategy=='almser_group':
+            top_setting = transferrability_scores.sort_values('pen_score', ascending=False).head(1)['setting']
+        
         flattened_top = [item for sublist in top_setting for item in sublist]
+
+        flattened_top = self.check_if_enough(flattened_top)
+        
+        #if correlation<correlation_thresh: self.rltd_top_setting=flattened_top
+        
+        
+        return flattened_top
+
+    def check_if_enough(self, flattened_top):
+        print("Check if the setting is enough toreach the quota: ", flattened_top)
+        self.unlabeled_set['datasource_pair']
+        pairs_fv_train_sub= copy.copy(self.unlabeled_set[self.unlabeled_set.datasource_pair.isin(flattened_top)])
+        while (pairs_fv_train_sub.shape[0]<self.quota):
+            print("Setting not enough to reach the quota. Will add another task.")
+
+            additional_source = random.choice(list(set(self.unlabeled_set['datasource_pair'])))
+            while additional_source in flattened_top:
+                additional_source = random.choice(list(set(self.unlabeled_set['datasource_pair'])))
+            flattened_top.append(additional_source)
+            pairs_fv_train_sub= copy.copy(self.unlabeled_set[self.unlabeled_set.datasource_pair.isin(flattened_top)])
         return flattened_top
